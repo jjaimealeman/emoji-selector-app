@@ -57,7 +57,13 @@ class EmojiSelector(Gtk.Window):
         self.grid.set_row_spacing(5)
         self.grid.set_column_homogeneous(True)
         self.grid.set_row_homogeneous(True)
+<<<<<<< HEAD
         self.scrolled.add(self.grid)
+=======
+        scrolled.add(self.grid)
+
+        self.display_emojis(self.emoji_data['emojis'])
+>>>>>>> working-version
 
         # Set focus to search entry
         GLib.idle_add(self.search_entry.grab_focus)
@@ -87,11 +93,20 @@ class EmojiSelector(Gtk.Window):
             button.set_property("width-request", button_width)
             button.set_property("height-request", button_width)
             button.connect("clicked", self.on_emoji_clicked)
+<<<<<<< HEAD
             self.grid.attach(button, i % columns, i // columns, 1, 1)
             self.buttons.append(button)
 
         self.grid.show_all()
         logging.info(f"Created {len(self.buttons)} emoji buttons")
+=======
+            button.set_property("width-request", 50)
+            button.set_property("height-request", 50)
+            self.grid.attach(button, i % 4, i // 4, 1, 1)
+            self.buttons.append(button)
+
+        self.grid.show_all()
+>>>>>>> working-version
 
     def on_emoji_clicked(self, widget):
         emoji = widget.get_label()
@@ -137,6 +152,10 @@ logging.info("Creating EmojiSelector instance")
 win = EmojiSelector()
 win.connect("destroy", Gtk.main_quit)
 win.show_all()
+<<<<<<< HEAD
 logging.info("Starting main GTK loop")
 Gtk.main()
 logging.info("Application closed")
+=======
+Gtk.main()
+>>>>>>> working-version

@@ -1,0 +1,312 @@
+2024-08-23 13:26:28,522 - INFO - Script started
+2024-08-23 13:26:28,523 - INFO - Log file created at: /home/jaime/python_projects/emoji-selector-app/emoji_selector.log
+2024-08-23 13:26:28,523 - INFO - GTK Version: 3.24.43
+2024-08-23 13:26:28,523 - INFO - Creating EmojiSelector instance
+2024-08-23 13:26:28,523 - INFO - Initializing EmojiSelector
+2024-08-23 13:26:28,594 - INFO - Loaded 44 emojis from JSON file
+2024-08-23 13:26:28,621 - INFO - Initialization complete, about to display emojis
+2024-08-23 13:26:28,621 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,668 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,677 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:28,691 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:28,691 - INFO - Starting main GTK loop
+2024-08-23 13:26:28,709 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,726 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:28,733 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,749 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:28,780 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,799 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:28,807 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,824 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:28,856 - INFO - Displaying 44 emojis
+2024-08-23 13:26:28,886 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:32,378 - INFO - Search changed
+2024-08-23 13:26:32,379 - INFO - Found 40 matching emojis
+2024-08-23 13:26:32,379 - INFO - Displaying 40 emojis
+2024-08-23 13:26:32,418 - INFO - Created 40 emoji buttons
+2024-08-23 13:26:32,610 - INFO - Search changed
+2024-08-23 13:26:32,611 - INFO - Found 11 matching emojis
+2024-08-23 13:26:32,612 - INFO - Displaying 11 emojis
+2024-08-23 13:26:32,626 - INFO - Created 11 emoji buttons
+2024-08-23 13:26:32,674 - INFO - Search changed
+2024-08-23 13:26:32,675 - INFO - Found 10 matching emojis
+2024-08-23 13:26:32,675 - INFO - Displaying 10 emojis
+2024-08-23 13:26:32,685 - INFO - Created 10 emoji buttons
+2024-08-23 13:26:32,925 - INFO - Search changed
+2024-08-23 13:26:32,926 - INFO - Found 10 matching emojis
+2024-08-23 13:26:32,926 - INFO - Displaying 10 emojis
+2024-08-23 13:26:32,936 - INFO - Created 10 emoji buttons
+2024-08-23 13:26:33,125 - INFO - Search changed
+2024-08-23 13:26:33,126 - INFO - Found 10 matching emojis
+2024-08-23 13:26:33,126 - INFO - Displaying 10 emojis
+2024-08-23 13:26:33,137 - INFO - Created 10 emoji buttons
+2024-08-23 13:26:33,776 - INFO - Search changed
+2024-08-23 13:26:33,777 - INFO - Found 10 matching emojis
+2024-08-23 13:26:33,778 - INFO - Displaying 10 emojis
+2024-08-23 13:26:33,788 - INFO - Created 10 emoji buttons
+2024-08-23 13:26:33,964 - INFO - Search changed
+2024-08-23 13:26:33,965 - INFO - Found 10 matching emojis
+2024-08-23 13:26:33,966 - INFO - Displaying 10 emojis
+2024-08-23 13:26:33,976 - INFO - Created 10 emoji buttons
+2024-08-23 13:26:34,140 - INFO - Search changed
+2024-08-23 13:26:34,141 - INFO - Found 11 matching emojis
+2024-08-23 13:26:34,141 - INFO - Displaying 11 emojis
+2024-08-23 13:26:34,152 - INFO - Created 11 emoji buttons
+2024-08-23 13:26:34,310 - INFO - Search changed
+2024-08-23 13:26:34,310 - INFO - Found 40 matching emojis
+2024-08-23 13:26:34,311 - INFO - Displaying 40 emojis
+2024-08-23 13:26:34,372 - INFO - Created 40 emoji buttons
+2024-08-23 13:26:34,456 - INFO - Search changed
+2024-08-23 13:26:34,456 - INFO - Found 44 matching emojis
+2024-08-23 13:26:34,457 - INFO - Displaying 44 emojis
+2024-08-23 13:26:34,507 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:37,512 - INFO - Search changed
+2024-08-23 13:26:37,513 - INFO - Found 0 matching emojis
+2024-08-23 13:26:37,513 - INFO - Displaying 0 emojis
+2024-08-23 13:26:37,519 - INFO - Created 0 emoji buttons
+2024-08-23 13:26:38,009 - INFO - Search changed
+2024-08-23 13:26:38,010 - INFO - Found 0 matching emojis
+2024-08-23 13:26:38,010 - INFO - Displaying 0 emojis
+2024-08-23 13:26:38,011 - INFO - Created 0 emoji buttons
+2024-08-23 13:26:39,318 - INFO - Displaying 44 emojis
+2024-08-23 13:26:39,363 - INFO - Created 44 emoji buttons
+2024-08-23 13:26:39,441 - INFO - Displaying 44 emojis
+2024-08-23 13:26:39,515 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:12,949 - INFO - Script started
+2024-08-23 13:29:12,949 - INFO - Log file created at: /home/jaime/python_projects/emoji-selector-app/emoji_selector.log
+2024-08-23 13:29:12,949 - INFO - GTK Version: 3.24.43
+2024-08-23 13:29:12,950 - INFO - Creating EmojiSelector instance
+2024-08-23 13:29:12,950 - INFO - Initializing EmojiSelector
+2024-08-23 13:29:13,021 - INFO - Loaded 44 emojis from JSON file
+2024-08-23 13:29:13,050 - INFO - Initialization complete, about to display emojis
+2024-08-23 13:29:13,050 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,095 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,104 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:13,119 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:13,119 - INFO - Starting main GTK loop
+2024-08-23 13:29:13,143 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,175 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:13,187 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,213 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:13,251 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,273 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:13,284 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,309 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:13,336 - INFO - Displaying 44 emojis
+2024-08-23 13:29:13,372 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:18,665 - INFO - Displaying 44 emojis
+2024-08-23 13:29:18,687 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:18,722 - INFO - Displaying 44 emojis
+2024-08-23 13:29:18,744 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:18,780 - INFO - Displaying 44 emojis
+2024-08-23 13:29:18,815 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:25,132 - INFO - Displaying 44 emojis
+2024-08-23 13:29:25,163 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:25,216 - INFO - Displaying 44 emojis
+2024-08-23 13:29:25,245 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:25,578 - INFO - Displaying 44 emojis
+2024-08-23 13:29:25,602 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:25,650 - INFO - Displaying 44 emojis
+2024-08-23 13:29:25,671 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:29,169 - INFO - Displaying 44 emojis
+2024-08-23 13:29:29,191 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:29,215 - INFO - Displaying 44 emojis
+2024-08-23 13:29:29,235 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:29,266 - INFO - Displaying 44 emojis
+2024-08-23 13:29:29,295 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:30,734 - INFO - Displaying 44 emojis
+2024-08-23 13:29:30,784 - INFO - Created 44 emoji buttons
+2024-08-23 13:29:30,828 - INFO - Displaying 44 emojis
+2024-08-23 13:29:30,892 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:42,784 - INFO - Script started
+2024-08-23 13:30:42,784 - INFO - Log file created at: /home/jaime/python_projects/emoji-selector-app/emoji_selector.log
+2024-08-23 13:30:42,784 - INFO - GTK Version: 3.24.43
+2024-08-23 13:30:42,785 - INFO - Creating EmojiSelector instance
+2024-08-23 13:30:42,785 - INFO - Initializing EmojiSelector
+2024-08-23 13:30:42,854 - INFO - Loaded 44 emojis from JSON file
+2024-08-23 13:30:42,895 - INFO - Initialization complete, about to display emojis
+2024-08-23 13:30:42,895 - INFO - Displaying 44 emojis
+2024-08-23 13:30:42,911 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:42,977 - INFO - Displaying 44 emojis
+2024-08-23 13:30:42,996 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:43,018 - INFO - Starting main GTK loop
+2024-08-23 13:30:43,049 - INFO - Displaying 44 emojis
+2024-08-23 13:30:43,093 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:43,104 - INFO - Displaying 44 emojis
+2024-08-23 13:30:43,130 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:43,162 - INFO - Displaying 44 emojis
+2024-08-23 13:30:43,189 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:43,198 - INFO - Displaying 44 emojis
+2024-08-23 13:30:43,217 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:43,237 - INFO - Displaying 44 emojis
+2024-08-23 13:30:43,260 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:45,402 - INFO - Search changed
+2024-08-23 13:30:45,403 - INFO - Found 40 matching emojis
+2024-08-23 13:30:45,404 - INFO - Displaying 40 emojis
+2024-08-23 13:30:45,468 - INFO - Created 40 emoji buttons
+2024-08-23 13:30:45,565 - INFO - Search changed
+2024-08-23 13:30:45,566 - INFO - Found 11 matching emojis
+2024-08-23 13:30:45,567 - INFO - Displaying 11 emojis
+2024-08-23 13:30:45,588 - INFO - Created 11 emoji buttons
+2024-08-23 13:30:45,591 - INFO - Search changed
+2024-08-23 13:30:45,592 - INFO - Found 10 matching emojis
+2024-08-23 13:30:45,593 - INFO - Displaying 10 emojis
+2024-08-23 13:30:45,614 - INFO - Created 10 emoji buttons
+2024-08-23 13:30:45,817 - INFO - Search changed
+2024-08-23 13:30:45,818 - INFO - Found 10 matching emojis
+2024-08-23 13:30:45,819 - INFO - Displaying 10 emojis
+2024-08-23 13:30:45,830 - INFO - Created 10 emoji buttons
+2024-08-23 13:30:45,988 - INFO - Search changed
+2024-08-23 13:30:45,989 - INFO - Found 10 matching emojis
+2024-08-23 13:30:45,990 - INFO - Displaying 10 emojis
+2024-08-23 13:30:46,008 - INFO - Created 10 emoji buttons
+2024-08-23 13:30:52,998 - INFO - Displaying 44 emojis
+2024-08-23 13:30:53,073 - INFO - Created 44 emoji buttons
+2024-08-23 13:30:53,189 - INFO - Displaying 44 emojis
+2024-08-23 13:30:53,268 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:19,557 - INFO - Script started
+2024-08-23 13:31:19,557 - INFO - Log file created at: /home/jaime/python_projects/emoji-selector-app/emoji_selector.log
+2024-08-23 13:31:19,557 - INFO - GTK Version: 3.24.43
+2024-08-23 13:31:19,557 - INFO - Creating EmojiSelector instance
+2024-08-23 13:31:19,558 - INFO - Initializing EmojiSelector
+2024-08-23 13:31:19,624 - INFO - Loaded 44 emojis from JSON file
+2024-08-23 13:31:19,656 - INFO - Initialization complete, about to display emojis
+2024-08-23 13:31:19,657 - INFO - Displaying 44 emojis
+2024-08-23 13:31:19,669 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:19,729 - INFO - Displaying 44 emojis
+2024-08-23 13:31:19,742 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:19,757 - INFO - Starting main GTK loop
+2024-08-23 13:31:19,778 - INFO - Displaying 44 emojis
+2024-08-23 13:31:19,806 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:19,823 - INFO - Displaying 44 emojis
+2024-08-23 13:31:19,865 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:19,901 - INFO - Displaying 44 emojis
+2024-08-23 13:31:19,934 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:19,944 - INFO - Displaying 44 emojis
+2024-08-23 13:31:19,972 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:20,009 - INFO - Displaying 44 emojis
+2024-08-23 13:31:20,037 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:33,126 - INFO - Search changed
+2024-08-23 13:31:33,126 - INFO - Found 40 matching emojis
+2024-08-23 13:31:33,127 - INFO - Displaying 40 emojis
+2024-08-23 13:31:33,166 - INFO - Created 40 emoji buttons
+2024-08-23 13:31:33,574 - INFO - Search changed
+2024-08-23 13:31:33,575 - INFO - Found 11 matching emojis
+2024-08-23 13:31:33,576 - INFO - Displaying 11 emojis
+2024-08-23 13:31:33,590 - INFO - Created 11 emoji buttons
+2024-08-23 13:31:33,775 - INFO - Search changed
+2024-08-23 13:31:33,777 - INFO - Found 10 matching emojis
+2024-08-23 13:31:33,778 - INFO - Displaying 10 emojis
+2024-08-23 13:31:33,802 - INFO - Created 10 emoji buttons
+2024-08-23 13:31:34,083 - INFO - Search changed
+2024-08-23 13:31:34,084 - INFO - Found 10 matching emojis
+2024-08-23 13:31:34,084 - INFO - Displaying 10 emojis
+2024-08-23 13:31:34,090 - INFO - Created 10 emoji buttons
+2024-08-23 13:31:34,353 - INFO - Search changed
+2024-08-23 13:31:34,354 - INFO - Found 10 matching emojis
+2024-08-23 13:31:34,354 - INFO - Displaying 10 emojis
+2024-08-23 13:31:34,364 - INFO - Created 10 emoji buttons
+2024-08-23 13:31:35,007 - INFO - Search changed
+2024-08-23 13:31:35,008 - INFO - Found 10 matching emojis
+2024-08-23 13:31:35,008 - INFO - Displaying 10 emojis
+2024-08-23 13:31:35,021 - INFO - Created 10 emoji buttons
+2024-08-23 13:31:35,194 - INFO - Search changed
+2024-08-23 13:31:35,195 - INFO - Found 10 matching emojis
+2024-08-23 13:31:35,195 - INFO - Displaying 10 emojis
+2024-08-23 13:31:35,206 - INFO - Created 10 emoji buttons
+2024-08-23 13:31:35,386 - INFO - Search changed
+2024-08-23 13:31:35,387 - INFO - Found 11 matching emojis
+2024-08-23 13:31:35,387 - INFO - Displaying 11 emojis
+2024-08-23 13:31:35,400 - INFO - Created 11 emoji buttons
+2024-08-23 13:31:35,533 - INFO - Search changed
+2024-08-23 13:31:35,534 - INFO - Found 40 matching emojis
+2024-08-23 13:31:35,534 - INFO - Displaying 40 emojis
+2024-08-23 13:31:35,592 - INFO - Created 40 emoji buttons
+2024-08-23 13:31:35,855 - INFO - Search changed
+2024-08-23 13:31:35,856 - INFO - Found 44 matching emojis
+2024-08-23 13:31:35,857 - INFO - Displaying 44 emojis
+2024-08-23 13:31:35,921 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:36,277 - INFO - Search changed
+2024-08-23 13:31:36,278 - INFO - Found 2 matching emojis
+2024-08-23 13:31:36,278 - INFO - Displaying 2 emojis
+2024-08-23 13:31:36,287 - INFO - Created 2 emoji buttons
+2024-08-23 13:31:36,373 - INFO - Search changed
+2024-08-23 13:31:36,374 - INFO - Found 0 matching emojis
+2024-08-23 13:31:36,374 - INFO - Displaying 0 emojis
+2024-08-23 13:31:36,375 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:36,435 - INFO - Search changed
+2024-08-23 13:31:36,436 - INFO - Found 0 matching emojis
+2024-08-23 13:31:36,437 - INFO - Displaying 0 emojis
+2024-08-23 13:31:36,437 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:36,606 - INFO - Search changed
+2024-08-23 13:31:36,607 - INFO - Found 0 matching emojis
+2024-08-23 13:31:36,608 - INFO - Displaying 0 emojis
+2024-08-23 13:31:36,608 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:36,643 - INFO - Search changed
+2024-08-23 13:31:36,643 - INFO - Found 0 matching emojis
+2024-08-23 13:31:36,644 - INFO - Displaying 0 emojis
+2024-08-23 13:31:36,644 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:36,689 - INFO - Search changed
+2024-08-23 13:31:36,690 - INFO - Found 0 matching emojis
+2024-08-23 13:31:36,690 - INFO - Displaying 0 emojis
+2024-08-23 13:31:36,691 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:36,968 - INFO - Search changed
+2024-08-23 13:31:36,969 - INFO - Found 0 matching emojis
+2024-08-23 13:31:36,969 - INFO - Displaying 0 emojis
+2024-08-23 13:31:36,969 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:37,164 - INFO - Search changed
+2024-08-23 13:31:37,164 - INFO - Found 0 matching emojis
+2024-08-23 13:31:37,165 - INFO - Displaying 0 emojis
+2024-08-23 13:31:37,165 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:37,343 - INFO - Search changed
+2024-08-23 13:31:37,344 - INFO - Found 0 matching emojis
+2024-08-23 13:31:37,344 - INFO - Displaying 0 emojis
+2024-08-23 13:31:37,344 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:37,490 - INFO - Search changed
+2024-08-23 13:31:37,491 - INFO - Found 0 matching emojis
+2024-08-23 13:31:37,491 - INFO - Displaying 0 emojis
+2024-08-23 13:31:37,492 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:37,649 - INFO - Search changed
+2024-08-23 13:31:37,650 - INFO - Found 2 matching emojis
+2024-08-23 13:31:37,650 - INFO - Displaying 2 emojis
+2024-08-23 13:31:37,654 - INFO - Created 2 emoji buttons
+2024-08-23 13:31:37,804 - INFO - Search changed
+2024-08-23 13:31:37,805 - INFO - Found 44 matching emojis
+2024-08-23 13:31:37,805 - INFO - Displaying 44 emojis
+2024-08-23 13:31:37,868 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:38,173 - INFO - Search changed
+2024-08-23 13:31:38,174 - INFO - Found 42 matching emojis
+2024-08-23 13:31:38,174 - INFO - Displaying 42 emojis
+2024-08-23 13:31:38,216 - INFO - Created 42 emoji buttons
+2024-08-23 13:31:38,218 - INFO - Search changed
+2024-08-23 13:31:38,219 - INFO - Found 7 matching emojis
+2024-08-23 13:31:38,219 - INFO - Displaying 7 emojis
+2024-08-23 13:31:38,231 - INFO - Created 7 emoji buttons
+2024-08-23 13:31:38,282 - INFO - Search changed
+2024-08-23 13:31:38,283 - INFO - Found 0 matching emojis
+2024-08-23 13:31:38,284 - INFO - Displaying 0 emojis
+2024-08-23 13:31:38,285 - INFO - Created 0 emoji buttons
+2024-08-23 13:31:38,437 - INFO - Search changed
+2024-08-23 13:31:38,438 - INFO - Found 7 matching emojis
+2024-08-23 13:31:38,438 - INFO - Displaying 7 emojis
+2024-08-23 13:31:38,446 - INFO - Created 7 emoji buttons
+2024-08-23 13:31:38,620 - INFO - Search changed
+2024-08-23 13:31:38,621 - INFO - Found 42 matching emojis
+2024-08-23 13:31:38,621 - INFO - Displaying 42 emojis
+2024-08-23 13:31:38,660 - INFO - Created 42 emoji buttons
+2024-08-23 13:31:38,766 - INFO - Search changed
+2024-08-23 13:31:38,766 - INFO - Found 44 matching emojis
+2024-08-23 13:31:38,767 - INFO - Displaying 44 emojis
+2024-08-23 13:31:38,826 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:42,754 - INFO - Displaying 44 emojis
+2024-08-23 13:31:42,814 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:42,914 - INFO - Displaying 44 emojis
+2024-08-23 13:31:43,002 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:44,929 - INFO - Displaying 44 emojis
+2024-08-23 13:31:44,972 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:45,074 - INFO - Displaying 44 emojis
+2024-08-23 13:31:45,098 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:45,641 - INFO - Displaying 44 emojis
+2024-08-23 13:31:45,691 - INFO - Created 44 emoji buttons
+2024-08-23 13:31:45,786 - INFO - Displaying 44 emojis
+2024-08-23 13:31:45,833 - INFO - Created 44 emoji buttons
