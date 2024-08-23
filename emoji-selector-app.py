@@ -37,6 +37,19 @@ class EmojiSelector(Gtk.Window):
         self.grid.set_row_homogeneous(True)
         scrolled.add(self.grid)
 
+        # Add status bar
+        self.statusbar = Gtk.Statusbar()
+        self.vbox.pack_end(self.statusbar, False, False, 0)
+
+        # Set up CSS for better focus visibility
+        css_provider = Gtk.CssProvider()
+        css_provider.load_from_data(b"""
+        button:focus {
+            border: 2px solid #3584e4;
+        }
+        """)
+        Gtk.StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+
         self.display_emojis(self.emoji_data['emojis'])
 
         # Set focus to search entry
@@ -58,6 +71,9 @@ class EmojiSelector(Gtk.Window):
             self.buttons.append(button)
 
         self.grid.show_all()
+
+        # Update status bar
+        self.update_status_bar(len(emojis))
 
     def on_emoji_clicked(self, widget):
         emoji = widget.get_label()
@@ -87,11 +103,36 @@ class EmojiSelector(Gtk.Window):
             if isinstance(focused, Gtk.Button):
                 self.on_emoji_clicked(focused)
             return True
+        elif keyval_name in ['Up', 'Down', 'Left', 'Right']:
+            self.navigate_grid(keyval_name)
+            return True
         
         return False
+
+    def navigate_grid(self, direction):
+        focused = self.get_focus()
+        if not isinstance(focused, Gtk.Button):
+            return
+
+        current_index = self.buttons.index(focused)
+        total_buttons = len(self.buttons)
+        columns = 4
+
+        if direction == 'Up':
+            new_index = (current_index - columns) % total_buttons
+        elif direction == 'Down':
+            new_index = (current_index + columns) % total_buttons
+        elif direction == 'Left':
+            new_index = (current_index - 1) % total_buttons
+        elif direction == 'Right':
+            new_index = (current_index + 1) % total_buttons
+
+        self.buttons[new_index].grab_focus()
+
+    def update_status_bar(self, count):
+        self.statusbar.push(0, f"Emojis available: {count}")
 
 win = EmojiSelector()
 win.connect("destroy", Gtk.main_quit)
 win.show_all()
 Gtk.main()
-😂
