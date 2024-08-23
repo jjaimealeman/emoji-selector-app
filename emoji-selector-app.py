@@ -53,6 +53,10 @@ class EmojiSelector(Gtk.Window):
 
         # Create grid for emojis
         self.grid = Gtk.Grid()
+        self.grid.set_column_spacing(5)
+        self.grid.set_row_spacing(5)
+        self.grid.set_column_homogeneous(True)
+        self.grid.set_row_homogeneous(True)
         self.scrolled.add(self.grid)
 
         # Set focus to search entry
@@ -80,11 +84,13 @@ class EmojiSelector(Gtk.Window):
         self.buttons = []
         for i, emoji_data in enumerate(emojis):
             button = Gtk.Button(label=emoji_data['emoji'])
+            button.set_property("width-request", button_width)
+            button.set_property("height-request", button_width)
             button.connect("clicked", self.on_emoji_clicked)
             self.grid.attach(button, i % columns, i // columns, 1, 1)
             self.buttons.append(button)
 
-        self.show_all()
+        self.grid.show_all()
         logging.info(f"Created {len(self.buttons)} emoji buttons")
 
     def on_emoji_clicked(self, widget):
