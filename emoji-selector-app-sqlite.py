@@ -52,13 +52,13 @@ class EmojiSelector(Gtk.Window):
         self.vbox.pack_end(self.status_grid, False, False, 0)
 
         # Create labels for statusbar
-        self.name_label = Gtk.Label()
+        self.name_label = Gtk.Label(xalign=0)
         self.name_label.set_line_wrap(True)
         self.name_label.set_max_width_chars(40)
-        self.keywords_label = Gtk.Label()
+        self.keywords_label = Gtk.Label(xalign=0)
         self.keywords_label.set_line_wrap(True)
         self.keywords_label.set_max_width_chars(30)
-        self.category_label = Gtk.Label()
+        self.category_label = Gtk.Label(xalign=1)  # Right-aligned
 
         # Add labels to status grid
         self.status_grid.attach(self.name_label, 0, 0, 2, 1)  # Span two columns
@@ -80,8 +80,17 @@ class EmojiSelector(Gtk.Window):
         label {
             padding: 2px 5px;
         }
+        #name_label, #keywords_label, #category_label {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
         """)
         Gtk.StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+
+        # Set widget names for CSS styling
+        self.name_label.set_name("name_label")
+        self.keywords_label.set_name("keywords_label")
+        self.category_label.set_name("category_label")
 
         self.display_emojis("")
 
@@ -178,7 +187,10 @@ class EmojiSelector(Gtk.Window):
     def update_status_bar(self, name, category, keywords):
         self.name_label.set_text(f"Name: {name}")
         self.category_label.set_text(f"Category: {category}")
-        self.keywords_label.set_text(f"Keywords: {keywords}")
+        
+        # Format keywords with spaces instead of commas
+        formatted_keywords = " ".join(keywords.split(","))
+        self.keywords_label.set_text(f"Keywords: {formatted_keywords}")
 
     def do_destroy(self):
         # Close the database connection when the window is closed
