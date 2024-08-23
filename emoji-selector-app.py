@@ -7,9 +7,10 @@ import math
 import logging
 
 # Configure logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 logging.info("Script started")
+logging.info("GTK Version: %s.%s.%s", Gtk.get_major_version(), Gtk.get_minor_version(), Gtk.get_micro_version())
 
 class EmojiSelector(Gtk.Window):
     def __init__(self):
@@ -52,7 +53,7 @@ class EmojiSelector(Gtk.Window):
         # Connect size-allocate signal
         self.connect("size-allocate", self.on_size_allocate)
 
-        print("Initialization complete, about to display emojis")
+        logging.info("Initialization complete, about to display emojis")
         self.display_emojis(self.emoji_data['emojis'])
 
     def display_emojis(self, emojis):
@@ -81,7 +82,7 @@ class EmojiSelector(Gtk.Window):
     def on_emoji_clicked(self, widget):
         emoji = widget.get_label()
         subprocess.run(["wl-copy", emoji])
-        print(f"Copied emoji: {emoji}")
+        logging.info(f"Copied emoji: {emoji}")
         self.close()
 
     def on_search_changed(self, entry):
@@ -99,7 +100,7 @@ class EmojiSelector(Gtk.Window):
     def on_key_press(self, widget, event):
         keyval = event.keyval
         keyval_name = Gdk.keyval_name(keyval)
-        print(f"Key pressed: {keyval_name}")
+        logging.debug(f"Key pressed: {keyval_name}")
         
         if keyval_name == 'Tab':
             if self.buttons:
@@ -114,7 +115,7 @@ class EmojiSelector(Gtk.Window):
         return False
 
     def on_size_allocate(self, widget, allocation):
-        print("Window resized")
+        logging.debug("Window resized")
         # Redisplay emojis when window size changes
         self.display_emojis(self.emoji_data['emojis'])
 
