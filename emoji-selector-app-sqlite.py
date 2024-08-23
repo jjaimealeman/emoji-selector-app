@@ -45,15 +45,40 @@ class EmojiSelector(Gtk.Window):
         self.grid.set_row_homogeneous(True)
         scrolled.add(self.grid)
 
-        # Add status bar
-        self.statusbar = Gtk.Statusbar()
-        self.vbox.pack_end(self.statusbar, False, False, 0)
+        # Create grid-based statusbar
+        self.status_grid = Gtk.Grid()
+        self.status_grid.set_column_spacing(5)
+        self.status_grid.set_row_spacing(2)
+        self.vbox.pack_end(self.status_grid, False, False, 0)
 
-        # Set up CSS for better focus visibility
+        # Create labels for statusbar
+        self.name_label = Gtk.Label()
+        self.name_label.set_line_wrap(True)
+        self.name_label.set_max_width_chars(40)
+        self.keywords_label = Gtk.Label()
+        self.keywords_label.set_line_wrap(True)
+        self.keywords_label.set_max_width_chars(30)
+        self.category_label = Gtk.Label()
+
+        # Add labels to status grid
+        self.status_grid.attach(self.name_label, 0, 0, 2, 1)  # Span two columns
+        self.status_grid.attach(self.keywords_label, 0, 1, 1, 1)  # 75% width
+        self.status_grid.attach(self.category_label, 1, 1, 1, 1)  # 25% width
+
+        # Set column widths
+        self.status_grid.set_column_homogeneous(False)
+        self.status_grid.set_column_spacing(10)
+        self.status_grid.set_row_spacing(5)
+        self.status_grid.set_border_width(5)
+
+        # Set up CSS for better focus visibility and statusbar styling
         css_provider = Gtk.CssProvider()
         css_provider.load_from_data(b"""
         button:focus {
             border: 2px solid #3584e4;
+        }
+        label {
+            padding: 2px 5px;
         }
         """)
         Gtk.StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
@@ -102,7 +127,7 @@ class EmojiSelector(Gtk.Window):
 
     def on_emoji_focus(self, widget, event, emoji_info):
         name, category, keywords = emoji_info
-        self.update_status_bar(f"Name: {name} | Category: {category} | Keywords: {keywords}")
+        self.update_status_bar(name, category, keywords)
 
     def on_search_changed(self, entry):
         text = entry.get_text().lower()
@@ -150,9 +175,10 @@ class EmojiSelector(Gtk.Window):
     def update_count_label(self, count):
         self.count_label.set_text(f"Emojis: {count}")
 
-    def update_status_bar(self, message):
-        self.statusbar.pop(0)  # Remove any previous message
-        self.statusbar.push(0, message)
+    def update_status_bar(self, name, category, keywords):
+        self.name_label.set_text(f"Name: {name}")
+        self.category_label.set_text(f"Category: {category}")
+        self.keywords_label.set_text(f"Keywords: {keywords}")
 
     def do_destroy(self):
         # Close the database connection when the window is closed
