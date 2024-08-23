@@ -18,7 +18,11 @@ class EmojiSelector(Gtk.Window):
         self.add(self.vbox)
 
         # Create search box (horizontal box for search entry and count label)
-        search_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)
+        search_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
+        search_box.set_margin_start(10)
+        search_box.set_margin_end(10)
+        search_box.set_margin_top(10)
+        search_box.set_margin_bottom(10)
         self.vbox.pack_start(search_box, False, False, 0)
 
         # Create search entry
@@ -30,6 +34,7 @@ class EmojiSelector(Gtk.Window):
 
         # Create count label
         self.count_label = Gtk.Label()
+        self.count_label.set_margin_start(10)
         search_box.pack_start(self.count_label, False, False, 0)
 
         # Create scrolled window
@@ -58,15 +63,15 @@ class EmojiSelector(Gtk.Window):
         self.keywords_label = Gtk.Label(xalign=0)
         self.keywords_label.set_line_wrap(True)
         self.keywords_label.set_max_width_chars(30)
-        self.category_label = Gtk.Label(xalign=1)  # Right-aligned
+        self.category_label = Gtk.Label(xalign=0.)  # Centered
 
         # Add labels to status grid
         self.status_grid.attach(self.name_label, 0, 0, 2, 1)  # Span two columns
-        self.status_grid.attach(self.keywords_label, 0, 1, 1, 1)  # 75% width
-        self.status_grid.attach(self.category_label, 1, 1, 1, 1)  # 25% width
+        self.status_grid.attach(self.keywords_label, 0, 1, 1, 1)  # 50% width
+        self.status_grid.attach(self.category_label, 1, 1, 1, 1)  # 50% width
 
         # Set column widths
-        self.status_grid.set_column_homogeneous(False)
+        self.status_grid.set_column_homogeneous(True)  # Make columns equal width
         self.status_grid.set_column_spacing(10)
         self.status_grid.set_row_spacing(5)
         self.status_grid.set_border_width(5)
@@ -84,6 +89,12 @@ class EmojiSelector(Gtk.Window):
             margin-left: 10px;
             margin-right: 10px;
         }
+        #search_entry {
+            margin: 5px;
+        }
+        #count_label {
+            margin-right: 5px;
+        }
         """)
         Gtk.StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
@@ -91,6 +102,8 @@ class EmojiSelector(Gtk.Window):
         self.name_label.set_name("name_label")
         self.keywords_label.set_name("keywords_label")
         self.category_label.set_name("category_label")
+        self.search_entry.set_name("search_entry")
+        self.count_label.set_name("count_label")
 
         self.display_emojis("")
 
