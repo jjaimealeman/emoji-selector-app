@@ -31,6 +31,10 @@ class EmojiSelector(Gtk.Window):
 
         # Create grid for emojis
         self.grid = Gtk.Grid()
+        self.grid.set_column_spacing(5)
+        self.grid.set_row_spacing(5)
+        self.grid.set_column_homogeneous(True)
+        self.grid.set_row_homogeneous(True)
         scrolled.add(self.grid)
 
         self.display_emojis(self.emoji_data['emojis'])
@@ -48,10 +52,12 @@ class EmojiSelector(Gtk.Window):
         for i, emoji_data in enumerate(emojis):
             button = Gtk.Button(label=emoji_data['emoji'])
             button.connect("clicked", self.on_emoji_clicked)
+            button.set_property("width-request", 50)
+            button.set_property("height-request", 50)
             self.grid.attach(button, i % 4, i // 4, 1, 1)
             self.buttons.append(button)
 
-        self.show_all()
+        self.grid.show_all()
 
     def on_emoji_clicked(self, widget):
         emoji = widget.get_label()
