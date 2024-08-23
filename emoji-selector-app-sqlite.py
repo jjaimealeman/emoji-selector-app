@@ -7,7 +7,7 @@ import sqlite3
 class EmojiSelector(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title="Emoji Selector")
-        self.set_size_request(300, 300)
+        self.set_size_request(300, 400)
 
         # Connect to the SQLite database
         self.conn = sqlite3.connect('emojis.db')
@@ -17,12 +17,20 @@ class EmojiSelector(Gtk.Window):
         self.vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(self.vbox)
 
+        # Create search box (horizontal box for search entry and count label)
+        search_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)
+        self.vbox.pack_start(search_box, False, False, 0)
+
         # Create search entry
         self.search_entry = Gtk.Entry()
         self.search_entry.set_placeholder_text("Search emojis...")
         self.search_entry.connect("changed", self.on_search_changed)
         self.search_entry.connect("key-press-event", self.on_key_press)
-        self.vbox.pack_start(self.search_entry, False, False, 0)
+        search_box.pack_start(self.search_entry, True, True, 0)
+
+        # Create count label
+        self.count_label = Gtk.Label()
+        search_box.pack_start(self.count_label, False, False, 0)
 
         # Create scrolled window
         scrolled = Gtk.ScrolledWindow()
@@ -63,19 +71,20 @@ class EmojiSelector(Gtk.Window):
         # Query the database
         if search_term:
             self.cursor.execute('''
-            SELECT emoji FROM emojis
+            SELECT emoji, name, category, keywords FROM emojis
             WHERE name LIKE ? OR category LIKE ? OR keywords LIKE ?
             ''', (f'%{search_term}%', f'%{search_term}%', f'%{search_term}%'))
         else:
-            self.cursor.execute('SELECT emoji FROM emojis LIMIT 100')  # Limit for initial load
+            self.cursor.execute('SELECT emoji, name, category, keywords FROM emojis LIMIT 100')  # Limit for initial load
 
         emojis = self.cursor.fetchall()
 
         # Create new buttons
         self.buttons = []
-        for i, (emoji,) in enumerate(emojis):
+        for i, (emoji, name, category, keywords) in enumerate(emojis):
             button = Gtk.Button(label=emoji)
             button.connect("clicked", self.on_emoji_clicked)
+            button.connect("focus-in-event", self.on_emoji_focus, (name, category, keywords))
             button.set_property("width-request", 50)
             button.set_property("height-request", 50)
             self.grid.attach(button, i % 4, i // 4, 1, 1)
@@ -83,13 +92,17 @@ class EmojiSelector(Gtk.Window):
 
         self.grid.show_all()
 
-        # Update status bar
-        self.update_status_bar(len(emojis))
+        # Update count label
+        self.update_count_label(len(emojis))
 
     def on_emoji_clicked(self, widget):
         emoji = widget.get_label()
         subprocess.run(["wl-copy", emoji])
         self.close()
+
+    def on_emoji_focus(self, widget, event, emoji_info):
+        name, category, keywords = emoji_info
+        self.update_status_bar(f"Name: {name} | Category: {category} | Keywords: {keywords}")
 
     def on_search_changed(self, entry):
         text = entry.get_text().lower()
@@ -134,8 +147,12 @@ class EmojiSelector(Gtk.Window):
 
         self.buttons[new_index].grab_focus()
 
-    def update_status_bar(self, count):
-        self.statusbar.push(0, f"Emojis found: {count}")
+    def update_count_label(self, count):
+        self.count_label.set_text(f"Emojis: {count}")
+
+    def update_status_bar(self, message):
+        self.statusbar.pop(0)  # Remove any previous message
+        self.statusbar.push(0, message)
 
     def do_destroy(self):
         # Close the database connection when the window is closed
