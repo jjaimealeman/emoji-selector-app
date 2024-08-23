@@ -1,22 +1,269 @@
 {
-  "emojis": [
-    {
-      "emoji": "😀",
-      "name": "grinning face",
-      "category": "smileys",
-      "keywords": ["smile", "happy", "joy", "grin"]
-    },
-    {
-      "emoji": "🐶",
-      "name": "dog face",
-      "category": "animals",
-      "keywords": ["pet", "dog", "puppy", "woof"]
-    },
-    {
-      "emoji": "🍎",
-      "name": "red apple",
-      "category": "food",
-      "keywords": ["fruit", "apple", "red", "food"]
-    }
-  ]
-}
+    "emojis": [
+      {
+        "emoji": "😀",
+        "name": "grinning face",
+        "category": "smileys",
+        "keywords": ["smile", "happy", "joy", "grin"]
+      },
+      {
+        "emoji": "😂",
+        "name": "face with tears of joy",
+        "category": "smileys",
+        "keywords": ["laugh", "happy", "joy", "funny"]
+      },
+      {
+        "emoji": "🥰",
+        "name": "smiling face with hearts",
+        "category": "smileys",
+        "keywords": ["love", "affection", "adore"]
+      },
+      {
+        "emoji": "😎",
+        "name": "smiling face with sunglasses",
+        "category": "smileys",
+        "keywords": ["cool", "sun", "summer"]
+      },
+      {
+        "emoji": "🤔",
+        "name": "thinking face",
+        "category": "smileys",
+        "keywords": ["hmm", "wonder", "confused"]
+      },
+      {
+        "emoji": "😴",
+        "name": "sleeping face",
+        "category": "smileys",
+        "keywords": ["sleep", "tired", "zzz"]
+      },
+      {
+        "emoji": "❤️",
+        "name": "red heart",
+        "category": "symbols",
+        "keywords": ["love", "affection", "like"]
+      },
+      {
+        "emoji": "👍",
+        "name": "thumbs up",
+        "category": "people",
+        "keywords": ["approve", "ok", "good"]
+      },
+      {
+        "emoji": "👏",
+        "name": "clapping hands",
+        "category": "people",
+        "keywords": ["applause", "praise", "congratulations"]
+      },
+      {
+        "emoji": "🙏",
+        "name": "folded hands",
+        "category": "people",
+        "keywords": ["please", "thank you", "pray"]
+      },
+      {
+        "emoji": "🐶",
+        "name": "dog face",
+        "category": "animals",
+        "keywords": ["pet", "loyal", "friend"]
+      },
+      {
+        "emoji": "🐱",
+        "name": "cat face",
+        "category": "animals",
+        "keywords": ["pet", "meow", "kitten"]
+      },
+      {
+        "emoji": "🐼",
+        "name": "panda",
+        "category": "animals",
+        "keywords": ["bear", "bamboo", "china"]
+      },
+      {
+        "emoji": "🦄",
+        "name": "unicorn",
+        "category": "animals",
+        "keywords": ["magical", "fantasy", "horse"]
+      },
+      {
+        "emoji": "🌸",
+        "name": "cherry blossom",
+        "category": "nature",
+        "keywords": ["flower", "spring", "beautiful"]
+      },
+      {
+        "emoji": "🌈",
+        "name": "rainbow",
+        "category": "nature",
+        "keywords": ["colors", "sky", "pride"]
+      },
+      {
+        "emoji": "🌞",
+        "name": "sun with face",
+        "category": "nature",
+        "keywords": ["summer", "bright", "weather"]
+      },
+      {
+        "emoji": "🍕",
+        "name": "pizza",
+        "category": "food",
+        "keywords": ["cheese", "slice", "pepperoni"]
+      },
+      {
+        "emoji": "🍔",
+        "name": "hamburger",
+        "category": "food",
+        "keywords": ["burger", "fast food", "beef"]
+      },
+      {
+        "emoji": "🍦",
+        "name": "soft ice cream",
+        "category": "food",
+        "keywords": ["dessert", "summer", "sweet"]
+      },
+      {
+        "emoji": "🎉",
+        "name": "party popper",
+        "category": "celebration",
+        "keywords": ["tada", "celebration", "party"]
+      },
+      {
+        "emoji": "🎁",
+        "name": "wrapped gift",
+        "category": "celebration",
+        "keywords": ["present", "birthday", "christmas"]
+      },
+      {
+        "emoji": "🚀",
+        "name": "rocket",
+        "category": "travel",
+        "keywords": ["launch", "space", "fly"]
+      },
+      {
+        "emoji": "⚽",
+        "name": "soccer ball",
+        "category": "sports",
+        "keywords": ["football", "sports", "game"]
+      },
+      {
+        "emoji": "🎮",
+        "name": "video game",
+        "category": "activities",
+        "keywords": ["play", "controller", "console"]
+      },
+      {
+        "emoji": "📚",
+        "name": "books",
+        "category": "objects",
+        "keywords": ["study", "reading", "library"]
+      },
+      {
+        "emoji": "💡",
+        "name": "light bulb",
+        "category": "objects",
+        "keywords": ["idea", "bright", "smart"]
+      },
+      {
+        "emoji": "🔥",
+        "name": "fire",
+        "category": "nature",
+        "keywords": ["hot", "flame", "burn"]
+      },
+      {
+        "emoji": "🌟",
+        "name": "glowing star",
+        "category": "nature",
+        "keywords": ["shine", "sparkle", "awesome"]
+      },
+      {
+        "emoji": "💯",
+        "name": "hundred points",
+        "category": "symbols",
+        "keywords": ["score", "perfect", "100"]
+      },
+      {
+        "emoji": "💯",
+        "name": "hundred points",
+        "category": "symbols",
+        "keywords": ["score", "perfect", "100"]
+      },
+      {
+        "emoji": "😊",
+        "name": "smiling face with smiling eyes",
+        "category": "smileys",
+        "keywords": ["happy", "joy", "pleased"]
+      },
+      {
+        "emoji": "🥳",
+        "name": "partying face",
+        "category": "smileys",
+        "keywords": ["celebration", "woohoo"]
+      },
+      {
+        "emoji": "🤩",
+        "name": "star-struck",
+        "category": "smileys",
+        "keywords": ["excited", "amazed", "wow"]
+      },
+      {
+        "emoji": "😍",
+        "name": "smiling face with heart-eyes",
+        "category": "smileys",
+        "keywords": ["love", "crush", "adore"]
+      },
+      {
+        "emoji": "🦁",
+        "name": "lion",
+        "category": "animals",
+        "keywords": ["wild", "nature", "roar"]
+      },
+      {
+        "emoji": "🐘",
+        "name": "elephant",
+        "category": "animals",
+        "keywords": ["animal", "nature", "nosesay"]
+      },
+      {
+        "emoji": "🦋",
+        "name": "butterfly",
+        "category": "animals",
+        "keywords": ["insect", "nature", "beautiful"]
+      },
+      {
+        "emoji": "🌺",
+        "name": "hibiscus",
+        "category": "nature",
+        "keywords": ["flower", "plant", "tropical"]
+      },
+      {
+        "emoji": "🌴",
+        "name": "palm tree",
+        "category": "nature",
+        "keywords": ["beach", "tropical", "coconut"]
+      },
+      {
+        "emoji": "🍉",
+        "name": "watermelon",
+        "category": "food",
+        "keywords": ["fruit", "summer", "seed"]
+      },
+      {
+        "emoji": "🥑",
+        "name": "avocado",
+        "category": "food",
+        "keywords": ["fruit", "food"]
+      },
+      {
+        "emoji": "🚲",
+        "name": "bicycle",
+        "category": "travel",
+        "keywords": ["bike", "exercise", "hipster"]
+      },
+      {
+        "emoji": "⚡",
+        "name": "high voltage",
+        "category": "nature",
+        "keywords": ["thunder", "lightning", "fast"]
+      }
+  
+    ]
+  }
