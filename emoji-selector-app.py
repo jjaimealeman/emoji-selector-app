@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk
@@ -11,7 +13,6 @@ class EmojiSelector(Gtk.Window):
         self.grid = Gtk.Grid()
         self.add(self.grid)
 
-        # Sample emojis (you can expand this list)
         emojis = ["😀", "😂", "🤔", "👍", "❤️", "🎉", "🌈", "🍕"]
 
         for i, emoji in enumerate(emojis):
