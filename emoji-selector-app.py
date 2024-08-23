@@ -3,15 +3,24 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk, GLib
 import subprocess
 import json
+import math
+
+print("Script started")
 
 class EmojiSelector(Gtk.Window):
     def __init__(self):
+        print("Initializing EmojiSelector")
         Gtk.Window.__init__(self, title="Emoji Selector")
-        self.set_size_request(300, 300)
+        self.set_default_size(300, 400)
 
         # Load emoji data
-        with open('emoji_data.json', 'r', encoding='utf-8') as f:
-            self.emoji_data = json.load(f)
+        try:
+            with open('emoji_data.json', 'r', encoding='utf-8') as f:
+                self.emoji_data = json.load(f)
+            print(f"Loaded {len(self.emoji_data['emojis'])} emojis from JSON file")
+        except Exception as e:
+            print(f"Error loading JSON file: {e}")
+            self.emoji_data = {'emojis': []}
 
         # Create main vertical box
         self.vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
@@ -25,40 +34,54 @@ class EmojiSelector(Gtk.Window):
         self.vbox.pack_start(self.search_entry, False, False, 0)
 
         # Create scrolled window
-        scrolled = Gtk.ScrolledWindow()
-        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-        self.vbox.pack_start(scrolled, True, True, 0)
+        self.scrolled = Gtk.ScrolledWindow()
+        self.scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        self.vbox.pack_start(self.scrolled, True, True, 0)
 
         # Create grid for emojis
         self.grid = Gtk.Grid()
-        scrolled.add(self.grid)
-
-        self.display_emojis(self.emoji_data['emojis'])
+        self.scrolled.add(self.grid)
 
         # Set focus to search entry
         GLib.idle_add(self.search_entry.grab_focus)
 
+        # Connect size-allocate signal
+        self.connect("size-allocate", self.on_size_allocate)
+
+        print("Initialization complete, about to display emojis")
+        self.display_emojis(self.emoji_data['emojis'])
+
     def display_emojis(self, emojis):
+        print(f"Displaying {len(emojis)} emojis")
         # Clear existing buttons
         for child in self.grid.get_children():
             self.grid.remove(child)
+
+        # Calculate number of columns based on window width
+        width = self.get_allocation().width
+        button_width = 40  # Estimated width of each emoji button
+        columns = max(4, math.floor(width / button_width))
+        print(f"Window width: {width}, Columns: {columns}")
 
         # Create new buttons
         self.buttons = []
         for i, emoji_data in enumerate(emojis):
             button = Gtk.Button(label=emoji_data['emoji'])
             button.connect("clicked", self.on_emoji_clicked)
-            self.grid.attach(button, i % 4, i // 4, 1, 1)
+            self.grid.attach(button, i % columns, i // columns, 1, 1)
             self.buttons.append(button)
 
         self.show_all()
+        print(f"Created {len(self.buttons)} emoji buttons")
 
     def on_emoji_clicked(self, widget):
         emoji = widget.get_label()
         subprocess.run(["wl-copy", emoji])
+        print(f"Copied emoji: {emoji}")
         self.close()
 
     def on_search_changed(self, entry):
+        print("Search changed")
         text = entry.get_text().lower()
         filtered_emojis = [
             emoji for emoji in self.emoji_data['emojis']
@@ -66,11 +89,13 @@ class EmojiSelector(Gtk.Window):
             text in emoji['category'].lower() or
             any(text in keyword.lower() for keyword in emoji['keywords'])
         ]
+        print(f"Found {len(filtered_emojis)} matching emojis")
         self.display_emojis(filtered_emojis)
 
     def on_key_press(self, widget, event):
         keyval = event.keyval
         keyval_name = Gdk.keyval_name(keyval)
+        print(f"Key pressed: {keyval_name}")
         
         if keyval_name == 'Tab':
             if self.buttons:
@@ -84,7 +109,15 @@ class EmojiSelector(Gtk.Window):
         
         return False
 
+    def on_size_allocate(self, widget, allocation):
+        print("Window resized")
+        # Redisplay emojis when window size changes
+        self.display_emojis(self.emoji_data['emojis'])
+
+print("Creating EmojiSelector instance")
 win = EmojiSelector()
 win.connect("destroy", Gtk.main_quit)
 win.show_all()
+print("Starting main GTK loop")
 Gtk.main()
+print("Application closed")
