@@ -5,11 +5,19 @@ import subprocess
 import json
 import math
 import logging
+import os
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+log_file = 'emoji_selector.log'
+logging.basicConfig(level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[
+                        logging.FileHandler(log_file),
+                        logging.StreamHandler()
+                    ])
 
 logging.info("Script started")
+logging.info(f"Log file created at: {os.path.abspath(log_file)}")
 logging.info("GTK Version: %s.%s.%s", Gtk.get_major_version(), Gtk.get_minor_version(), Gtk.get_micro_version())
 
 class EmojiSelector(Gtk.Window):
