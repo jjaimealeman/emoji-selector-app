@@ -63,7 +63,7 @@ class EmojiSelector(Gtk.Window):
         self.keywords_label = Gtk.Label(xalign=0)
         self.keywords_label.set_line_wrap(True)
         self.keywords_label.set_max_width_chars(30)
-        self.category_label = Gtk.Label(xalign=0.)  # Centered
+        self.category_label = Gtk.Label(xalign=0)  # Centered
 
         # Add labels to status grid
         self.status_grid.attach(self.name_label, 0, 0, 2, 1)  # Span two columns
@@ -104,6 +104,9 @@ class EmojiSelector(Gtk.Window):
         self.category_label.set_name("category_label")
         self.search_entry.set_name("search_entry")
         self.count_label.set_name("count_label")
+
+        # Connect key-press-event to the window
+        self.connect("key-press-event", self.on_window_key_press)
 
         self.display_emojis("")
 
@@ -155,21 +158,34 @@ class EmojiSelector(Gtk.Window):
         text = entry.get_text().lower()
         self.display_emojis(text)
 
+    def on_window_key_press(self, widget, event):
+        keyval = event.keyval
+        keyval_name = Gdk.keyval_name(keyval)
+        state = event.state
+
+        # Check for Ctrl+C
+        if (state & Gdk.ModifierType.CONTROL_MASK) and keyval_name == 'c':
+            self.close()
+            return True
+
+        return False
+
     def on_key_press(self, widget, event):
         keyval = event.keyval
         keyval_name = Gdk.keyval_name(keyval)
         
-        if keyval_name == 'Tab':
+        if keyval_name in ['Tab', 'Return', 'Down', 'Right']:
             if self.buttons:
                 self.buttons[0].grab_focus()
             return True
-        elif keyval_name in ['Return', 'space']:
+        elif keyval_name == 'space':
             focused = self.get_focus()
             if isinstance(focused, Gtk.Button):
                 self.on_emoji_clicked(focused)
             return True
-        elif keyval_name in ['Up', 'Down', 'Left', 'Right']:
-            self.navigate_grid(keyval_name)
+        elif keyval_name in ['Up', 'Left']:
+            if self.buttons:
+                self.buttons[-1].grab_focus()
             return True
         
         return False
@@ -202,7 +218,7 @@ class EmojiSelector(Gtk.Window):
         self.category_label.set_text(f"Category: {category}")
         
         # Format keywords with spaces instead of commas
-        formatted_keywords = " ".join(keywords.split(","))
+        formatted_keywords = "  ".join(keywords.split(","))
         self.keywords_label.set_text(f"Keywords: {formatted_keywords}")
 
     def do_destroy(self):
