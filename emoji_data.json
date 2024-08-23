@@ -1,0 +1,22 @@
+{
+  "emojis": [
+    {
+      "emoji": "😀",
+      "name": "grinning face",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "joy", "grin"]
+    },
+    {
+      "emoji": "🐶",
+      "name": "dog face",
+      "category": "animals",
+      "keywords": ["pet", "dog", "puppy", "woof"]
+    },
+    {
+      "emoji": "🍎",
+      "name": "red apple",
+      "category": "food",
+      "keywords": ["fruit", "apple", "red", "food"]
+    }
+  ]
+}
