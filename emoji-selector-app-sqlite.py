@@ -7,7 +7,7 @@ import sqlite3
 class EmojiSelector(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title="Emoji Selector")
-        self.set_size_request(300, 400)
+        self.set_size_request(400, 500)  # Increased window size
 
         # Connect to the SQLite database
         self.conn = sqlite3.connect('emojis.db')
@@ -132,12 +132,15 @@ class EmojiSelector(Gtk.Window):
         # Create new buttons
         self.buttons = []
         for i, (emoji, name, category, keywords) in enumerate(emojis):
-            button = Gtk.Button(label=emoji)
+            button = Gtk.Button()
+            label = Gtk.Label()
+            label.set_markup(f'<span size="xx-large">{emoji}</span>')
+            button.add(label)
             button.connect("clicked", self.on_emoji_clicked)
             button.connect("focus-in-event", self.on_emoji_focus, (name, category, keywords))
-            button.set_property("width-request", 50)
-            button.set_property("height-request", 50)
-            self.grid.attach(button, i % 4, i // 4, 1, 1)
+            button.set_property("width-request", 100)
+            button.set_property("height-request", 100)
+            self.grid.attach(button, i % 3, i // 3, 1, 1)
             self.buttons.append(button)
 
         self.grid.show_all()
@@ -146,7 +149,7 @@ class EmojiSelector(Gtk.Window):
         self.update_count_label(len(emojis))
 
     def on_emoji_clicked(self, widget):
-        emoji = widget.get_label()
+        emoji = widget.get_child().get_text()
         subprocess.run(["wl-copy", emoji])
         self.close()
 
@@ -197,7 +200,7 @@ class EmojiSelector(Gtk.Window):
 
         current_index = self.buttons.index(focused)
         total_buttons = len(self.buttons)
-        columns = 4
+        columns = 3
 
         if direction == 'Up':
             new_index = (current_index - columns) % total_buttons
