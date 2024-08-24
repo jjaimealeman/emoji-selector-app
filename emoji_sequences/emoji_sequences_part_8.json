@@ -1,100 +1,601 @@
- flag: Wallis & Futuna                                          # E2.0   [1] (🇼🇫)
- flag: Samoa                                                    # E2.0   [1] (🇼🇸)
- flag: Kosovo                                                   # E2.0   [1] (🇽🇰)
- flag: Yemen                                                    # E2.0   [1] (🇾🇪)
- flag: Mayotte                                                  # E2.0   [1] (🇾🇹)
- flag: South Africa                                             # E2.0   [1] (🇿🇦)
- flag: Zambia                                                   # E2.0   [1] (🇿🇲)
- flag: Zimbabwe                                                 # E2.0   [1] (🇿🇼)
- flag: England                              # E5.0   [1] (🏴󠁧󠁢󠁥󠁮󠁧󠁿)
- flag: Scotland                             # E5.0   [1] (🏴󠁧󠁢󠁳󠁣󠁴󠁿)
- flag: Wales                                # E5.0   [1] (🏴󠁧󠁢󠁷󠁬󠁳󠁿)
- index pointing up: light skin tone                             # E1.0   [1] (☝🏻)
- index pointing up: medium-light skin tone                      # E1.0   [1] (☝🏼)
- index pointing up: medium skin tone                            # E1.0   [1] (☝🏽)
- index pointing up: medium-dark skin tone                       # E1.0   [1] (☝🏾)
- index pointing up: dark skin tone                              # E1.0   [1] (☝🏿)
- person bouncing ball: light skin tone                          # E2.0   [1] (⛹🏻)
- person bouncing ball: medium-light skin tone                   # E2.0   [1] (⛹🏼)
- person bouncing ball: medium skin tone                         # E2.0   [1] (⛹🏽)
- person bouncing ball: medium-dark skin tone                    # E2.0   [1] (⛹🏾)
- person bouncing ball: dark skin tone                           # E2.0   [1] (⛹🏿)
- raised fist: light skin tone                                   # E1.0   [1] (✊🏻)
- raised fist: medium-light skin tone                            # E1.0   [1] (✊🏼)
- raised fist: medium skin tone                                  # E1.0   [1] (✊🏽)
- raised fist: medium-dark skin tone                             # E1.0   [1] (✊🏾)
- raised fist: dark skin tone                                    # E1.0   [1] (✊🏿)
- raised hand: light skin tone                                   # E1.0   [1] (✋🏻)
- raised hand: medium-light skin tone                            # E1.0   [1] (✋🏼)
- raised hand: medium skin tone                                  # E1.0   [1] (✋🏽)
- raised hand: medium-dark skin tone                             # E1.0   [1] (✋🏾)
- raised hand: dark skin tone                                    # E1.0   [1] (✋🏿)
- victory hand: light skin tone                                  # E1.0   [1] (✌🏻)
- victory hand: medium-light skin tone                           # E1.0   [1] (✌🏼)
- victory hand: medium skin tone                                 # E1.0   [1] (✌🏽)
- victory hand: medium-dark skin tone                            # E1.0   [1] (✌🏾)
- victory hand: dark skin tone                                   # E1.0   [1] (✌🏿)
- writing hand: light skin tone                                  # E1.0   [1] (✍🏻)
- writing hand: medium-light skin tone                           # E1.0   [1] (✍🏼)
- writing hand: medium skin tone                                 # E1.0   [1] (✍🏽)
- writing hand: medium-dark skin tone                            # E1.0   [1] (✍🏾)
- writing hand: dark skin tone                                   # E1.0   [1] (✍🏿)
- Santa Claus: light skin tone                                   # E1.0   [1] (🎅🏻)
- Santa Claus: medium-light skin tone                            # E1.0   [1] (🎅🏼)
- Santa Claus: medium skin tone                                  # E1.0   [1] (🎅🏽)
- Santa Claus: medium-dark skin tone                             # E1.0   [1] (🎅🏾)
- Santa Claus: dark skin tone                                    # E1.0   [1] (🎅🏿)
- snowboarder: light skin tone                                   # E1.0   [1] (🏂🏻)
- snowboarder: medium-light skin tone                            # E1.0   [1] (🏂🏼)
- snowboarder: medium skin tone                                  # E1.0   [1] (🏂🏽)
- snowboarder: medium-dark skin tone                             # E1.0   [1] (🏂🏾)
- snowboarder: dark skin tone                                    # E1.0   [1] (🏂🏿)
- person running: light skin tone                                # E1.0   [1] (🏃🏻)
- person running: medium-light skin tone                         # E1.0   [1] (🏃🏼)
- person running: medium skin tone                               # E1.0   [1] (🏃🏽)
- person running: medium-dark skin tone                          # E1.0   [1] (🏃🏾)
- person running: dark skin tone                                 # E1.0   [1] (🏃🏿)
- person surfing: light skin tone                                # E1.0   [1] (🏄🏻)
- person surfing: medium-light skin tone                         # E1.0   [1] (🏄🏼)
- person surfing: medium skin tone                               # E1.0   [1] (🏄🏽)
- person surfing: medium-dark skin tone                          # E1.0   [1] (🏄🏾)
- person surfing: dark skin tone                                 # E1.0   [1] (🏄🏿)
- horse racing: light skin tone                                  # E1.0   [1] (🏇🏻)
- horse racing: medium-light skin tone                           # E1.0   [1] (🏇🏼)
- horse racing: medium skin tone                                 # E1.0   [1] (🏇🏽)
- horse racing: medium-dark skin tone                            # E1.0   [1] (🏇🏾)
- horse racing: dark skin tone                                   # E1.0   [1] (🏇🏿)
- person swimming: light skin tone                               # E1.0   [1] (🏊🏻)
- person swimming: medium-light skin tone                        # E1.0   [1] (🏊🏼)
- person swimming: medium skin tone                              # E1.0   [1] (🏊🏽)
- person swimming: medium-dark skin tone                         # E1.0   [1] (🏊🏾)
- person swimming: dark skin tone                                # E1.0   [1] (🏊🏿)
- person lifting weights: light skin tone                        # E2.0   [1] (🏋🏻)
- person lifting weights: medium-light skin tone                 # E2.0   [1] (🏋🏼)
- person lifting weights: medium skin tone                       # E2.0   [1] (🏋🏽)
- person lifting weights: medium-dark skin tone                  # E2.0   [1] (🏋🏾)
- person lifting weights: dark skin tone                         # E2.0   [1] (🏋🏿)
- person golfing: light skin tone                                # E4.0   [1] (🏌🏻)
- person golfing: medium-light skin tone                         # E4.0   [1] (🏌🏼)
- person golfing: medium skin tone                               # E4.0   [1] (🏌🏽)
- person golfing: medium-dark skin tone                          # E4.0   [1] (🏌🏾)
- person golfing: dark skin tone                                 # E4.0   [1] (🏌🏿)
- ear: light skin tone                                           # E1.0   [1] (👂🏻)
- ear: medium-light skin tone                                    # E1.0   [1] (👂🏼)
- ear: medium skin tone                                          # E1.0   [1] (👂🏽)
- ear: medium-dark skin tone                                     # E1.0   [1] (👂🏾)
- ear: dark skin tone                                            # E1.0   [1] (👂🏿)
- nose: light skin tone                                          # E1.0   [1] (👃🏻)
- nose: medium-light skin tone                                   # E1.0   [1] (👃🏼)
- nose: medium skin tone                                         # E1.0   [1] (👃🏽)
- nose: medium-dark skin tone                                    # E1.0   [1] (👃🏾)
- nose: dark skin tone                                           # E1.0   [1] (👃🏿)
- backhand index pointing up: light skin tone                    # E1.0   [1] (👆🏻)
- backhand index pointing up: medium-light skin tone             # E1.0   [1] (👆🏼)
- backhand index pointing up: medium skin tone                   # E1.0   [1] (👆🏽)
- backhand index pointing up: medium-dark skin tone              # E1.0   [1] (👆🏾)
- backhand index pointing up: dark skin tone                     # E1.0   [1] (👆🏿)
- backhand index pointing down: light skin tone                  # E1.0   [1] (👇🏻)
- backhand index pointing down: medium-light skin tone           # E1.0   [1] (👇🏼)
- backhand index pointing down: medium skin tone                 # E1.0   [1] (👇🏽)
- backhand index pointing down: medium-dark skin tone            # E1.0   [1] (👇🏾)
+[{
+    "emoji": "🇼🇫",
+    "name": "flag: Wallis & Futuna",
+    "category": "flags",
+    "keywords": ["flag", "Wallis & Futuna", "country", "territory"]
+},
+{
+    "emoji": "🇼🇸",
+    "name": "flag: Samoa",
+    "category": "flags",
+    "keywords": ["flag", "Samoa", "country", "nation"]
+},
+{
+    "emoji": "🇽🇰",
+    "name": "flag: Kosovo",
+    "category": "flags",
+    "keywords": ["flag", "Kosovo", "country", "nation"]
+},
+{
+    "emoji": "🇾🇪",
+    "name": "flag: Yemen",
+    "category": "flags",
+    "keywords": ["flag", "Yemen", "country", "nation"]
+},
+{
+    "emoji": "🇾🇹",
+    "name": "flag: Mayotte",
+    "category": "flags",
+    "keywords": ["flag", "Mayotte", "country", "territory"]
+},
+{
+    "emoji": "🇿🇦",
+    "name": "flag: South Africa",
+    "category": "flags",
+    "keywords": ["flag", "South Africa", "country", "nation"]
+},
+{
+    "emoji": "🇿🇲",
+    "name": "flag: Zambia",
+    "category": "flags",
+    "keywords": ["flag", "Zambia", "country", "nation"]
+},
+{
+    "emoji": "🇿🇼",
+    "name": "flag: Zimbabwe",
+    "category": "flags",
+    "keywords": ["flag", "Zimbabwe", "country", "nation"]
+},
+{
+    "emoji": "🏴",
+    "name": "flag: England",
+    "category": "flags",
+    "keywords": ["flag", "England", "country", "nation"]
+},
+{
+    "emoji": "🏴",
+    "name": "flag: Scotland",
+    "category": "flags",
+    "keywords": ["flag", "Scotland", "country", "nation"]
+},
+{
+    "emoji": "🏴",
+    "name": "flag: Wales",
+    "category": "flags",
+    "keywords": ["flag", "Wales", "country", "nation"]
+},
+{
+    "emoji": "☝🏻",
+    "name": "index pointing up: light skin tone",
+    "category": "people",
+    "keywords": ["index pointing up", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "☝🏼",
+    "name": "index pointing up: medium-light skin tone",
+    "category": "people",
+    "keywords": ["index pointing up", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "☝🏽",
+    "name": "index pointing up: medium skin tone",
+    "category": "people",
+    "keywords": ["index pointing up", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "☝🏾",
+    "name": "index pointing up: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["index pointing up", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "☝🏿",
+    "name": "index pointing up: dark skin tone",
+    "category": "people",
+    "keywords": ["index pointing up", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "⛹🏻",
+    "name": "person bouncing ball: light skin tone",
+    "category": "people",
+    "keywords": ["person bouncing ball", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "⛹🏼",
+    "name": "person bouncing ball: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person bouncing ball", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "⛹🏽",
+    "name": "person bouncing ball: medium skin tone",
+    "category": "people",
+    "keywords": ["person bouncing ball", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "⛹🏾",
+    "name": "person bouncing ball: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person bouncing ball", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "⛹🏿",
+    "name": "person bouncing ball: dark skin tone",
+    "category": "people",
+    "keywords": ["person bouncing ball", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "✊🏻",
+    "name": "raised fist: light skin tone",
+    "category": "people",
+    "keywords": ["raised fist", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✊🏼",
+    "name": "raised fist: medium-light skin tone",
+    "category": "people",
+    "keywords": ["raised fist", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✊🏽",
+    "name": "raised fist: medium skin tone",
+    "category": "people",
+    "keywords": ["raised fist", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✊🏾",
+    "name": "raised fist: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["raised fist", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✊🏿",
+    "name": "raised fist: dark skin tone",
+    "category": "people",
+    "keywords": ["raised fist", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✋🏻",
+    "name": "raised hand: light skin tone",
+    "category": "people",
+    "keywords": ["raised hand", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✋🏼",
+    "name": "raised hand: medium-light skin tone",
+    "category": "people",
+    "keywords": ["raised hand", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✋🏽",
+    "name": "raised hand: medium skin tone",
+    "category": "people",
+    "keywords": ["raised hand", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✋🏾",
+    "name": "raised hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["raised hand", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✋🏿",
+    "name": "raised hand: dark skin tone",
+    "category": "people",
+    "keywords": ["raised hand", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✌🏻",
+    "name": "victory hand: light skin tone",
+    "category": "people",
+    "keywords": ["victory hand", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✌🏼",
+    "name": "victory hand: medium-light skin tone",
+    "category": "people",
+    "keywords": ["victory hand", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✌🏽",
+    "name": "victory hand: medium skin tone",
+    "category": "people",
+    "keywords": ["victory hand", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✌🏾",
+    "name": "victory hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["victory hand", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✌🏿",
+    "name": "victory hand: dark skin tone",
+    "category": "people",
+    "keywords": ["victory hand", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✍🏻",
+    "name": "writing hand: light skin tone",
+    "category": "people",
+    "keywords": ["writing hand", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✍🏼",
+    "name": "writing hand: medium-light skin tone",
+    "category": "people",
+    "keywords": ["writing hand", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✍🏽",
+    "name": "writing hand: medium skin tone",
+    "category": "people",
+    "keywords": ["writing hand", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✍🏾",
+    "name": "writing hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["writing hand", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "✍🏿",
+    "name": "writing hand: dark skin tone",
+    "category": "people",
+    "keywords": ["writing hand", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "🎅🏻",
+    "name": "Santa Claus: light skin tone",
+    "category": "people",
+    "keywords": ["Santa Claus", "light skin tone", "holiday", "skin tone"]
+},
+{
+    "emoji": "🎅🏼",
+    "name": "Santa Claus: medium-light skin tone",
+    "category": "people",
+    "keywords": ["Santa Claus", "medium-light skin tone", "holiday", "skin tone"]
+},
+{
+    "emoji": "🎅🏽",
+    "name": "Santa Claus: medium skin tone",
+    "category": "people",
+    "keywords": ["Santa Claus", "medium skin tone", "holiday", "skin tone"]
+},
+{
+    "emoji": "🎅🏾",
+    "name": "Santa Claus: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["Santa Claus", "medium-dark skin tone", "holiday", "skin tone"]
+},
+{
+    "emoji": "🎅🏿",
+    "name": "Santa Claus: dark skin tone",
+    "category": "people",
+    "keywords": ["Santa Claus", "dark skin tone", "holiday", "skin tone"]
+},
+{
+    "emoji": "🏂🏻",
+    "name": "snowboarder: light skin tone",
+    "category": "people",
+    "keywords": ["snowboarder", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏂🏼",
+    "name": "snowboarder: medium-light skin tone",
+    "category": "people",
+    "keywords": ["snowboarder", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏂🏽",
+    "name": "snowboarder: medium skin tone",
+    "category": "people",
+    "keywords": ["snowboarder", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏂🏾",
+    "name": "snowboarder: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["snowboarder", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏂🏿",
+    "name": "snowboarder: dark skin tone",
+    "category": "people",
+    "keywords": ["snowboarder", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏃🏻",
+    "name": "person running: light skin tone",
+    "category": "people",
+    "keywords": ["person running", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏃🏼",
+    "name": "person running: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person running", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏃🏽",
+    "name": "person running: medium skin tone",
+    "category": "people",
+    "keywords": ["person running", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏃🏾",
+    "name": "person running: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person running", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏃🏿",
+    "name": "person running: dark skin tone",
+    "category": "people",
+    "keywords": ["person running", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏄🏻",
+    "name": "person surfing: light skin tone",
+    "category": "people",
+    "keywords": ["person surfing", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏄🏼",
+    "name": "person surfing: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person surfing", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏄🏽",
+    "name": "person surfing: medium skin tone",
+    "category": "people",
+    "keywords": ["person surfing", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏄🏾",
+    "name": "person surfing: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person surfing", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏄🏿",
+    "name": "person surfing: dark skin tone",
+    "category": "people",
+    "keywords": ["person surfing", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏇🏻",
+    "name": "horse racing: light skin tone",
+    "category": "people",
+    "keywords": ["horse racing", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏇🏼",
+    "name": "horse racing: medium-light skin tone",
+    "category": "people",
+    "keywords": ["horse racing", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏇🏽",
+    "name": "horse racing: medium skin tone",
+    "category": "people",
+    "keywords": ["horse racing", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏇🏾",
+    "name": "horse racing: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["horse racing", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏇🏿",
+    "name": "horse racing: dark skin tone",
+    "category": "people",
+    "keywords": ["horse racing", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏊🏻",
+    "name": "person swimming: light skin tone",
+    "category": "people",
+    "keywords": ["person swimming", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏊🏼",
+    "name": "person swimming: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person swimming", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏊🏽",
+    "name": "person swimming: medium skin tone",
+    "category": "people",
+    "keywords": ["person swimming", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏊🏾",
+    "name": "person swimming: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person swimming", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏊🏿",
+    "name": "person swimming: dark skin tone",
+    "category": "people",
+    "keywords": ["person swimming", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏋🏻",
+    "name": "person lifting weights: light skin tone",
+    "category": "people",
+    "keywords": ["person lifting weights", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏋🏼",
+    "name": "person lifting weights: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person lifting weights", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏋🏽",
+    "name": "person lifting weights: medium skin tone",
+    "category": "people",
+    "keywords": ["person lifting weights", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏋🏾",
+    "name": "person lifting weights: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person lifting weights", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏋🏿",
+    "name": "person lifting weights: dark skin tone",
+    "category": "people",
+    "keywords": ["person lifting weights", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏌🏻",
+    "name": "person golfing: light skin tone",
+    "category": "people",
+    "keywords": ["person golfing", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏌🏼",
+    "name": "person golfing: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person golfing", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏌🏽",
+    "name": "person golfing: medium skin tone",
+    "category": "people",
+    "keywords": ["person golfing", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏌🏾",
+    "name": "person golfing: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person golfing", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🏌🏿",
+    "name": "person golfing: dark skin tone",
+    "category": "people",
+    "keywords": ["person golfing", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "👂🏻",
+    "name": "ear: light skin tone",
+    "category": "people",
+    "keywords": ["ear", "light skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👂🏼",
+    "name": "ear: medium-light skin tone",
+    "category": "people",
+    "keywords": ["ear", "medium-light skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👂🏽",
+    "name": "ear: medium skin tone",
+    "category": "people",
+    "keywords": ["ear", "medium skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👂🏾",
+    "name": "ear: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["ear", "medium-dark skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👂🏿",
+    "name": "ear: dark skin tone",
+    "category": "people",
+    "keywords": ["ear", "dark skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👃🏻",
+    "name": "nose: light skin tone",
+    "category": "people",
+    "keywords": ["nose", "light skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👃🏼",
+    "name": "nose: medium-light skin tone",
+    "category": "people",
+    "keywords": ["nose", "medium-light skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👃🏽",
+    "name": "nose: medium skin tone",
+    "category": "people",
+    "keywords": ["nose", "medium skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👃🏾",
+    "name": "nose: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["nose", "medium-dark skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👃🏿",
+    "name": "nose: dark skin tone",
+    "category": "people",
+    "keywords": ["nose", "dark skin tone", "body part", "skin tone"]
+},
+{
+    "emoji": "👆🏻",
+    "name": "backhand index pointing up: light skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing up", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👆🏼",
+    "name": "backhand index pointing up: medium-light skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing up", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👆🏽",
+    "name": "backhand index pointing up: medium skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing up", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👆🏾",
+    "name": "backhand index pointing up: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing up", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👆🏿",
+    "name": "backhand index pointing up: dark skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing up", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👇🏻",
+    "name": "backhand index pointing down: light skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing down", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👇🏼",
+    "name": "backhand index pointing down: medium-light skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing down", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👇🏽",
+    "name": "backhand index pointing down: medium skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing down", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "👇🏾",
+    "name": "backhand index pointing down: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["backhand index pointing down", "medium-dark skin tone", "gesture", "skin tone"]
+}
+]

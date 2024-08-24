@@ -1,100 +1,940 @@
- open mailbox with raised flag..open mailbox with lowered flag  # E0.7   [2] (📬..📭)
- postbox                                                        # E0.6   [1] (📮)
- postal horn                                                    # E1.0   [1] (📯)
- newspaper..mobile phone off                                    # E0.6   [5] (📰..📴)
- no mobile phones                                               # E1.0   [1] (📵)
- antenna bars..camera                                           # E0.6   [2] (📶..📷)
- camera with flash                                              # E1.0   [1] (📸)
- video camera..videocassette                                    # E0.6   [4] (📹..📼)
- prayer beads..repeat single button                             # E1.0   [4] (📿..🔂)
- clockwise vertical arrows                                      # E0.6   [1] (🔃)
- counterclockwise arrows button..muted speaker                  # E1.0   [4] (🔄..🔇)
- speaker low volume                                             # E0.7   [1] (🔈)
- speaker medium volume                                          # E1.0   [1] (🔉)
- speaker high volume..bell                                      # E0.6  [11] (🔊..🔔)
- bell with slash                                                # E1.0   [1] (🔕)
- bookmark..water pistol                                         # E0.6  [22] (🔖..🔫)
- microscope..telescope                                          # E1.0   [2] (🔬..🔭)
- crystal ball..downwards button                                 # E0.6  [16] (🔮..🔽)
- kaaba..menorah                                                 # E1.0   [4] (🕋..🕎)
- one o’clock..twelve o’clock                                    # E0.6  [12] (🕐..🕛)
- one-thirty..twelve-thirty                                      # E0.7  [12] (🕜..🕧)
- man dancing                                                    # E3.0   [1] (🕺)
- middle finger..vulcan salute                                   # E1.0   [2] (🖕..🖖)
- black heart                                                    # E3.0   [1] (🖤)
- mount fuji..moai                                               # E0.6   [5] (🗻..🗿)
- person gesturing NO..folded hands                              # E0.6  [11] (🙅..🙏)
- rocket                                                         # E0.6   [1] (🚀)
- helicopter..locomotive                                         # E1.0   [2] (🚁..🚂)
- railway car..bullet train                                      # E0.6   [3] (🚃..🚅)
- train                                                          # E1.0   [1] (🚆)
- metro                                                          # E0.6   [1] (🚇)
- light rail                                                     # E1.0   [1] (🚈)
- station                                                        # E0.6   [1] (🚉)
- tram..tram car                                                 # E1.0   [2] (🚊..🚋)
- bus                                                            # E0.6   [1] (🚌)
- oncoming bus                                                   # E0.7   [1] (🚍)
- trolleybus                                                     # E1.0   [1] (🚎)
- bus stop                                                       # E0.6   [1] (🚏)
- minibus                                                        # E1.0   [1] (🚐)
- ambulance..police car                                          # E0.6   [3] (🚑..🚓)
- oncoming police car                                            # E0.7   [1] (🚔)
- taxi                                                           # E0.6   [1] (🚕)
- oncoming taxi                                                  # E1.0   [1] (🚖)
- automobile                                                     # E0.6   [1] (🚗)
- oncoming automobile                                            # E0.7   [1] (🚘)
- sport utility vehicle..delivery truck                          # E0.6   [2] (🚙..🚚)
- articulated lorry..aerial tramway                              # E1.0   [7] (🚛..🚡)
- ship                                                           # E0.6   [1] (🚢)
- person rowing boat                                             # E1.0   [1] (🚣)
- speedboat..horizontal traffic light                            # E0.6   [2] (🚤..🚥)
- vertical traffic light                                         # E1.0   [1] (🚦)
- construction..no smoking                                       # E0.6   [7] (🚧..🚭)
- litter in bin sign..non-potable water                          # E1.0   [4] (🚮..🚱)
- bicycle                                                        # E0.6   [1] (🚲)
- no bicycles..person mountain biking                            # E1.0   [3] (🚳..🚵)
- person walking                                                 # E0.6   [1] (🚶)
- no pedestrians..children crossing                              # E1.0   [2] (🚷..🚸)
- men’s room..water closet                                       # E0.6   [6] (🚹..🚾)
- shower                                                         # E1.0   [1] (🚿)
- person taking bath                                             # E0.6   [1] (🛀)
- bathtub..left luggage                                          # E1.0   [5] (🛁..🛅)
- person in bed                                                  # E1.0   [1] (🛌)
- place of worship                                               # E1.0   [1] (🛐)
- stop sign..shopping cart                                       # E3.0   [2] (🛑..🛒)
- hindu temple                                                   # E12.0  [1] (🛕)
- hut..elevator                                                  # E13.0  [2] (🛖..🛗)
- wireless                                                       # E15.0  [1] (🛜)
- playground slide..ring buoy                                    # E14.0  [3] (🛝..🛟)
- airplane departure..airplane arrival                           # E1.0   [2] (🛫..🛬)
- kick scooter..canoe                                            # E3.0   [3] (🛴..🛶)
- sled..flying saucer                                            # E5.0   [2] (🛷..🛸)
- skateboard                                                     # E11.0  [1] (🛹)
- auto rickshaw                                                  # E12.0  [1] (🛺)
- pickup truck..roller skate                                     # E13.0  [2] (🛻..🛼)
- orange circle..brown square                                    # E12.0 [12] (🟠..🟫)
- heavy equals sign                                              # E14.0  [1] (🟰)
- pinched fingers                                                # E13.0  [1] (🤌)
- white heart..pinching hand                                     # E12.0  [3] (🤍..🤏)
- call me hand..crossed fingers                                  # E3.0   [6] (🤙..🤞)
- love-you gesture                                               # E5.0   [1] (🤟)
- pregnant woman                                                 # E3.0   [1] (🤰)
- breast-feeding..palms up together                              # E5.0   [2] (🤱..🤲)
- selfie..person fencing                                         # E3.0   [8] (🤳..🤺)
- people wrestling..person playing handball                      # E3.0   [3] (🤼..🤾)
- diving mask                                                    # E12.0  [1] (🤿)
- wilted flower..goal net                                        # E3.0   [6] (🥀..🥅)
- 1st place medal..martial arts uniform                          # E3.0   [5] (🥇..🥋)
- curling stone                                                  # E5.0   [1] (🥌)
- lacrosse..flying disc                                          # E11.0  [3] (🥍..🥏)
- croissant..pancakes                                            # E3.0  [15] (🥐..🥞)
- dumpling..canned food                                          # E5.0  [13] (🥟..🥫)
- sari                                                           # E12.0  [1] (🥻)
- lab coat..flat shoe                                            # E11.0  [4] (🥼..🥿)
- crab..unicorn                                                  # E1.0   [5] (🦀..🦄)
- eagle..squid                                                   # E3.0  [13] (🦅..🦑)
- giraffe..cricket                                               # E5.0   [6] (🦒..🦗)
- kangaroo..swan                                                 # E11.0 [11] (🦘..🦢)
- mammoth..dodo                                                  # E13.0  [2] (🦣..🦤)
- sloth..oyster                                                  # E12.0  [6] (🦥..🦪)
- beaver..seal                                                   # E13.0  [3] (🦫..🦭)
+ [
+    {
+        "emoji": "📬",
+        "name": "open mailbox with raised flag",
+        "category": "objects",
+        "keywords": ["mailbox", "mail", "flag", "raised"]
+    },
+    {
+        "emoji": "📭",
+        "name": "open mailbox with lowered flag",
+        "category": "objects",
+        "keywords": ["mailbox", "mail", "flag", "lowered"]
+    },
+    {
+        "emoji": "📮",
+        "name": "postbox",
+        "category": "objects",
+        "keywords": ["mail", "post", "box"]
+    },
+    {
+        "emoji": "📯",
+        "name": "postal horn",
+        "category": "objects",
+        "keywords": ["horn", "mail", "postal"]
+    },
+    {
+        "emoji": "📰",
+        "name": "newspaper",
+        "category": "objects",
+        "keywords": ["news", "paper", "media"]
+    },
+    {
+        "emoji": "📴",
+        "name": "mobile phone off",
+        "category": "symbols",
+        "keywords": ["mobile", "phone", "off", "silence"]
+    },
+    {
+        "emoji": "📵",
+        "name": "no mobile phones",
+        "category": "symbols",
+        "keywords": ["no", "mobile", "phone", "restriction"]
+    },
+    {
+        "emoji": "📶",
+        "name": "antenna bars",
+        "category": "symbols",
+        "keywords": ["signal", "antenna", "bars", "reception"]
+    },
+    {
+        "emoji": "📷",
+        "name": "camera",
+        "category": "objects",
+        "keywords": ["camera", "photo", "picture"]
+    },
+    {
+        "emoji": "📸",
+        "name": "camera with flash",
+        "category": "objects",
+        "keywords": ["camera", "flash", "photo", "picture"]
+    },
+    {
+        "emoji": "📹",
+        "name": "video camera",
+        "category": "objects",
+        "keywords": ["video", "camera", "record"]
+    },
+    {
+        "emoji": "📼",
+        "name": "videocassette",
+        "category": "objects",
+        "keywords": ["video", "cassette", "tape"]
+    },
+    {
+        "emoji": "📿",
+        "name": "prayer beads",
+        "category": "objects",
+        "keywords": ["prayer", "beads", "religion"]
+    },
+    {
+        "emoji": "🔂",
+        "name": "repeat single button",
+        "category": "symbols",
+        "keywords": ["repeat", "single", "button", "loop"]
+    },
+    {
+        "emoji": "🔃",
+        "name": "clockwise vertical arrows",
+        "category": "symbols",
+        "keywords": ["clockwise", "arrows", "rotate", "vertical"]
+    },
+    {
+        "emoji": "🔄",
+        "name": "counterclockwise arrows button",
+        "category": "symbols",
+        "keywords": ["counterclockwise", "arrows", "button", "rotate"]
+    },
+    {
+        "emoji": "🔇",
+        "name": "muted speaker",
+        "category": "symbols",
+        "keywords": ["muted", "speaker", "sound", "off"]
+    },
+    {
+        "emoji": "🔈",
+        "name": "speaker low volume",
+        "category": "symbols",
+        "keywords": ["speaker", "low", "volume", "sound"]
+    },
+    {
+        "emoji": "🔉",
+        "name": "speaker medium volume",
+        "category": "symbols",
+        "keywords": ["speaker", "medium", "volume", "sound"]
+    },
+    {
+        "emoji": "🔊",
+        "name": "speaker high volume",
+        "category": "symbols",
+        "keywords": ["speaker", "high", "volume", "sound"]
+    },
+    {
+        "emoji": "🔔",
+        "name": "bell",
+        "category": "symbols",
+        "keywords": ["bell", "sound", "ring"]
+    },
+    {
+        "emoji": "🔕",
+        "name": "bell with slash",
+        "category": "symbols",
+        "keywords": ["bell", "slash", "mute", "silent"]
+    },
+    {
+        "emoji": "🔖",
+        "name": "bookmark",
+        "category": "objects",
+        "keywords": ["bookmark", "marker", "save"]
+    },
+    {
+        "emoji": "🔫",
+        "name": "water pistol",
+        "category": "objects",
+        "keywords": ["water", "pistol", "gun", "toy"]
+    },
+    {
+        "emoji": "🔬",
+        "name": "microscope",
+        "category": "objects",
+        "keywords": ["microscope", "science", "lab", "instrument"]
+    },
+    {
+        "emoji": "🔭",
+        "name": "telescope",
+        "category": "objects",
+        "keywords": ["telescope", "astronomy", "stars", "instrument"]
+    },
+    {
+        "emoji": "🔮",
+        "name": "crystal ball",
+        "category": "objects",
+        "keywords": ["crystal", "ball", "magic", "fortune"]
+    },
+    {
+        "emoji": "🔽",
+        "name": "downwards button",
+        "category": "symbols",
+        "keywords": ["downwards", "button", "arrow", "direction"]
+    },
+    {
+        "emoji": "🕋",
+        "name": "kaaba",
+        "category": "places",
+        "keywords": ["kaaba", "mecca", "religion", "islam"]
+    },
+    {
+        "emoji": "🕎",
+        "name": "menorah",
+        "category": "symbols",
+        "keywords": ["menorah", "candle", "religion", "hanukkah"]
+    },
+    {
+        "emoji": "🕐",
+        "name": "one o’clock",
+        "category": "symbols",
+        "keywords": ["one", "o’clock", "time", "clock"]
+    },
+    {
+        "emoji": "🕛",
+        "name": "twelve o’clock",
+        "category": "symbols",
+        "keywords": ["twelve", "o’clock", "time", "clock"]
+    },
+    {
+        "emoji": "🕜",
+        "name": "one-thirty",
+        "category": "symbols",
+        "keywords": ["one-thirty", "time", "clock", "half"]
+    },
+    {
+        "emoji": "🕧",
+        "name": "twelve-thirty",
+        "category": "symbols",
+        "keywords": ["twelve-thirty", "time", "clock", "half"]
+    },
+    {
+        "emoji": "🕺",
+        "name": "man dancing",
+        "category": "people",
+        "keywords": ["man", "dancing", "dance", "party"]
+    },
+    {
+        "emoji": "🖕",
+        "name": "middle finger",
+        "category": "people",
+        "keywords": ["middle", "finger", "rude", "gesture"]
+    },
+    {
+        "emoji": "🖖",
+        "name": "vulcan salute",
+        "category": "people",
+        "keywords": ["vulcan", "salute", "gesture", "hand"]
+    },
+    {
+        "emoji": "🖤",
+        "name": "black heart",
+        "category": "symbols",
+        "keywords": ["black", "heart", "love", "dark"]
+    },
+    {
+        "emoji": "🗻",
+        "name": "mount fuji",
+        "category": "places",
+        "keywords": ["mount", "fuji", "mountain", "japan"]
+    },
+    {
+        "emoji": "🗿",
+        "name": "moai",
+        "category": "objects",
+        "keywords": ["moai", "statue", "easter", "island"]
+    },
+    {
+        "emoji": "🙅",
+        "name": "person gesturing NO",
+        "category": "people",
+        "keywords": ["person", "gesturing", "NO", "stop"]
+    },
+    {
+        "emoji": "🙏",
+        "name": "folded hands",
+        "category": "people",
+        "keywords": ["folded", "hands", "prayer", "please"]
+    },
+    {
+        "emoji": "🚀",
+        "name": "rocket",
+        "category": "objects",
+        "keywords": ["rocket", "ship", "space", "launch"]
+    },
+    {
+        "emoji": "🚁",
+        "name": "helicopter",
+        "category": "objects",
+        "keywords": ["helicopter", "aircraft", "flight", "chopper"]
+    },
+    {
+        "emoji": "🚂",
+        "name": "locomotive",
+        "category": "objects",
+        "keywords": ["locomotive", "train", "engine", "rail"]
+    },
+    {
+        "emoji": "🚃",
+        "name": "railway car",
+        "category": "objects",
+        "keywords": ["railway", "car", "train", "vehicle"]
+    },
+    {
+        "emoji": "🚅",
+        "name": "bullet train",
+        "category": "objects",
+        "keywords": ["bullet", "train", "high-speed", "rail"]
+    },
+    {
+        "emoji": "🚆",
+        "name": "train",
+        "category": "objects",
+        "keywords": ["train", "rail", "transport", "vehicle"]
+    },
+    {
+        "emoji": "🚇",
+        "name": "metro",
+        "category": "objects",
+        "keywords": ["metro", "subway", "train", "underground"]
+    },
+    {
+        "emoji": "🚈",
+        "name": "light rail",
+        "category": "objects",
+        "keywords": ["light", "rail", "train", "transport"]
+    },
+    {
+        "emoji": "🚉",
+        "name": "station",
+        "category": "objects",
+        "keywords": ["station", "train", "railway", "platform"]
+    },
+    {
+        "emoji": "🚊",
+        "name": "tram",
+        "category": "objects",
+        "keywords": ["tram", "streetcar", "rail", "public transport"]
+    },
+    {
+        "emoji": "🚋",
+        "name": "tram car",
+        "category": "objects",
+        "keywords": ["tram", "car", "streetcar", "public transport"]
+    },
+    {
+        "emoji": "🚌",
+        "name": "bus",
+        "category": "objects",
+        "keywords": ["bus", "vehicle", "transport", "public"]
+    },
+    {
+        "emoji": "🚍",
+        "name": "oncoming bus",
+        "category": "objects",
+        "keywords": ["bus", "oncoming", "vehicle", "transport"]
+    },
+    {
+        "emoji": "🚎",
+        "name": "trolleybus",
+        "category": "objects",
+        "keywords": ["trolleybus", "electric", "bus", "public transport"]
+    },
+    {
+        "emoji": "🚏",
+        "name": "bus stop",
+        "category": "objects",
+        "keywords": ["bus", "stop", "station", "transport"]
+    },
+    {
+        "emoji": "🚐",
+        "name": "minibus",
+        "category": "objects",
+        "keywords": ["minibus", "bus", "van", "vehicle"]
+    },
+    {
+        "emoji": "🚑",
+        "name": "ambulance",
+        "category": "objects",
+        "keywords": ["ambulance", "emergency", "vehicle", "medical"]
+    },
+    {
+        "emoji": "🚒",
+        "name": "fire engine",
+        "category": "objects",
+        "keywords": ["fire", "engine", "truck", "emergency"]
+    },
+    {
+        "emoji": "🚓",
+        "name": "police car",
+        "category": "objects",
+        "keywords": ["police", "car", "vehicle", "emergency"]
+    },
+    {
+        "emoji": "🚔",
+        "name": "oncoming police car",
+        "category": "objects",
+        "keywords": ["police", "car", "oncoming", "vehicle"]
+    },
+    {
+        "emoji": "🚕",
+        "name": "taxi",
+        "category": "objects",
+        "keywords": ["taxi", "cab", "vehicle", "transport"]
+    },
+    {
+        "emoji": "🚖",
+        "name": "oncoming taxi",
+        "category": "objects",
+        "keywords": ["taxi", "oncoming", "vehicle", "transport"]
+    },
+    {
+        "emoji": "🚗",
+        "name": "automobile",
+        "category": "objects",
+        "keywords": ["automobile", "car", "vehicle", "transport"]
+    },
+    {
+        "emoji": "🚘",
+        "name": "oncoming automobile",
+        "category": "objects",
+        "keywords": ["automobile", "oncoming", "car", "vehicle"]
+    },
+    {
+        "emoji": "🚙",
+        "name": "sport utility vehicle",
+        "category": "objects",
+        "keywords": ["SUV", "vehicle", "car", "transport"]
+    },
+    {
+        "emoji": "🚚",
+        "name": "delivery truck",
+        "category": "objects",
+        "keywords": ["truck", "delivery", "vehicle", "transport"]
+    },
+    {
+        "emoji": "🚛",
+        "name": "articulated lorry",
+        "category": "objects",
+        "keywords": ["lorry", "articulated", "truck", "vehicle"]
+    },
+    {
+        "emoji": "🚡",
+        "name": "aerial tramway",
+        "category": "objects",
+        "keywords": ["tramway", "aerial", "transport", "cable"]
+    },
+    {
+        "emoji": "🚢",
+        "name": "ship",
+        "category": "objects",
+        "keywords": ["ship", "boat", "vessel", "water"]
+    },
+    {
+        "emoji": "🚣",
+        "name": "person rowing boat",
+        "category": "people",
+        "keywords": ["rowing", "boat", "person", "water"]
+    },
+    {
+        "emoji": "🚤",
+        "name": "speedboat",
+        "category": "objects",
+        "keywords": ["speedboat", "boat", "water", "vessel"]
+    },
+    {
+        "emoji": "🚥",
+        "name": "horizontal traffic light",
+        "category": "objects",
+        "keywords": ["traffic", "light", "horizontal", "signal"]
+    },
+    {
+        "emoji": "🚦",
+        "name": "vertical traffic light",
+        "category": "objects",
+        "keywords": ["traffic", "light", "vertical", "signal"]
+    },
+    {
+        "emoji": "🚧",
+        "name": "construction",
+        "category": "objects",
+        "keywords": ["construction", "barrier", "road", "work"]
+    },
+    {
+        "emoji": "🚭",
+        "name": "no smoking",
+        "category": "symbols",
+        "keywords": ["no", "smoking", "cigarette", "prohibited"]
+    },
+    {
+        "emoji": "🚮",
+        "name": "litter in bin sign",
+        "category": "symbols",
+        "keywords": ["litter", "bin", "sign", "trash"]
+    },
+    {
+        "emoji": "🚱",
+        "name": "non-potable water",
+        "category": "symbols",
+        "keywords": ["non-potable", "water", "sign", "not drinkable"]
+    },
+    {
+        "emoji": "🚲",
+        "name": "bicycle",
+        "category": "objects",
+        "keywords": ["bicycle", "bike", "cycle", "transport"]
+    },
+    {
+        "emoji": "🚳",
+        "name": "no bicycles",
+        "category": "symbols",
+        "keywords": ["no", "bicycles", "bike", "prohibited"]
+    },
+    {
+        "emoji": "🚵",
+        "name": "person mountain biking",
+        "category": "people",
+        "keywords": ["mountain", "biking", "person", "sport"]
+    },
+    {
+        "emoji": "🚶",
+        "name": "person walking",
+        "category": "people",
+        "keywords": ["walking", "person", "walk", "pedestrian"]
+    },
+    {
+        "emoji": "🚷",
+        "name": "no pedestrians",
+        "category": "symbols",
+        "keywords": ["no", "pedestrians", "walk", "prohibited"]
+    },
+    {
+        "emoji": "🚸",
+        "name": "children crossing",
+        "category": "symbols",
+        "keywords": ["children", "crossing", "sign", "school"]
+    },
+    {
+        "emoji": "🚹",
+        "name": "men’s room",
+        "category": "symbols",
+        "keywords": ["men", "room", "restroom", "bathroom"]
+    },
+    {
+        "emoji": "🚾",
+        "name": "water closet",
+        "category": "symbols",
+        "keywords": ["water", "closet", "WC", "restroom"]
+    },
+    {
+        "emoji": "🚿",
+        "name": "shower",
+        "category": "objects",
+        "keywords": ["shower", "bathroom", "water", "hygiene"]
+    },
+    {
+        "emoji": "🛀",
+        "name": "person taking bath",
+        "category": "people",
+        "keywords": ["bath", "person", "hygiene", "relax"]
+    },
+    {
+        "emoji": "🛁",
+        "name": "bathtub",
+        "category": "objects",
+        "keywords": ["bathtub", "bath", "water", "hygiene"]
+    },
+    {
+        "emoji": "🛅",
+        "name": "left luggage",
+        "category": "objects",
+        "keywords": ["luggage", "left", "bag", "storage"]
+    },
+    {
+        "emoji": "🛌",
+        "name": "person in bed",
+        "category": "people",
+        "keywords": ["bed", "person", "sleep", "rest"]
+    },
+    {
+        "emoji": "🛐",
+        "name": "place of worship",
+        "category": "symbols",
+        "keywords": ["worship", "place", "religion", "faith"]
+    },
+    {
+        "emoji": "🛑",
+        "name": "stop sign",
+        "category": "symbols",
+        "keywords": ["stop", "sign", "traffic", "warning"]
+    },
+    {
+        "emoji": "🛒",
+        "name": "shopping cart",
+        "category": "objects",
+        "keywords": ["shopping", "cart", "grocery", "store"]
+    },
+    {
+        "emoji": "🛕",
+        "name": "hindu temple",
+        "category": "places",
+        "keywords": ["hindu", "temple", "religion", "place"]
+    },
+    {
+        "emoji": "🛖",
+        "name": "hut",
+        "category": "places",
+        "keywords": ["hut", "house", "shelter", "dwelling"]
+    },
+    {
+        "emoji": "🛗",
+        "name": "elevator",
+        "category": "objects",
+        "keywords": ["elevator", "lift", "building", "transport"]
+    },
+    {
+        "emoji": "🛜",
+        "name": "wireless",
+        "category": "symbols",
+        "keywords": ["wireless", "signal", "internet", "connection"]
+    },
+    {
+        "emoji": "🛝",
+        "name": "playground slide",
+        "category": "objects",
+        "keywords": ["playground", "slide", "children", "play"]
+    },
+    {
+        "emoji": "🛟",
+        "name": "ring buoy",
+        "category": "objects",
+        "keywords": ["ring", "buoy", "lifesaver", "safety"]
+    },
+    {
+        "emoji": "🛫",
+        "name": "airplane departure",
+        "category": "objects",
+        "keywords": ["airplane", "departure", "flight", "travel"]
+    },
+    {
+        "emoji": "🛬",
+        "name": "airplane arrival",
+        "category": "objects",
+        "keywords": ["airplane", "arrival", "flight", "travel"]
+    },
+    {
+        "emoji": "🛴",
+        "name": "kick scooter",
+        "category": "objects",
+        "keywords": ["scooter", "kick", "transport", "ride"]
+    },
+    {
+        "emoji": "🛶",
+        "name": "canoe",
+        "category": "objects",
+        "keywords": ["canoe", "boat", "water", "paddle"]
+    },
+    {
+        "emoji": "🛷",
+        "name": "sled",
+        "category": "objects",
+        "keywords": ["sled", "snow", "winter", "ride"]
+    },
+    {
+        "emoji": "🛸",
+        "name": "flying saucer",
+        "category": "objects",
+        "keywords": ["saucer", "flying", "UFO", "alien"]
+    },
+    {
+        "emoji": "🛹",
+        "name": "skateboard",
+        "category": "objects",
+        "keywords": ["skateboard", "skate", "board", "sport"]
+    },
+    {
+        "emoji": "🛺",
+        "name": "auto rickshaw",
+        "category": "objects",
+        "keywords": ["rickshaw", "auto", "transport", "vehicle"]
+    },
+    {
+        "emoji": "🛻",
+        "name": "pickup truck",
+        "category": "objects",
+        "keywords": ["pickup", "truck", "vehicle", "transport"]
+    },
+    {
+        "emoji": "🛼",
+        "name": "roller skate",
+        "category": "objects",
+        "keywords": ["roller", "skate", "sport", "wheel"]
+    },
+    {
+        "emoji": "🟠",
+        "name": "orange circle",
+        "category": "symbols",
+        "keywords": ["orange", "circle", "color", "shape"]
+    },
+    {
+        "emoji": "🟫",
+        "name": "brown square",
+        "category": "symbols",
+        "keywords": ["brown", "square", "color", "shape"]
+    },
+    {
+        "emoji": "🟰",
+        "name": "heavy equals sign",
+        "category": "symbols",
+        "keywords": ["equals", "sign", "math", "heavy"]
+    },
+    {
+        "emoji": "🤌",
+        "name": "pinched fingers",
+        "category": "people",
+        "keywords": ["pinched", "fingers", "gesture", "hand"]
+    },
+    {
+        "emoji": "🤍",
+        "name": "white heart",
+        "category": "symbols",
+        "keywords": ["white", "heart", "love", "emotion"]
+    },
+    {
+        "emoji": "🤏",
+        "name": "pinching hand",
+        "category": "people",
+        "keywords": ["pinching", "hand", "gesture", "small"]
+    },
+    {
+        "emoji": "🤙",
+        "name": "call me hand",
+        "category": "people",
+        "keywords": ["call", "hand", "gesture", "phone"]
+    },
+    {
+        "emoji": "🤞",
+        "name": "crossed fingers",
+        "category": "people",
+        "keywords": ["crossed", "fingers", "gesture", "hope"]
+    },
+    {
+        "emoji": "🤟",
+        "name": "love-you gesture",
+        "category": "people",
+        "keywords": ["love", "gesture", "hand", "sign"]
+    },
+    {
+        "emoji": "🤰",
+        "name": "pregnant woman",
+        "category": "people",
+        "keywords": ["pregnant", "woman", "baby", "mother"]
+    },
+    {
+        "emoji": "🤱",
+        "name": "breast-feeding",
+        "category": "people",
+        "keywords": ["breast-feeding", "baby", "mother", "nursing"]
+    },
+    {
+        "emoji": "🤲",
+        "name": "palms up together",
+        "category": "people",
+        "keywords": ["palms", "up", "together", "gesture"]
+    },
+    {
+        "emoji": "🤳",
+        "name": "selfie",
+        "category": "people",
+        "keywords": ["selfie", "phone", "camera", "photo"]
+    },
+    {
+        "emoji": "🤺",
+        "name": "person fencing",
+        "category": "people",
+        "keywords": ["fencing", "person", "sport", "sword"]
+    },
+    {
+        "emoji": "🤼",
+        "name": "people wrestling",
+        "category": "people",
+        "keywords": ["wrestling", "people", "sport", "grapple"]
+    },
+    {
+        "emoji": "🤾",
+        "name": "person playing handball",
+        "category": "people",
+        "keywords": ["handball", "person", "sport", "ball"]
+    },
+    {
+        "emoji": "🤿",
+        "name": "diving mask",
+        "category": "objects",
+        "keywords": ["diving", "mask", "water", "snorkel"]
+    },
+    {
+        "emoji": "🥀",
+        "name": "wilted flower",
+        "category": "nature",
+        "keywords": ["wilted", "flower", "plant", "sad"]
+    },
+    {
+        "emoji": "🥅",
+        "name": "goal net",
+        "category": "objects",
+        "keywords": ["goal", "net", "sport", "score"]
+    },
+    {
+        "emoji": "🥇",
+        "name": "1st place medal",
+        "category": "objects",
+        "keywords": ["medal", "1st", "place", "award"]
+    },
+    {
+        "emoji": "🥋",
+        "name": "martial arts uniform",
+        "category": "objects",
+        "keywords": ["martial", "arts", "uniform", "sport"]
+    },
+    {
+        "emoji": "🥌",
+        "name": "curling stone",
+        "category": "objects",
+        "keywords": ["curling", "stone", "sport", "winter"]
+    },
+    {
+        "emoji": "🥍",
+        "name": "lacrosse",
+        "category": "objects",
+        "keywords": ["lacrosse", "sport", "stick", "ball"]
+    },
+    {
+        "emoji": "🥏",
+        "name": "flying disc",
+        "category": "objects",
+        "keywords": ["disc", "flying", "sport", "frisbee"]
+    },
+    {
+        "emoji": "🥐",
+        "name": "croissant",
+        "category": "food",
+        "keywords": ["croissant", "bread", "pastry", "food"]
+    },
+    {
+        "emoji": "🥞",
+        "name": "pancakes",
+        "category": "food",
+        "keywords": ["pancakes", "breakfast", "food", "syrup"]
+    },
+    {
+        "emoji": "🥟",
+        "name": "dumpling",
+        "category": "food",
+        "keywords": ["dumpling", "food", "asian", "dim sum"]
+    },
+    {
+        "emoji": "🥫",
+        "name": "canned food",
+        "category": "food",
+        "keywords": ["canned", "food", "tin", "preserve"]
+    },
+    {
+        "emoji": "🥻",
+        "name": "sari",
+        "category": "objects",
+        "keywords": ["sari", "clothing", "india", "dress"]
+    },
+    {
+        "emoji": "🥼",
+        "name": "lab coat",
+        "category": "objects",
+        "keywords": ["lab", "coat", "science", "clothing"]
+    },
+    {
+        "emoji": "🥿",
+        "name": "flat shoe",
+        "category": "objects",
+        "keywords": ["flat", "shoe", "footwear", "fashion"]
+    },
+    {
+        "emoji": "🦀",
+        "name": "crab",
+        "category": "nature",
+        "keywords": ["crab", "animal", "sea", "ocean"]
+    },
+    {
+        "emoji": "🦄",
+        "name": "unicorn",
+        "category": "nature",
+        "keywords": ["unicorn", "mythical", "animal", "horse"]
+    },
+    {
+        "emoji": "🦅",
+        "name": "eagle",
+        "category": "nature",
+        "keywords": ["eagle", "bird", "animal", "fly"]
+    },
+    {
+        "emoji": "🦑",
+        "name": "squid",
+        "category": "nature",
+        "keywords": ["squid", "animal", "sea", "ocean"]
+    },
+    {
+        "emoji": "🦒",
+        "name": "giraffe",
+        "category": "nature",
+        "keywords": ["giraffe", "animal", "tall", "spots"]
+    },
+    {
+        "emoji": "🦗",
+        "name": "cricket",
+        "category": "nature",
+        "keywords": ["cricket", "insect", "animal", "chirp"]
+    },
+    {
+        "emoji": "🦘",
+        "name": "kangaroo",
+        "category": "nature",
+        "keywords": ["kangaroo", "animal", "australia", "marsupial"]
+    },
+    {
+        "emoji": "🦢",
+        "name": "swan",
+        "category": "nature",
+        "keywords": ["swan", "bird", "animal", "elegant"]
+    },
+    {
+        "emoji": "🦣",
+        "name": "mammoth",
+        "category": "nature",
+        "keywords": ["mammoth", "animal", "extinct", "tusks"]
+    },
+    {
+        "emoji": "🦤",
+        "name": "dodo",
+        "category": "nature",
+        "keywords": ["dodo", "bird", "animal", "extinct"]
+    },
+    {
+        "emoji": "🦥",
+        "name": "sloth",
+        "category": "nature",
+        "keywords": ["sloth", "animal", "slow", "lazy"]
+    },
+    {
+        "emoji": "🦪",
+        "name": "oyster",
+        "category": "nature",
+        "keywords": ["oyster", "seafood", "shell", "pearl"]
+    },
+    {
+        "emoji": "🦫",
+        "name": "beaver",
+        "category": "nature",
+        "keywords": ["beaver", "animal", "dam", "nature"]
+    },
+    {
+        "emoji": "🦭",
+        "name": "seal",
+        "category": "nature",
+        "keywords": ["seal", "animal", "sea", "ocean"]
+    }
+]
+
+

@@ -1,66 +1,583 @@
- merperson: dark skin tone                                      # E5.0   [1] (🧜🏿)
- elf: light skin tone                                           # E5.0   [1] (🧝🏻)
- elf: medium-light skin tone                                    # E5.0   [1] (🧝🏼)
- elf: medium skin tone                                          # E5.0   [1] (🧝🏽)
- elf: medium-dark skin tone                                     # E5.0   [1] (🧝🏾)
- elf: dark skin tone                                            # E5.0   [1] (🧝🏿)
- pregnant man: light skin tone                                  # E14.0  [1] (🫃🏻)
- pregnant man: medium-light skin tone                           # E14.0  [1] (🫃🏼)
- pregnant man: medium skin tone                                 # E14.0  [1] (🫃🏽)
- pregnant man: medium-dark skin tone                            # E14.0  [1] (🫃🏾)
- pregnant man: dark skin tone                                   # E14.0  [1] (🫃🏿)
- pregnant person: light skin tone                               # E14.0  [1] (🫄🏻)
- pregnant person: medium-light skin tone                        # E14.0  [1] (🫄🏼)
- pregnant person: medium skin tone                              # E14.0  [1] (🫄🏽)
- pregnant person: medium-dark skin tone                         # E14.0  [1] (🫄🏾)
- pregnant person: dark skin tone                                # E14.0  [1] (🫄🏿)
- person with crown: light skin tone                             # E14.0  [1] (🫅🏻)
- person with crown: medium-light skin tone                      # E14.0  [1] (🫅🏼)
- person with crown: medium skin tone                            # E14.0  [1] (🫅🏽)
- person with crown: medium-dark skin tone                       # E14.0  [1] (🫅🏾)
- person with crown: dark skin tone                              # E14.0  [1] (🫅🏿)
- hand with index finger and thumb crossed: light skin tone      # E14.0  [1] (🫰🏻)
- hand with index finger and thumb crossed: medium-light skin tone #E14.0 [1] (🫰🏼)
- hand with index finger and thumb crossed: medium skin tone     # E14.0  [1] (🫰🏽)
- hand with index finger and thumb crossed: medium-dark skin tone #E14.0  [1] (🫰🏾)
- hand with index finger and thumb crossed: dark skin tone       # E14.0  [1] (🫰🏿)
- rightwards hand: light skin tone                               # E14.0  [1] (🫱🏻)
- rightwards hand: medium-light skin tone                        # E14.0  [1] (🫱🏼)
- rightwards hand: medium skin tone                              # E14.0  [1] (🫱🏽)
- rightwards hand: medium-dark skin tone                         # E14.0  [1] (🫱🏾)
- rightwards hand: dark skin tone                                # E14.0  [1] (🫱🏿)
- leftwards hand: light skin tone                                # E14.0  [1] (🫲🏻)
- leftwards hand: medium-light skin tone                         # E14.0  [1] (🫲🏼)
- leftwards hand: medium skin tone                               # E14.0  [1] (🫲🏽)
- leftwards hand: medium-dark skin tone                          # E14.0  [1] (🫲🏾)
- leftwards hand: dark skin tone                                 # E14.0  [1] (🫲🏿)
- palm down hand: light skin tone                                # E14.0  [1] (🫳🏻)
- palm down hand: medium-light skin tone                         # E14.0  [1] (🫳🏼)
- palm down hand: medium skin tone                               # E14.0  [1] (🫳🏽)
- palm down hand: medium-dark skin tone                          # E14.0  [1] (🫳🏾)
- palm down hand: dark skin tone                                 # E14.0  [1] (🫳🏿)
- palm up hand: light skin tone                                  # E14.0  [1] (🫴🏻)
- palm up hand: medium-light skin tone                           # E14.0  [1] (🫴🏼)
- palm up hand: medium skin tone                                 # E14.0  [1] (🫴🏽)
- palm up hand: medium-dark skin tone                            # E14.0  [1] (🫴🏾)
- palm up hand: dark skin tone                                   # E14.0  [1] (🫴🏿)
- index pointing at the viewer: light skin tone                  # E14.0  [1] (🫵🏻)
- index pointing at the viewer: medium-light skin tone           # E14.0  [1] (🫵🏼)
- index pointing at the viewer: medium skin tone                 # E14.0  [1] (🫵🏽)
- index pointing at the viewer: medium-dark skin tone            # E14.0  [1] (🫵🏾)
- index pointing at the viewer: dark skin tone                   # E14.0  [1] (🫵🏿)
- heart hands: light skin tone                                   # E14.0  [1] (🫶🏻)
- heart hands: medium-light skin tone                            # E14.0  [1] (🫶🏼)
- heart hands: medium skin tone                                  # E14.0  [1] (🫶🏽)
- heart hands: medium-dark skin tone                             # E14.0  [1] (🫶🏾)
- heart hands: dark skin tone                                    # E14.0  [1] (🫶🏿)
- leftwards pushing hand: light skin tone                        # E15.0  [1] (🫷🏻)
- leftwards pushing hand: medium-light skin tone                 # E15.0  [1] (🫷🏼)
- leftwards pushing hand: medium skin tone                       # E15.0  [1] (🫷🏽)
- leftwards pushing hand: medium-dark skin tone                  # E15.0  [1] (🫷🏾)
- leftwards pushing hand: dark skin tone                         # E15.0  [1] (🫷🏿)
- rightwards pushing hand: light skin tone                       # E15.0  [1] (🫸🏻)
- rightwards pushing hand: medium-light skin tone                # E15.0  [1] (🫸🏼)
- rightwards pushing hand: medium skin tone                      # E15.0  [1] (🫸🏽)
- rightwards pushing hand: medium-dark skin tone                 # E15.0  [1] (🫸🏾)
- rightwards pushing hand: dark skin tone                        # E15.0  [1] (🫸🏿)
+[
+  {
+    "emoji": "🧜🏿",
+    "name": "merperson: dark skin tone",
+    "category": "people",
+    "keywords": ["merperson", "dark skin tone", "mythical", "skin tone"]
+  },
+  {
+    "emoji": "🧝🏻",
+    "name": "elf: light skin tone",
+    "category": "people",
+    "keywords": ["elf", "light skin tone", "fantasy", "skin tone"]
+  },
+  {
+    "emoji": "🧝🏼",
+    "name": "elf: medium-light skin tone",
+    "category": "people",
+    "keywords": ["elf", "medium-light skin tone", "fantasy", "skin tone"]
+  },
+  {
+    "emoji": "🧝🏽",
+    "name": "elf: medium skin tone",
+    "category": "people",
+    "keywords": ["elf", "medium skin tone", "fantasy", "skin tone"]
+  },
+  {
+    "emoji": "🧝🏾",
+    "name": "elf: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["elf", "medium-dark skin tone", "fantasy", "skin tone"]
+  },
+  {
+    "emoji": "🧝🏿",
+    "name": "elf: dark skin tone",
+    "category": "people",
+    "keywords": ["elf", "dark skin tone", "fantasy", "skin tone"]
+  },
+  {
+    "emoji": "🫃🏻",
+    "name": "pregnant man: light skin tone",
+    "category": "people",
+    "keywords": ["pregnant man", "light skin tone", "pregnancy", "skin tone"]
+  },
+  {
+    "emoji": "🫃🏼",
+    "name": "pregnant man: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "pregnant man",
+      "medium-light skin tone",
+      "pregnancy",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫃🏽",
+    "name": "pregnant man: medium skin tone",
+    "category": "people",
+    "keywords": ["pregnant man", "medium skin tone", "pregnancy", "skin tone"]
+  },
+  {
+    "emoji": "🫃🏾",
+    "name": "pregnant man: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "pregnant man",
+      "medium-dark skin tone",
+      "pregnancy",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫃🏿",
+    "name": "pregnant man: dark skin tone",
+    "category": "people",
+    "keywords": ["pregnant man", "dark skin tone", "pregnancy", "skin tone"]
+  },
+  {
+    "emoji": "🫄🏻",
+    "name": "pregnant person: light skin tone",
+    "category": "people",
+    "keywords": ["pregnant person", "light skin tone", "pregnancy", "skin tone"]
+  },
+  {
+    "emoji": "🫄🏼",
+    "name": "pregnant person: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "pregnant person",
+      "medium-light skin tone",
+      "pregnancy",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫄🏽",
+    "name": "pregnant person: medium skin tone",
+    "category": "people",
+    "keywords": [
+      "pregnant person",
+      "medium skin tone",
+      "pregnancy",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫄🏾",
+    "name": "pregnant person: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "pregnant person",
+      "medium-dark skin tone",
+      "pregnancy",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫄🏿",
+    "name": "pregnant person: dark skin tone",
+    "category": "people",
+    "keywords": ["pregnant person", "dark skin tone", "pregnancy", "skin tone"]
+  },
+  {
+    "emoji": "🫅🏻",
+    "name": "person with crown: light skin tone",
+    "category": "people",
+    "keywords": ["person with crown", "light skin tone", "royalty", "skin tone"]
+  },
+  {
+    "emoji": "🫅🏼",
+    "name": "person with crown: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "person with crown",
+      "medium-light skin tone",
+      "royalty",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫅🏽",
+    "name": "person with crown: medium skin tone",
+    "category": "people",
+    "keywords": [
+      "person with crown",
+      "medium skin tone",
+      "royalty",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫅🏾",
+    "name": "person with crown: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "person with crown",
+      "medium-dark skin tone",
+      "royalty",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫅🏿",
+    "name": "person with crown: dark skin tone",
+    "category": "people",
+    "keywords": ["person with crown", "dark skin tone", "royalty", "skin tone"]
+  },
+  {
+    "emoji": "🫰🏻",
+    "name": "hand with index finger and thumb crossed: light skin tone",
+    "category": "people",
+    "keywords": [
+      "hand with index finger and thumb crossed",
+      "light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫰🏼",
+    "name": "hand with index finger and thumb crossed: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "hand with index finger and thumb crossed",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫰🏽",
+    "name": "hand with index finger and thumb crossed: medium skin tone",
+    "category": "people",
+    "keywords": [
+      "hand with index finger and thumb crossed",
+      "medium skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫰🏾",
+    "name": "hand with index finger and thumb crossed: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "hand with index finger and thumb crossed",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫰🏿",
+    "name": "hand with index finger and thumb crossed: dark skin tone",
+    "category": "people",
+    "keywords": [
+      "hand with index finger and thumb crossed",
+      "dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫱🏻",
+    "name": "rightwards hand: light skin tone",
+    "category": "people",
+    "keywords": ["rightwards hand", "light skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫱🏼",
+    "name": "rightwards hand: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards hand",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫱🏽",
+    "name": "rightwards hand: medium skin tone",
+    "category": "people",
+    "keywords": ["rightwards hand", "medium skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫱🏾",
+    "name": "rightwards hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards hand",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫱🏿",
+    "name": "rightwards hand: dark skin tone",
+    "category": "people",
+    "keywords": ["rightwards hand", "dark skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫲🏻",
+    "name": "leftwards hand: light skin tone",
+    "category": "people",
+    "keywords": ["leftwards hand", "light skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫲🏼",
+    "name": "leftwards hand: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards hand",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫲🏽",
+    "name": "leftwards hand: medium skin tone",
+    "category": "people",
+    "keywords": ["leftwards hand", "medium skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫲🏾",
+    "name": "leftwards hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards hand",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫲🏿",
+    "name": "leftwards hand: dark skin tone",
+    "category": "people",
+    "keywords": ["leftwards hand", "dark skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫳🏻",
+    "name": "palm down hand: light skin tone",
+    "category": "people",
+    "keywords": ["palm down hand", "light skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫳🏼",
+    "name": "palm down hand: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "palm down hand",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫳🏽",
+    "name": "palm down hand: medium skin tone",
+    "category": "people",
+    "keywords": ["palm down hand", "medium skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫳🏾",
+    "name": "palm down hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "palm down hand",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫳🏿",
+    "name": "palm down hand: dark skin tone",
+    "category": "people",
+    "keywords": ["palm down hand", "dark skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫴🏻",
+    "name": "palm up hand: light skin tone",
+    "category": "people",
+    "keywords": ["palm up hand", "light skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫴🏼",
+    "name": "palm up hand: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "palm up hand",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫴🏽",
+    "name": "palm up hand: medium skin tone",
+    "category": "people",
+    "keywords": ["palm up hand", "medium skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫴🏾",
+    "name": "palm up hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "palm up hand",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫴🏿",
+    "name": "palm up hand: dark skin tone",
+    "category": "people",
+    "keywords": ["palm up hand", "dark skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫵🏻",
+    "name": "index pointing at the viewer: light skin tone",
+    "category": "people",
+    "keywords": [
+      "index pointing at the viewer",
+      "light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫵🏼",
+    "name": "index pointing at the viewer: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "index pointing at the viewer",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫵🏽",
+    "name": "index pointing at the viewer: medium skin tone",
+    "category": "people",
+    "keywords": [
+      "index pointing at the viewer",
+      "medium skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫵🏾",
+    "name": "index pointing at the viewer: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "index pointing at the viewer",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫵🏿",
+    "name": "index pointing at the viewer: dark skin tone",
+    "category": "people",
+    "keywords": [
+      "index pointing at the viewer",
+      "dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫶🏻",
+    "name": "heart hands: light skin tone",
+    "category": "people",
+    "keywords": ["heart hands", "light skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫶🏼",
+    "name": "heart hands: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "heart hands",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫶🏽",
+    "name": "heart hands: medium skin tone",
+    "category": "people",
+    "keywords": ["heart hands", "medium skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫶🏾",
+    "name": "heart hands: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["heart hands", "medium-dark skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫶🏿",
+    "name": "heart hands: dark skin tone",
+    "category": "people",
+    "keywords": ["heart hands", "dark skin tone", "gesture", "skin tone"]
+  },
+  {
+    "emoji": "🫷🏻",
+    "name": "leftwards pushing hand: light skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards pushing hand",
+      "light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫷🏼",
+    "name": "leftwards pushing hand: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards pushing hand",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫷🏽",
+    "name": "leftwards pushing hand: medium skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards pushing hand",
+      "medium skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫷🏾",
+    "name": "leftwards pushing hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards pushing hand",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫷🏿",
+    "name": "leftwards pushing hand: dark skin tone",
+    "category": "people",
+    "keywords": [
+      "leftwards pushing hand",
+      "dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫸🏻",
+    "name": "rightwards pushing hand: light skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards pushing hand",
+      "light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫸🏼",
+    "name": "rightwards pushing hand: medium-light skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards pushing hand",
+      "medium-light skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫸🏽",
+    "name": "rightwards pushing hand: medium skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards pushing hand",
+      "medium skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫸🏾",
+    "name": "rightwards pushing hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards pushing hand",
+      "medium-dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  },
+  {
+    "emoji": "🫸🏿",
+    "name": "rightwards pushing hand: dark skin tone",
+    "category": "people",
+    "keywords": [
+      "rightwards pushing hand",
+      "dark skin tone",
+      "gesture",
+      "skin tone"
+    ]
+  }
+]

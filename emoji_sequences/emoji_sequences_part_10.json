@@ -1,100 +1,601 @@
- person with skullcap: dark skin tone                           # E1.0   [1] (👲🏿)
- person wearing turban: light skin tone                         # E1.0   [1] (👳🏻)
- person wearing turban: medium-light skin tone                  # E1.0   [1] (👳🏼)
- person wearing turban: medium skin tone                        # E1.0   [1] (👳🏽)
- person wearing turban: medium-dark skin tone                   # E1.0   [1] (👳🏾)
- person wearing turban: dark skin tone                          # E1.0   [1] (👳🏿)
- old man: light skin tone                                       # E1.0   [1] (👴🏻)
- old man: medium-light skin tone                                # E1.0   [1] (👴🏼)
- old man: medium skin tone                                      # E1.0   [1] (👴🏽)
- old man: medium-dark skin tone                                 # E1.0   [1] (👴🏾)
- old man: dark skin tone                                        # E1.0   [1] (👴🏿)
- old woman: light skin tone                                     # E1.0   [1] (👵🏻)
- old woman: medium-light skin tone                              # E1.0   [1] (👵🏼)
- old woman: medium skin tone                                    # E1.0   [1] (👵🏽)
- old woman: medium-dark skin tone                               # E1.0   [1] (👵🏾)
- old woman: dark skin tone                                      # E1.0   [1] (👵🏿)
- baby: light skin tone                                          # E1.0   [1] (👶🏻)
- baby: medium-light skin tone                                   # E1.0   [1] (👶🏼)
- baby: medium skin tone                                         # E1.0   [1] (👶🏽)
- baby: medium-dark skin tone                                    # E1.0   [1] (👶🏾)
- baby: dark skin tone                                           # E1.0   [1] (👶🏿)
- construction worker: light skin tone                           # E1.0   [1] (👷🏻)
- construction worker: medium-light skin tone                    # E1.0   [1] (👷🏼)
- construction worker: medium skin tone                          # E1.0   [1] (👷🏽)
- construction worker: medium-dark skin tone                     # E1.0   [1] (👷🏾)
- construction worker: dark skin tone                            # E1.0   [1] (👷🏿)
- princess: light skin tone                                      # E1.0   [1] (👸🏻)
- princess: medium-light skin tone                               # E1.0   [1] (👸🏼)
- princess: medium skin tone                                     # E1.0   [1] (👸🏽)
- princess: medium-dark skin tone                                # E1.0   [1] (👸🏾)
- princess: dark skin tone                                       # E1.0   [1] (👸🏿)
- baby angel: light skin tone                                    # E1.0   [1] (👼🏻)
- baby angel: medium-light skin tone                             # E1.0   [1] (👼🏼)
- baby angel: medium skin tone                                   # E1.0   [1] (👼🏽)
- baby angel: medium-dark skin tone                              # E1.0   [1] (👼🏾)
- baby angel: dark skin tone                                     # E1.0   [1] (👼🏿)
- person tipping hand: light skin tone                           # E1.0   [1] (💁🏻)
- person tipping hand: medium-light skin tone                    # E1.0   [1] (💁🏼)
- person tipping hand: medium skin tone                          # E1.0   [1] (💁🏽)
- person tipping hand: medium-dark skin tone                     # E1.0   [1] (💁🏾)
- person tipping hand: dark skin tone                            # E1.0   [1] (💁🏿)
- guard: light skin tone                                         # E1.0   [1] (💂🏻)
- guard: medium-light skin tone                                  # E1.0   [1] (💂🏼)
- guard: medium skin tone                                        # E1.0   [1] (💂🏽)
- guard: medium-dark skin tone                                   # E1.0   [1] (💂🏾)
- guard: dark skin tone                                          # E1.0   [1] (💂🏿)
- woman dancing: light skin tone                                 # E1.0   [1] (💃🏻)
- woman dancing: medium-light skin tone                          # E1.0   [1] (💃🏼)
- woman dancing: medium skin tone                                # E1.0   [1] (💃🏽)
- woman dancing: medium-dark skin tone                           # E1.0   [1] (💃🏾)
- woman dancing: dark skin tone                                  # E1.0   [1] (💃🏿)
- nail polish: light skin tone                                   # E1.0   [1] (💅🏻)
- nail polish: medium-light skin tone                            # E1.0   [1] (💅🏼)
- nail polish: medium skin tone                                  # E1.0   [1] (💅🏽)
- nail polish: medium-dark skin tone                             # E1.0   [1] (💅🏾)
- nail polish: dark skin tone                                    # E1.0   [1] (💅🏿)
- person getting massage: light skin tone                        # E1.0   [1] (💆🏻)
- person getting massage: medium-light skin tone                 # E1.0   [1] (💆🏼)
- person getting massage: medium skin tone                       # E1.0   [1] (💆🏽)
- person getting massage: medium-dark skin tone                  # E1.0   [1] (💆🏾)
- person getting massage: dark skin tone                         # E1.0   [1] (💆🏿)
- person getting haircut: light skin tone                        # E1.0   [1] (💇🏻)
- person getting haircut: medium-light skin tone                 # E1.0   [1] (💇🏼)
- person getting haircut: medium skin tone                       # E1.0   [1] (💇🏽)
- person getting haircut: medium-dark skin tone                  # E1.0   [1] (💇🏾)
- person getting haircut: dark skin tone                         # E1.0   [1] (💇🏿)
- kiss: light skin tone                                          # E13.1  [1] (💏🏻)
- kiss: medium-light skin tone                                   # E13.1  [1] (💏🏼)
- kiss: medium skin tone                                         # E13.1  [1] (💏🏽)
- kiss: medium-dark skin tone                                    # E13.1  [1] (💏🏾)
- kiss: dark skin tone                                           # E13.1  [1] (💏🏿)
- couple with heart: light skin tone                             # E13.1  [1] (💑🏻)
- couple with heart: medium-light skin tone                      # E13.1  [1] (💑🏼)
- couple with heart: medium skin tone                            # E13.1  [1] (💑🏽)
- couple with heart: medium-dark skin tone                       # E13.1  [1] (💑🏾)
- couple with heart: dark skin tone                              # E13.1  [1] (💑🏿)
- flexed biceps: light skin tone                                 # E1.0   [1] (💪🏻)
- flexed biceps: medium-light skin tone                          # E1.0   [1] (💪🏼)
- flexed biceps: medium skin tone                                # E1.0   [1] (💪🏽)
- flexed biceps: medium-dark skin tone                           # E1.0   [1] (💪🏾)
- flexed biceps: dark skin tone                                  # E1.0   [1] (💪🏿)
- person in suit levitating: light skin tone                     # E4.0   [1] (🕴🏻)
- person in suit levitating: medium-light skin tone              # E4.0   [1] (🕴🏼)
- person in suit levitating: medium skin tone                    # E4.0   [1] (🕴🏽)
- person in suit levitating: medium-dark skin tone               # E4.0   [1] (🕴🏾)
- person in suit levitating: dark skin tone                      # E4.0   [1] (🕴🏿)
- detective: light skin tone                                     # E2.0   [1] (🕵🏻)
- detective: medium-light skin tone                              # E2.0   [1] (🕵🏼)
- detective: medium skin tone                                    # E2.0   [1] (🕵🏽)
- detective: medium-dark skin tone                               # E2.0   [1] (🕵🏾)
- detective: dark skin tone                                      # E2.0   [1] (🕵🏿)
- man dancing: light skin tone                                   # E3.0   [1] (🕺🏻)
- man dancing: medium-light skin tone                            # E3.0   [1] (🕺🏼)
- man dancing: medium skin tone                                  # E3.0   [1] (🕺🏽)
- man dancing: medium-dark skin tone                             # E3.0   [1] (🕺🏾)
- man dancing: dark skin tone                                    # E3.0   [1] (🕺🏿)
- hand with fingers splayed: light skin tone                     # E1.0   [1] (🖐🏻)
- hand with fingers splayed: medium-light skin tone              # E1.0   [1] (🖐🏼)
- hand with fingers splayed: medium skin tone                    # E1.0   [1] (🖐🏽)
- hand with fingers splayed: medium-dark skin tone               # E1.0   [1] (🖐🏾)
+[{
+    "emoji": "👲🏿",
+    "name": "person with skullcap: dark skin tone",
+    "category": "people",
+    "keywords": ["person with skullcap", "dark skin tone", "headwear", "skin tone"]
+},
+{
+    "emoji": "👳🏻",
+    "name": "person wearing turban: light skin tone",
+    "category": "people",
+    "keywords": ["person wearing turban", "light skin tone", "headwear", "skin tone"]
+},
+{
+    "emoji": "👳🏼",
+    "name": "person wearing turban: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person wearing turban", "medium-light skin tone", "headwear", "skin tone"]
+},
+{
+    "emoji": "👳🏽",
+    "name": "person wearing turban: medium skin tone",
+    "category": "people",
+    "keywords": ["person wearing turban", "medium skin tone", "headwear", "skin tone"]
+},
+{
+    "emoji": "👳🏾",
+    "name": "person wearing turban: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person wearing turban", "medium-dark skin tone", "headwear", "skin tone"]
+},
+{
+    "emoji": "👳🏿",
+    "name": "person wearing turban: dark skin tone",
+    "category": "people",
+    "keywords": ["person wearing turban", "dark skin tone", "headwear", "skin tone"]
+},
+{
+    "emoji": "👴🏻",
+    "name": "old man: light skin tone",
+    "category": "people",
+    "keywords": ["old man", "light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👴🏼",
+    "name": "old man: medium-light skin tone",
+    "category": "people",
+    "keywords": ["old man", "medium-light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👴🏽",
+    "name": "old man: medium skin tone",
+    "category": "people",
+    "keywords": ["old man", "medium skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👴🏾",
+    "name": "old man: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["old man", "medium-dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👴🏿",
+    "name": "old man: dark skin tone",
+    "category": "people",
+    "keywords": ["old man", "dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👵🏻",
+    "name": "old woman: light skin tone",
+    "category": "people",
+    "keywords": ["old woman", "light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👵🏼",
+    "name": "old woman: medium-light skin tone",
+    "category": "people",
+    "keywords": ["old woman", "medium-light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👵🏽",
+    "name": "old woman: medium skin tone",
+    "category": "people",
+    "keywords": ["old woman", "medium skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👵🏾",
+    "name": "old woman: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["old woman", "medium-dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👵🏿",
+    "name": "old woman: dark skin tone",
+    "category": "people",
+    "keywords": ["old woman", "dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👶🏻",
+    "name": "baby: light skin tone",
+    "category": "people",
+    "keywords": ["baby", "light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👶🏼",
+    "name": "baby: medium-light skin tone",
+    "category": "people",
+    "keywords": ["baby", "medium-light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👶🏽",
+    "name": "baby: medium skin tone",
+    "category": "people",
+    "keywords": ["baby", "medium skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👶🏾",
+    "name": "baby: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["baby", "medium-dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👶🏿",
+    "name": "baby: dark skin tone",
+    "category": "people",
+    "keywords": ["baby", "dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👷🏻",
+    "name": "construction worker: light skin tone",
+    "category": "people",
+    "keywords": ["construction worker", "light skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "👷🏼",
+    "name": "construction worker: medium-light skin tone",
+    "category": "people",
+    "keywords": ["construction worker", "medium-light skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "👷🏽",
+    "name": "construction worker: medium skin tone",
+    "category": "people",
+    "keywords": ["construction worker", "medium skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "👷🏾",
+    "name": "construction worker: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["construction worker", "medium-dark skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "👷🏿",
+    "name": "construction worker: dark skin tone",
+    "category": "people",
+    "keywords": ["construction worker", "dark skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "👸🏻",
+    "name": "princess: light skin tone",
+    "category": "people",
+    "keywords": ["princess", "light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👸🏼",
+    "name": "princess: medium-light skin tone",
+    "category": "people",
+    "keywords": ["princess", "medium-light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👸🏽",
+    "name": "princess: medium skin tone",
+    "category": "people",
+    "keywords": ["princess", "medium skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👸🏾",
+    "name": "princess: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["princess", "medium-dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👸🏿",
+    "name": "princess: dark skin tone",
+    "category": "people",
+    "keywords": ["princess", "dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👼🏻",
+    "name": "baby angel: light skin tone",
+    "category": "people",
+    "keywords": ["baby angel", "light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👼🏼",
+    "name": "baby angel: medium-light skin tone",
+    "category": "people",
+    "keywords": ["baby angel", "medium-light skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👼🏽",
+    "name": "baby angel: medium skin tone",
+    "category": "people",
+    "keywords": ["baby angel", "medium skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👼🏾",
+    "name": "baby angel: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["baby angel", "medium-dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "👼🏿",
+    "name": "baby angel: dark skin tone",
+    "category": "people",
+    "keywords": ["baby angel", "dark skin tone", "person", "skin tone"]
+},
+{
+    "emoji": "💁🏻",
+    "name": "person tipping hand: light skin tone",
+    "category": "people",
+    "keywords": ["person tipping hand", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "💁🏼",
+    "name": "person tipping hand: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person tipping hand", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "💁🏽",
+    "name": "person tipping hand: medium skin tone",
+    "category": "people",
+    "keywords": ["person tipping hand", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "💁🏾",
+    "name": "person tipping hand: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person tipping hand", "medium-dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "💁🏿",
+    "name": "person tipping hand: dark skin tone",
+    "category": "people",
+    "keywords": ["person tipping hand", "dark skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "💂🏻",
+    "name": "guard: light skin tone",
+    "category": "people",
+    "keywords": ["guard", "light skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "💂🏼",
+    "name": "guard: medium-light skin tone",
+    "category": "people",
+    "keywords": ["guard", "medium-light skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "💂🏽",
+    "name": "guard: medium skin tone",
+    "category": "people",
+    "keywords": ["guard", "medium skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "💂🏾",
+    "name": "guard: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["guard", "medium-dark skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "💂🏿",
+    "name": "guard: dark skin tone",
+    "category": "people",
+    "keywords": ["guard", "dark skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "💃🏻",
+    "name": "woman dancing: light skin tone",
+    "category": "people",
+    "keywords": ["woman dancing", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💃🏼",
+    "name": "woman dancing: medium-light skin tone",
+    "category": "people",
+    "keywords": ["woman dancing", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💃🏽",
+    "name": "woman dancing: medium skin tone",
+    "category": "people",
+    "keywords": ["woman dancing", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💃🏾",
+    "name": "woman dancing: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["woman dancing", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💃🏿",
+    "name": "woman dancing: dark skin tone",
+    "category": "people",
+    "keywords": ["woman dancing", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💅🏻",
+    "name": "nail polish: light skin tone",
+    "category": "people",
+    "keywords": ["nail polish", "light skin tone", "cosmetics", "skin tone"]
+},
+{
+    "emoji": "💅🏼",
+    "name": "nail polish: medium-light skin tone",
+    "category": "people",
+    "keywords": ["nail polish", "medium-light skin tone", "cosmetics", "skin tone"]
+},
+{
+    "emoji": "💅🏽",
+    "name": "nail polish: medium skin tone",
+    "category": "people",
+    "keywords": ["nail polish", "medium skin tone", "cosmetics", "skin tone"]
+},
+{
+    "emoji": "💅🏾",
+    "name": "nail polish: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["nail polish", "medium-dark skin tone", "cosmetics", "skin tone"]
+},
+{
+    "emoji": "💅🏿",
+    "name": "nail polish: dark skin tone",
+    "category": "people",
+    "keywords": ["nail polish", "dark skin tone", "cosmetics", "skin tone"]
+},
+{
+    "emoji": "💆🏻",
+    "name": "person getting massage: light skin tone",
+    "category": "people",
+    "keywords": ["person getting massage", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💆🏼",
+    "name": "person getting massage: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person getting massage", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💆🏽",
+    "name": "person getting massage: medium skin tone",
+    "category": "people",
+    "keywords": ["person getting massage", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💆🏾",
+    "name": "person getting massage: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person getting massage", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💆🏿",
+    "name": "person getting massage: dark skin tone",
+    "category": "people",
+    "keywords": ["person getting massage", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💇🏻",
+    "name": "person getting haircut: light skin tone",
+    "category": "people",
+    "keywords": ["person getting haircut", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💇🏼",
+    "name": "person getting haircut: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person getting haircut", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💇🏽",
+    "name": "person getting haircut: medium skin tone",
+    "category": "people",
+    "keywords": ["person getting haircut", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💇🏾",
+    "name": "person getting haircut: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person getting haircut", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💇🏿",
+    "name": "person getting haircut: dark skin tone",
+    "category": "people",
+    "keywords": ["person getting haircut", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "💏🏻",
+    "name": "kiss: light skin tone",
+    "category": "people",
+    "keywords": ["kiss", "light skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💏🏼",
+    "name": "kiss: medium-light skin tone",
+    "category": "people",
+    "keywords": ["kiss", "medium-light skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💏🏽",
+    "name": "kiss: medium skin tone",
+    "category": "people",
+    "keywords": ["kiss", "medium skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💏🏾",
+    "name": "kiss: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["kiss", "medium-dark skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💏🏿",
+    "name": "kiss: dark skin tone",
+    "category": "people",
+    "keywords": ["kiss", "dark skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💑🏻",
+    "name": "couple with heart: light skin tone",
+    "category": "people",
+    "keywords": ["couple with heart", "light skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💑🏼",
+    "name": "couple with heart: medium-light skin tone",
+    "category": "people",
+    "keywords": ["couple with heart", "medium-light skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💑🏽",
+    "name": "couple with heart: medium skin tone",
+    "category": "people",
+    "keywords": ["couple with heart", "medium skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💑🏾",
+    "name": "couple with heart: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["couple with heart", "medium-dark skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💑🏿",
+    "name": "couple with heart: dark skin tone",
+    "category": "people",
+    "keywords": ["couple with heart", "dark skin tone", "couple", "skin tone"]
+},
+{
+    "emoji": "💪🏻",
+    "name": "flexed biceps: light skin tone",
+    "category": "people",
+    "keywords": ["flexed biceps", "light skin tone", "strength", "skin tone"]
+},
+{
+    "emoji": "💪🏼",
+    "name": "flexed biceps: medium-light skin tone",
+    "category": "people",
+    "keywords": ["flexed biceps", "medium-light skin tone", "strength", "skin tone"]
+},
+{
+    "emoji": "💪🏽",
+    "name": "flexed biceps: medium skin tone",
+    "category": "people",
+    "keywords": ["flexed biceps", "medium skin tone", "strength", "skin tone"]
+},
+{
+    "emoji": "💪🏾",
+    "name": "flexed biceps: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["flexed biceps", "medium-dark skin tone", "strength", "skin tone"]
+},
+{
+    "emoji": "💪🏿",
+    "name": "flexed biceps: dark skin tone",
+    "category": "people",
+    "keywords": ["flexed biceps", "dark skin tone", "strength", "skin tone"]
+},
+{
+    "emoji": "🕴🏻",
+    "name": "person in suit levitating: light skin tone",
+    "category": "people",
+    "keywords": ["person in suit levitating", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕴🏼",
+    "name": "person in suit levitating: medium-light skin tone",
+    "category": "people",
+    "keywords": ["person in suit levitating", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕴🏽",
+    "name": "person in suit levitating: medium skin tone",
+    "category": "people",
+    "keywords": ["person in suit levitating", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕴🏾",
+    "name": "person in suit levitating: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["person in suit levitating", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕴🏿",
+    "name": "person in suit levitating: dark skin tone",
+    "category": "people",
+    "keywords": ["person in suit levitating", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕵🏻",
+    "name": "detective: light skin tone",
+    "category": "people",
+    "keywords": ["detective", "light skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "🕵🏼",
+    "name": "detective: medium-light skin tone",
+    "category": "people",
+    "keywords": ["detective", "medium-light skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "🕵🏽",
+    "name": "detective: medium skin tone",
+    "category": "people",
+    "keywords": ["detective", "medium skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "🕵🏾",
+    "name": "detective: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["detective", "medium-dark skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "🕵🏿",
+    "name": "detective: dark skin tone",
+    "category": "people",
+    "keywords": ["detective", "dark skin tone", "occupation", "skin tone"]
+},
+{
+    "emoji": "🕺🏻",
+    "name": "man dancing: light skin tone",
+    "category": "people",
+    "keywords": ["man dancing", "light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕺🏼",
+    "name": "man dancing: medium-light skin tone",
+    "category": "people",
+    "keywords": ["man dancing", "medium-light skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕺🏽",
+    "name": "man dancing: medium skin tone",
+    "category": "people",
+    "keywords": ["man dancing", "medium skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕺🏾",
+    "name": "man dancing: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["man dancing", "medium-dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🕺🏿",
+    "name": "man dancing: dark skin tone",
+    "category": "people",
+    "keywords": ["man dancing", "dark skin tone", "activity", "skin tone"]
+},
+{
+    "emoji": "🖐🏻",
+    "name": "hand with fingers splayed: light skin tone",
+    "category": "people",
+    "keywords": ["hand with fingers splayed", "light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "🖐🏼",
+    "name": "hand with fingers splayed: medium-light skin tone",
+    "category": "people",
+    "keywords": ["hand with fingers splayed", "medium-light skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "🖐🏽",
+    "name": "hand with fingers splayed: medium skin tone",
+    "category": "people",
+    "keywords": ["hand with fingers splayed", "medium skin tone", "gesture", "skin tone"]
+},
+{
+    "emoji": "🖐🏾",
+    "name": "hand with fingers splayed: medium-dark skin tone",
+    "category": "people",
+    "keywords": ["hand with fingers splayed", "medium-dark skin tone", "gesture", "skin tone"]
+}
+]

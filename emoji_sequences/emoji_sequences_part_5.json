@@ -1,100 +1,602 @@
- pen                                                            # E0.7   [1] (🖊️)
- fountain pen                                                   # E0.7   [1] (🖋️)
- paintbrush                                                     # E0.7   [1] (🖌️)
- crayon                                                         # E0.7   [1] (🖍️)
- hand with fingers splayed                                      # E0.7   [1] (🖐️)
- desktop computer                                               # E0.7   [1] (🖥️)
- printer                                                        # E0.7   [1] (🖨️)
- computer mouse                                                 # E0.7   [1] (🖱️)
- trackball                                                      # E0.7   [1] (🖲️)
- framed picture                                                 # E0.7   [1] (🖼️)
- card index dividers                                            # E0.7   [1] (🗂️)
- card file box                                                  # E0.7   [1] (🗃️)
- file cabinet                                                   # E0.7   [1] (🗄️)
- wastebasket                                                    # E0.7   [1] (🗑️)
- spiral notepad                                                 # E0.7   [1] (🗒️)
- spiral calendar                                                # E0.7   [1] (🗓️)
- clamp                                                          # E0.7   [1] (🗜️)
- old key                                                        # E0.7   [1] (🗝️)
- rolled-up newspaper                                            # E0.7   [1] (🗞️)
- dagger                                                         # E0.7   [1] (🗡️)
- speaking head                                                  # E0.7   [1] (🗣️)
- left speech bubble                                             # E2.0   [1] (🗨️)
- right anger bubble                                             # E0.7   [1] (🗯️)
- ballot box with ballot                                         # E0.7   [1] (🗳️)
- world map                                                      # E0.7   [1] (🗺️)
- couch and lamp                                                 # E0.7   [1] (🛋️)
- shopping bags                                                  # E0.7   [1] (🛍️)
- bellhop bell                                                   # E0.7   [1] (🛎️)
- bed                                                            # E0.7   [1] (🛏️)
- hammer and wrench                                              # E0.7   [1] (🛠️)
- shield                                                         # E0.7   [1] (🛡️)
- oil drum                                                       # E0.7   [1] (🛢️)
- motorway                                                       # E0.7   [1] (🛣️)
- railway track                                                  # E0.7   [1] (🛤️)
- motor boat                                                     # E0.7   [1] (🛥️)
- small airplane                                                 # E0.7   [1] (🛩️)
- satellite                                                      # E0.7   [1] (🛰️)
- passenger ship                                                 # E0.7   [1] (🛳️)
- keycap: \x{23}                                                 # E0.6   [1] (#️⃣)
- keycap: *                                                      # E2.0   [1] (*️⃣)
- keycap: 0                                                      # E0.6   [1] (0️⃣)
- keycap: 1                                                      # E0.6   [1] (1️⃣)
- keycap: 2                                                      # E0.6   [1] (2️⃣)
- keycap: 3                                                      # E0.6   [1] (3️⃣)
- keycap: 4                                                      # E0.6   [1] (4️⃣)
- keycap: 5                                                      # E0.6   [1] (5️⃣)
- keycap: 6                                                      # E0.6   [1] (6️⃣)
- keycap: 7                                                      # E0.6   [1] (7️⃣)
- keycap: 8                                                      # E0.6   [1] (8️⃣)
- keycap: 9                                                      # E0.6   [1] (9️⃣)
- flag: Ascension Island                                         # E2.0   [1] (🇦🇨)
- flag: Andorra                                                  # E2.0   [1] (🇦🇩)
- flag: United Arab Emirates                                     # E2.0   [1] (🇦🇪)
- flag: Afghanistan                                              # E2.0   [1] (🇦🇫)
- flag: Antigua & Barbuda                                        # E2.0   [1] (🇦🇬)
- flag: Anguilla                                                 # E2.0   [1] (🇦🇮)
- flag: Albania                                                  # E2.0   [1] (🇦🇱)
- flag: Armenia                                                  # E2.0   [1] (🇦🇲)
- flag: Angola                                                   # E2.0   [1] (🇦🇴)
- flag: Antarctica                                               # E2.0   [1] (🇦🇶)
- flag: Argentina                                                # E2.0   [1] (🇦🇷)
- flag: American Samoa                                           # E2.0   [1] (🇦🇸)
- flag: Austria                                                  # E2.0   [1] (🇦🇹)
- flag: Australia                                                # E2.0   [1] (🇦🇺)
- flag: Aruba                                                    # E2.0   [1] (🇦🇼)
- flag: Åland Islands                                            # E2.0   [1] (🇦🇽)
- flag: Azerbaijan                                               # E2.0   [1] (🇦🇿)
- flag: Bosnia & Herzegovina                                     # E2.0   [1] (🇧🇦)
- flag: Barbados                                                 # E2.0   [1] (🇧🇧)
- flag: Bangladesh                                               # E2.0   [1] (🇧🇩)
- flag: Belgium                                                  # E2.0   [1] (🇧🇪)
- flag: Burkina Faso                                             # E2.0   [1] (🇧🇫)
- flag: Bulgaria                                                 # E2.0   [1] (🇧🇬)
- flag: Bahrain                                                  # E2.0   [1] (🇧🇭)
- flag: Burundi                                                  # E2.0   [1] (🇧🇮)
- flag: Benin                                                    # E2.0   [1] (🇧🇯)
- flag: St. Barthélemy                                           # E2.0   [1] (🇧🇱)
- flag: Bermuda                                                  # E2.0   [1] (🇧🇲)
- flag: Brunei                                                   # E2.0   [1] (🇧🇳)
- flag: Bolivia                                                  # E2.0   [1] (🇧🇴)
- flag: Caribbean Netherlands                                    # E2.0   [1] (🇧🇶)
- flag: Brazil                                                   # E2.0   [1] (🇧🇷)
- flag: Bahamas                                                  # E2.0   [1] (🇧🇸)
- flag: Bhutan                                                   # E2.0   [1] (🇧🇹)
- flag: Bouvet Island                                            # E2.0   [1] (🇧🇻)
- flag: Botswana                                                 # E2.0   [1] (🇧🇼)
- flag: Belarus                                                  # E2.0   [1] (🇧🇾)
- flag: Belize                                                   # E2.0   [1] (🇧🇿)
- flag: Canada                                                   # E2.0   [1] (🇨🇦)
- flag: Cocos (Keeling) Islands                                  # E2.0   [1] (🇨🇨)
- flag: Congo - Kinshasa                                         # E2.0   [1] (🇨🇩)
- flag: Central African Republic                                 # E2.0   [1] (🇨🇫)
- flag: Congo - Brazzaville                                      # E2.0   [1] (🇨🇬)
- flag: Switzerland                                              # E2.0   [1] (🇨🇭)
- flag: Côte d’Ivoire                                            # E2.0   [1] (🇨🇮)
- flag: Cook Islands                                             # E2.0   [1] (🇨🇰)
- flag: Chile                                                    # E2.0   [1] (🇨🇱)
- flag: Cameroon                                                 # E2.0   [1] (🇨🇲)
- flag: China                                                    # E0.6   [1] (🇨🇳)
- flag: Colombia                                                 # E2.0   [1] (🇨🇴)
+[
+    {
+    "emoji": "🖊️",
+    "name": "pen",
+    "category": "objects",
+    "keywords": ["pen", "writing", "tool", "office"]
+},
+{
+    "emoji": "🖋️",
+    "name": "fountain pen",
+    "category": "objects",
+    "keywords": ["fountain", "pen", "writing", "ink"]
+},
+{
+    "emoji": "🖌️",
+    "name": "paintbrush",
+    "category": "objects",
+    "keywords": ["paintbrush", "art", "painting", "tool"]
+},
+{
+    "emoji": "🖍️",
+    "name": "crayon",
+    "category": "objects",
+    "keywords": ["crayon", "color", "drawing", "tool"]
+},
+{
+    "emoji": "🖐️",
+    "name": "hand with fingers splayed",
+    "category": "people",
+    "keywords": ["hand", "fingers", "splayed", "gesture"]
+},
+{
+    "emoji": "🖥️",
+    "name": "desktop computer",
+    "category": "objects",
+    "keywords": ["computer", "desktop", "monitor", "technology"]
+},
+{
+    "emoji": "🖨️",
+    "name": "printer",
+    "category": "objects",
+    "keywords": ["printer", "print", "office", "technology"]
+},
+{
+    "emoji": "🖱️",
+    "name": "computer mouse",
+    "category": "objects",
+    "keywords": ["mouse", "computer", "device", "technology"]
+},
+{
+    "emoji": "🖲️",
+    "name": "trackball",
+    "category": "objects",
+    "keywords": ["trackball", "mouse", "computer", "technology"]
+},
+{
+    "emoji": "🖼️",
+    "name": "framed picture",
+    "category": "objects",
+    "keywords": ["framed", "picture", "photo", "image"]
+},
+{
+    "emoji": "🗂️",
+    "name": "card index dividers",
+    "category": "objects",
+    "keywords": ["card", "index", "dividers", "office"]
+},
+{
+    "emoji": "🗃️",
+    "name": "card file box",
+    "category": "objects",
+    "keywords": ["card", "file", "box", "office"]
+},
+{
+    "emoji": "🗄️",
+    "name": "file cabinet",
+    "category": "objects",
+    "keywords": ["file", "cabinet", "storage", "office"]
+},
+{
+    "emoji": "🗑️",
+    "name": "wastebasket",
+    "category": "objects",
+    "keywords": ["wastebasket", "trash", "garbage", "bin"]
+},
+{
+    "emoji": "🗒️",
+    "name": "spiral notepad",
+    "category": "objects",
+    "keywords": ["notepad", "spiral", "notes", "writing"]
+},
+{
+    "emoji": "🗓️",
+    "name": "spiral calendar",
+    "category": "objects",
+    "keywords": ["calendar", "spiral", "date", "schedule"]
+},
+{
+    "emoji": "🗜️",
+    "name": "clamp",
+    "category": "objects",
+    "keywords": ["clamp", "tool", "vice", "grip"]
+},
+{
+    "emoji": "🗝️",
+    "name": "old key",
+    "category": "objects",
+    "keywords": ["key", "old", "vintage", "lock"]
+},
+{
+    "emoji": "🗞️",
+    "name": "rolled-up newspaper",
+    "category": "objects",
+    "keywords": ["newspaper", "rolled-up", "news", "paper"]
+},
+{
+    "emoji": "🗡️",
+    "name": "dagger",
+    "category": "objects",
+    "keywords": ["dagger", "knife", "weapon", "blade"]
+},
+{
+    "emoji": "🗣️",
+    "name": "speaking head",
+    "category": "people",
+    "keywords": ["speaking", "head", "talk", "speech"]
+},
+{
+    "emoji": "🗨️",
+    "name": "left speech bubble",
+    "category": "symbols",
+    "keywords": ["speech", "bubble", "left", "talk"]
+},
+{
+    "emoji": "🗯️",
+    "name": "right anger bubble",
+    "category": "symbols",
+    "keywords": ["anger", "bubble", "right", "talk"]
+},
+{
+    "emoji": "🗳️",
+    "name": "ballot box with ballot",
+    "category": "objects",
+    "keywords": ["ballot", "box", "vote", "election"]
+},
+{
+    "emoji": "🗺️",
+    "name": "world map",
+    "category": "objects",
+    "keywords": ["map", "world", "travel", "globe"]
+},
+{
+    "emoji": "🛋️",
+    "name": "couch and lamp",
+    "category": "objects",
+    "keywords": ["couch", "lamp", "furniture", "living room"]
+},
+{
+    "emoji": "🛍️",
+    "name": "shopping bags",
+    "category": "objects",
+    "keywords": ["shopping", "bags", "store", "purchase"]
+},
+{
+    "emoji": "🛎️",
+    "name": "bellhop bell",
+    "category": "objects",
+    "keywords": ["bellhop", "bell", "service", "hotel"]
+},
+{
+    "emoji": "🛏️",
+    "name": "bed",
+    "category": "objects",
+    "keywords": ["bed", "sleep", "furniture", "rest"]
+},
+{
+    "emoji": "🛠️",
+    "name": "hammer and wrench",
+    "category": "objects",
+    "keywords": ["hammer", "wrench", "tools", "repair"]
+},
+{
+    "emoji": "🛡️",
+    "name": "shield",
+    "category": "objects",
+    "keywords": ["shield", "protection", "defense", "armor"]
+},
+{
+    "emoji": "🛢️",
+    "name": "oil drum",
+    "category": "objects",
+    "keywords": ["oil", "drum", "barrel", "container"]
+},
+{
+    "emoji": "🛣️",
+    "name": "motorway",
+    "category": "places",
+    "keywords": ["motorway", "road", "highway", "transport"]
+},
+{
+    "emoji": "🛤️",
+    "name": "railway track",
+    "category": "places",
+    "keywords": ["railway", "track", "train", "transport"]
+},
+{
+    "emoji": "🛥️",
+    "name": "motor boat",
+    "category": "objects",
+    "keywords": ["boat", "motor", "water", "transport"]
+},
+{
+    "emoji": "🛩️",
+    "name": "small airplane",
+    "category": "objects",
+    "keywords": ["airplane", "small", "flight", "transport"]
+},
+{
+    "emoji": "🛰️",
+    "name": "satellite",
+    "category": "objects",
+    "keywords": ["satellite", "space", "orbit", "communication"]
+},
+{
+    "emoji": "🛳️",
+    "name": "passenger ship",
+    "category": "objects",
+    "keywords": ["ship", "passenger", "boat", "cruise"]
+},
+{
+    "emoji": "#️⃣",
+    "name": "keycap: #",
+    "category": "symbols",
+    "keywords": ["keycap", "hash", "number", "symbol"]
+},
+{
+    "emoji": "*️⃣",
+    "name": "keycap: *",
+    "category": "symbols",
+    "keywords": ["keycap", "asterisk", "star", "symbol"]
+},
+{
+    "emoji": "0️⃣",
+    "name": "keycap: 0",
+    "category": "symbols",
+    "keywords": ["keycap", "0", "zero", "number"]
+},
+{
+    "emoji": "1️⃣",
+    "name": "keycap: 1",
+    "category": "symbols",
+    "keywords": ["keycap", "1", "one", "number"]
+},
+{
+    "emoji": "2️⃣",
+    "name": "keycap: 2",
+    "category": "symbols",
+    "keywords": ["keycap", "2", "two", "number"]
+},
+{
+    "emoji": "3️⃣",
+    "name": "keycap: 3",
+    "category": "symbols",
+    "keywords": ["keycap", "3", "three", "number"]
+},
+{
+    "emoji": "4️⃣",
+    "name": "keycap: 4",
+    "category": "symbols",
+    "keywords": ["keycap", "4", "four", "number"]
+},
+{
+    "emoji": "5️⃣",
+    "name": "keycap: 5",
+    "category": "symbols",
+    "keywords": ["keycap", "5", "five", "number"]
+},
+{
+    "emoji": "6️⃣",
+    "name": "keycap: 6",
+    "category": "symbols",
+    "keywords": ["keycap", "6", "six", "number"]
+},
+{
+    "emoji": "7️⃣",
+    "name": "keycap: 7",
+    "category": "symbols",
+    "keywords": ["keycap", "7", "seven", "number"]
+},
+{
+    "emoji": "8️⃣",
+    "name": "keycap: 8",
+    "category": "symbols",
+    "keywords": ["keycap", "8", "eight", "number"]
+},
+{
+    "emoji": "9️⃣",
+    "name": "keycap: 9",
+    "category": "symbols",
+    "keywords": ["keycap", "9", "nine", "number"]
+},
+{
+    "emoji": "🇦🇨",
+    "name": "flag: Ascension Island",
+    "category": "flags",
+    "keywords": ["flag", "Ascension Island", "country", "nation"]
+},
+{
+    "emoji": "🇦🇩",
+    "name": "flag: Andorra",
+    "category": "flags",
+    "keywords": ["flag", "Andorra", "country", "nation"]
+},
+{
+    "emoji": "🇦🇪",
+    "name": "flag: United Arab Emirates",
+    "category": "flags",
+    "keywords": ["flag", "United Arab Emirates", "country", "nation"]
+},
+{
+    "emoji": "🇦🇫",
+    "name": "flag: Afghanistan",
+    "category": "flags",
+    "keywords": ["flag", "Afghanistan", "country", "nation"]
+},
+{
+    "emoji": "🇦🇬",
+    "name": "flag: Antigua & Barbuda",
+    "category": "flags",
+    "keywords": ["flag", "Antigua & Barbuda", "country", "nation"]
+},
+{
+    "emoji": "🇦🇮",
+    "name": "flag: Anguilla",
+    "category": "flags",
+    "keywords": ["flag", "Anguilla", "country", "nation"]
+},
+{
+    "emoji": "🇦🇱",
+    "name": "flag: Albania",
+    "category": "flags",
+    "keywords": ["flag", "Albania", "country", "nation"]
+},
+{
+    "emoji": "🇦🇲",
+    "name": "flag: Armenia",
+    "category": "flags",
+    "keywords": ["flag", "Armenia", "country", "nation"]
+},
+{
+    "emoji": "🇦🇴",
+    "name": "flag: Angola",
+    "category": "flags",
+    "keywords": ["flag", "Angola", "country", "nation"]
+},
+{
+    "emoji": "🇦🇶",
+    "name": "flag: Antarctica",
+    "category": "flags",
+    "keywords": ["flag", "Antarctica", "region", "continent"]
+},
+{
+    "emoji": "🇦🇷",
+    "name": "flag: Argentina",
+    "category": "flags",
+    "keywords": ["flag", "Argentina", "country", "nation"]
+},
+{
+    "emoji": "🇦🇸",
+    "name": "flag: American Samoa",
+    "category": "flags",
+    "keywords": ["flag", "American Samoa", "country", "territory"]
+},
+{
+    "emoji": "🇦🇹",
+    "name": "flag: Austria",
+    "category": "flags",
+    "keywords": ["flag", "Austria", "country", "nation"]
+},
+{
+    "emoji": "🇦🇺",
+    "name": "flag: Australia",
+    "category": "flags",
+    "keywords": ["flag", "Australia", "country", "nation"]
+},
+{
+    "emoji": "🇦🇼",
+    "name": "flag: Aruba",
+    "category": "flags",
+    "keywords": ["flag", "Aruba", "country", "territory"]
+},
+{
+    "emoji": "🇦🇽",
+    "name": "flag: Åland Islands",
+    "category": "flags",
+    "keywords": ["flag", "Åland Islands", "country", "territory"]
+},
+{
+    "emoji": "🇦🇿",
+    "name": "flag: Azerbaijan",
+    "category": "flags",
+    "keywords": ["flag", "Azerbaijan", "country", "nation"]
+},
+{
+    "emoji": "🇧🇦",
+    "name": "flag: Bosnia & Herzegovina",
+    "category": "flags",
+    "keywords": ["flag", "Bosnia & Herzegovina", "country", "nation"]
+},
+{
+    "emoji": "🇧🇧",
+    "name": "flag: Barbados",
+    "category": "flags",
+    "keywords": ["flag", "Barbados", "country", "nation"]
+},
+{
+    "emoji": "🇧🇩",
+    "name": "flag: Bangladesh",
+    "category": "flags",
+    "keywords": ["flag", "Bangladesh", "country", "nation"]
+},
+{
+    "emoji": "🇧🇪",
+    "name": "flag: Belgium",
+    "category": "flags",
+    "keywords": ["flag", "Belgium", "country", "nation"]
+},
+{
+    "emoji": "🇧🇫",
+    "name": "flag: Burkina Faso",
+    "category": "flags",
+    "keywords": ["flag", "Burkina Faso", "country", "nation"]
+},
+{
+    "emoji": "🇧🇬",
+    "name": "flag: Bulgaria",
+    "category": "flags",
+    "keywords": ["flag", "Bulgaria", "country", "nation"]
+},
+{
+    "emoji": "🇧🇭",
+    "name": "flag: Bahrain",
+    "category": "flags",
+    "keywords": ["flag", "Bahrain", "country", "nation"]
+},
+{
+    "emoji": "🇧🇮",
+    "name": "flag: Burundi",
+    "category": "flags",
+    "keywords": ["flag", "Burundi", "country", "nation"]
+},
+{
+    "emoji": "🇧🇯",
+    "name": "flag: Benin",
+    "category": "flags",
+    "keywords": ["flag", "Benin", "country", "nation"]
+},
+{
+    "emoji": "🇧🇱",
+    "name": "flag: St. Barthélemy",
+    "category": "flags",
+    "keywords": ["flag", "St. Barthélemy", "country", "territory"]
+},
+{
+    "emoji": "🇧🇲",
+    "name": "flag: Bermuda",
+    "category": "flags",
+    "keywords": ["flag", "Bermuda", "country", "territory"]
+},
+{
+    "emoji": "🇧🇳",
+    "name": "flag: Brunei",
+    "category": "flags",
+    "keywords": ["flag", "Brunei", "country", "nation"]
+},
+{
+    "emoji": "🇧🇴",
+    "name": "flag: Bolivia",
+    "category": "flags",
+    "keywords": ["flag", "Bolivia", "country", "nation"]
+},
+{
+    "emoji": "🇧🇶",
+    "name": "flag: Caribbean Netherlands",
+    "category": "flags",
+    "keywords": ["flag", "Caribbean Netherlands", "country", "territory"]
+},
+{
+    "emoji": "🇧🇷",
+    "name": "flag: Brazil",
+    "category": "flags",
+    "keywords": ["flag", "Brazil", "country", "nation"]
+},
+{
+    "emoji": "🇧🇸",
+    "name": "flag: Bahamas",
+    "category": "flags",
+    "keywords": ["flag", "Bahamas", "country", "nation"]
+},
+{
+    "emoji": "🇧🇹",
+    "name": "flag: Bhutan",
+    "category": "flags",
+    "keywords": ["flag", "Bhutan", "country", "nation"]
+},
+{
+    "emoji": "🇧🇻",
+    "name": "flag: Bouvet Island",
+    "category": "flags",
+    "keywords": ["flag", "Bouvet Island", "country", "territory"]
+},
+{
+    "emoji": "🇧🇼",
+    "name": "flag: Botswana",
+    "category": "flags",
+    "keywords": ["flag", "Botswana", "country", "nation"]
+},
+{
+    "emoji": "🇧🇾",
+    "name": "flag: Belarus",
+    "category": "flags",
+    "keywords": ["flag", "Belarus", "country", "nation"]
+},
+{
+    "emoji": "🇧🇿",
+    "name": "flag: Belize",
+    "category": "flags",
+    "keywords": ["flag", "Belize", "country", "nation"]
+},
+{
+    "emoji": "🇨🇦",
+    "name": "flag: Canada",
+    "category": "flags",
+    "keywords": ["flag", "Canada", "country", "nation"]
+},
+{
+    "emoji": "🇨🇨",
+    "name": "flag: Cocos (Keeling) Islands",
+    "category": "flags",
+    "keywords": ["flag", "Cocos (Keeling) Islands", "country", "territory"]
+},
+{
+    "emoji": "🇨🇩",
+    "name": "flag: Congo - Kinshasa",
+    "category": "flags",
+    "keywords": ["flag", "Congo - Kinshasa", "country", "nation"]
+},
+{
+    "emoji": "🇨🇫",
+    "name": "flag: Central African Republic",
+    "category": "flags",
+    "keywords": ["flag", "Central African Republic", "country", "nation"]
+},
+{
+    "emoji": "🇨🇬",
+    "name": "flag: Congo - Brazzaville",
+    "category": "flags",
+    "keywords": ["flag", "Congo - Brazzaville", "country", "nation"]
+},
+{
+    "emoji": "🇨🇭",
+    "name": "flag: Switzerland",
+    "category": "flags",
+    "keywords": ["flag", "Switzerland", "country", "nation"]
+},
+{
+    "emoji": "🇨🇮",
+    "name": "flag: Côte d’Ivoire",
+    "category": "flags",
+    "keywords": ["flag", "Côte d’Ivoire", "country", "nation"]
+},
+{
+    "emoji": "🇨🇰",
+    "name": "flag: Cook Islands",
+    "category": "flags",
+    "keywords": ["flag", "Cook Islands", "country", "territory"]
+},
+{
+    "emoji": "🇨🇱",
+    "name": "flag: Chile",
+    "category": "flags",
+    "keywords": ["flag", "Chile", "country", "nation"]
+},
+{
+    "emoji": "🇨🇲",
+    "name": "flag: Cameroon",
+    "category": "flags",
+    "keywords": ["flag", "Cameroon", "country", "nation"]
+},
+{
+    "emoji": "🇨🇳",
+    "name": "flag: China",
+    "category": "flags",
+    "keywords": ["flag", "China", "country", "nation"]
+},
+{
+    "emoji": "🇨🇴",
+    "name": "flag: Colombia",
+    "category": "flags",
+    "keywords": ["flag", "Colombia", "country", "nation"]
+}
+]

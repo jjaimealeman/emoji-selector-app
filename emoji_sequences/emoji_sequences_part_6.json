@@ -1,100 +1,601 @@
- flag: Clipperton Island                                        # E2.0   [1] (🇨🇵)
- flag: Costa Rica                                               # E2.0   [1] (🇨🇷)
- flag: Cuba                                                     # E2.0   [1] (🇨🇺)
- flag: Cape Verde                                               # E2.0   [1] (🇨🇻)
- flag: Curaçao                                                  # E2.0   [1] (🇨🇼)
- flag: Christmas Island                                         # E2.0   [1] (🇨🇽)
- flag: Cyprus                                                   # E2.0   [1] (🇨🇾)
- flag: Czechia                                                  # E2.0   [1] (🇨🇿)
- flag: Germany                                                  # E0.6   [1] (🇩🇪)
- flag: Diego Garcia                                             # E2.0   [1] (🇩🇬)
- flag: Djibouti                                                 # E2.0   [1] (🇩🇯)
- flag: Denmark                                                  # E2.0   [1] (🇩🇰)
- flag: Dominica                                                 # E2.0   [1] (🇩🇲)
- flag: Dominican Republic                                       # E2.0   [1] (🇩🇴)
- flag: Algeria                                                  # E2.0   [1] (🇩🇿)
- flag: Ceuta & Melilla                                          # E2.0   [1] (🇪🇦)
- flag: Ecuador                                                  # E2.0   [1] (🇪🇨)
- flag: Estonia                                                  # E2.0   [1] (🇪🇪)
- flag: Egypt                                                    # E2.0   [1] (🇪🇬)
- flag: Western Sahara                                           # E2.0   [1] (🇪🇭)
- flag: Eritrea                                                  # E2.0   [1] (🇪🇷)
- flag: Spain                                                    # E0.6   [1] (🇪🇸)
- flag: Ethiopia                                                 # E2.0   [1] (🇪🇹)
- flag: European Union                                           # E2.0   [1] (🇪🇺)
- flag: Finland                                                  # E2.0   [1] (🇫🇮)
- flag: Fiji                                                     # E2.0   [1] (🇫🇯)
- flag: Falkland Islands                                         # E2.0   [1] (🇫🇰)
- flag: Micronesia                                               # E2.0   [1] (🇫🇲)
- flag: Faroe Islands                                            # E2.0   [1] (🇫🇴)
- flag: France                                                   # E0.6   [1] (🇫🇷)
- flag: Gabon                                                    # E2.0   [1] (🇬🇦)
- flag: United Kingdom                                           # E0.6   [1] (🇬🇧)
- flag: Grenada                                                  # E2.0   [1] (🇬🇩)
- flag: Georgia                                                  # E2.0   [1] (🇬🇪)
- flag: French Guiana                                            # E2.0   [1] (🇬🇫)
- flag: Guernsey                                                 # E2.0   [1] (🇬🇬)
- flag: Ghana                                                    # E2.0   [1] (🇬🇭)
- flag: Gibraltar                                                # E2.0   [1] (🇬🇮)
- flag: Greenland                                                # E2.0   [1] (🇬🇱)
- flag: Gambia                                                   # E2.0   [1] (🇬🇲)
- flag: Guinea                                                   # E2.0   [1] (🇬🇳)
- flag: Guadeloupe                                               # E2.0   [1] (🇬🇵)
- flag: Equatorial Guinea                                        # E2.0   [1] (🇬🇶)
- flag: Greece                                                   # E2.0   [1] (🇬🇷)
- flag: South Georgia & South Sandwich Islands                   # E2.0   [1] (🇬🇸)
- flag: Guatemala                                                # E2.0   [1] (🇬🇹)
- flag: Guam                                                     # E2.0   [1] (🇬🇺)
- flag: Guinea-Bissau                                            # E2.0   [1] (🇬🇼)
- flag: Guyana                                                   # E2.0   [1] (🇬🇾)
- flag: Hong Kong SAR China                                      # E2.0   [1] (🇭🇰)
- flag: Heard & McDonald Islands                                 # E2.0   [1] (🇭🇲)
- flag: Honduras                                                 # E2.0   [1] (🇭🇳)
- flag: Croatia                                                  # E2.0   [1] (🇭🇷)
- flag: Haiti                                                    # E2.0   [1] (🇭🇹)
- flag: Hungary                                                  # E2.0   [1] (🇭🇺)
- flag: Canary Islands                                           # E2.0   [1] (🇮🇨)
- flag: Indonesia                                                # E2.0   [1] (🇮🇩)
- flag: Ireland                                                  # E2.0   [1] (🇮🇪)
- flag: Israel                                                   # E2.0   [1] (🇮🇱)
- flag: Isle of Man                                              # E2.0   [1] (🇮🇲)
- flag: India                                                    # E2.0   [1] (🇮🇳)
- flag: British Indian Ocean Territory                           # E2.0   [1] (🇮🇴)
- flag: Iraq                                                     # E2.0   [1] (🇮🇶)
- flag: Iran                                                     # E2.0   [1] (🇮🇷)
- flag: Iceland                                                  # E2.0   [1] (🇮🇸)
- flag: Italy                                                    # E0.6   [1] (🇮🇹)
- flag: Jersey                                                   # E2.0   [1] (🇯🇪)
- flag: Jamaica                                                  # E2.0   [1] (🇯🇲)
- flag: Jordan                                                   # E2.0   [1] (🇯🇴)
- flag: Japan                                                    # E0.6   [1] (🇯🇵)
- flag: Kenya                                                    # E2.0   [1] (🇰🇪)
- flag: Kyrgyzstan                                               # E2.0   [1] (🇰🇬)
- flag: Cambodia                                                 # E2.0   [1] (🇰🇭)
- flag: Kiribati                                                 # E2.0   [1] (🇰🇮)
- flag: Comoros                                                  # E2.0   [1] (🇰🇲)
- flag: St. Kitts & Nevis                                        # E2.0   [1] (🇰🇳)
- flag: North Korea                                              # E2.0   [1] (🇰🇵)
- flag: South Korea                                              # E0.6   [1] (🇰🇷)
- flag: Kuwait                                                   # E2.0   [1] (🇰🇼)
- flag: Cayman Islands                                           # E2.0   [1] (🇰🇾)
- flag: Kazakhstan                                               # E2.0   [1] (🇰🇿)
- flag: Laos                                                     # E2.0   [1] (🇱🇦)
- flag: Lebanon                                                  # E2.0   [1] (🇱🇧)
- flag: St. Lucia                                                # E2.0   [1] (🇱🇨)
- flag: Liechtenstein                                            # E2.0   [1] (🇱🇮)
- flag: Sri Lanka                                                # E2.0   [1] (🇱🇰)
- flag: Liberia                                                  # E2.0   [1] (🇱🇷)
- flag: Lesotho                                                  # E2.0   [1] (🇱🇸)
- flag: Lithuania                                                # E2.0   [1] (🇱🇹)
- flag: Luxembourg                                               # E2.0   [1] (🇱🇺)
- flag: Latvia                                                   # E2.0   [1] (🇱🇻)
- flag: Libya                                                    # E2.0   [1] (🇱🇾)
- flag: Morocco                                                  # E2.0   [1] (🇲🇦)
- flag: Monaco                                                   # E2.0   [1] (🇲🇨)
- flag: Moldova                                                  # E2.0   [1] (🇲🇩)
- flag: Montenegro                                               # E2.0   [1] (🇲🇪)
- flag: St. Martin                                               # E2.0   [1] (🇲🇫)
- flag: Madagascar                                               # E2.0   [1] (🇲🇬)
- flag: Marshall Islands                                         # E2.0   [1] (🇲🇭)
- flag: North Macedonia                                          # E2.0   [1] (🇲🇰)
+[{
+    "emoji": "🇨🇵",
+    "name": "flag: Clipperton Island",
+    "category": "flags",
+    "keywords": ["flag", "Clipperton Island", "country", "territory"]
+},
+{
+    "emoji": "🇨🇷",
+    "name": "flag: Costa Rica",
+    "category": "flags",
+    "keywords": ["flag", "Costa Rica", "country", "nation"]
+},
+{
+    "emoji": "🇨🇺",
+    "name": "flag: Cuba",
+    "category": "flags",
+    "keywords": ["flag", "Cuba", "country", "nation"]
+},
+{
+    "emoji": "🇨🇻",
+    "name": "flag: Cape Verde",
+    "category": "flags",
+    "keywords": ["flag", "Cape Verde", "country", "nation"]
+},
+{
+    "emoji": "🇨🇼",
+    "name": "flag: Curaçao",
+    "category": "flags",
+    "keywords": ["flag", "Curaçao", "country", "territory"]
+},
+{
+    "emoji": "🇨🇽",
+    "name": "flag: Christmas Island",
+    "category": "flags",
+    "keywords": ["flag", "Christmas Island", "country", "territory"]
+},
+{
+    "emoji": "🇨🇾",
+    "name": "flag: Cyprus",
+    "category": "flags",
+    "keywords": ["flag", "Cyprus", "country", "nation"]
+},
+{
+    "emoji": "🇨🇿",
+    "name": "flag: Czechia",
+    "category": "flags",
+    "keywords": ["flag", "Czechia", "country", "nation"]
+},
+{
+    "emoji": "🇩🇪",
+    "name": "flag: Germany",
+    "category": "flags",
+    "keywords": ["flag", "Germany", "country", "nation"]
+},
+{
+    "emoji": "🇩🇬",
+    "name": "flag: Diego Garcia",
+    "category": "flags",
+    "keywords": ["flag", "Diego Garcia", "country", "territory"]
+},
+{
+    "emoji": "🇩🇯",
+    "name": "flag: Djibouti",
+    "category": "flags",
+    "keywords": ["flag", "Djibouti", "country", "nation"]
+},
+{
+    "emoji": "🇩🇰",
+    "name": "flag: Denmark",
+    "category": "flags",
+    "keywords": ["flag", "Denmark", "country", "nation"]
+},
+{
+    "emoji": "🇩🇲",
+    "name": "flag: Dominica",
+    "category": "flags",
+    "keywords": ["flag", "Dominica", "country", "nation"]
+},
+{
+    "emoji": "🇩🇴",
+    "name": "flag: Dominican Republic",
+    "category": "flags",
+    "keywords": ["flag", "Dominican Republic", "country", "nation"]
+},
+{
+    "emoji": "🇩🇿",
+    "name": "flag: Algeria",
+    "category": "flags",
+    "keywords": ["flag", "Algeria", "country", "nation"]
+},
+{
+    "emoji": "🇪🇦",
+    "name": "flag: Ceuta & Melilla",
+    "category": "flags",
+    "keywords": ["flag", "Ceuta & Melilla", "country", "territory"]
+},
+{
+    "emoji": "🇪🇨",
+    "name": "flag: Ecuador",
+    "category": "flags",
+    "keywords": ["flag", "Ecuador", "country", "nation"]
+},
+{
+    "emoji": "🇪🇪",
+    "name": "flag: Estonia",
+    "category": "flags",
+    "keywords": ["flag", "Estonia", "country", "nation"]
+},
+{
+    "emoji": "🇪🇬",
+    "name": "flag: Egypt",
+    "category": "flags",
+    "keywords": ["flag", "Egypt", "country", "nation"]
+},
+{
+    "emoji": "🇪🇭",
+    "name": "flag: Western Sahara",
+    "category": "flags",
+    "keywords": ["flag", "Western Sahara", "country", "territory"]
+},
+{
+    "emoji": "🇪🇷",
+    "name": "flag: Eritrea",
+    "category": "flags",
+    "keywords": ["flag", "Eritrea", "country", "nation"]
+},
+{
+    "emoji": "🇪🇸",
+    "name": "flag: Spain",
+    "category": "flags",
+    "keywords": ["flag", "Spain", "country", "nation"]
+},
+{
+    "emoji": "🇪🇹",
+    "name": "flag: Ethiopia",
+    "category": "flags",
+    "keywords": ["flag", "Ethiopia", "country", "nation"]
+},
+{
+    "emoji": "🇪🇺",
+    "name": "flag: European Union",
+    "category": "flags",
+    "keywords": ["flag", "European Union", "region", "international"]
+},
+{
+    "emoji": "🇫🇮",
+    "name": "flag: Finland",
+    "category": "flags",
+    "keywords": ["flag", "Finland", "country", "nation"]
+},
+{
+    "emoji": "🇫🇯",
+    "name": "flag: Fiji",
+    "category": "flags",
+    "keywords": ["flag", "Fiji", "country", "nation"]
+},
+{
+    "emoji": "🇫🇰",
+    "name": "flag: Falkland Islands",
+    "category": "flags",
+    "keywords": ["flag", "Falkland Islands", "country", "territory"]
+},
+{
+    "emoji": "🇫🇲",
+    "name": "flag: Micronesia",
+    "category": "flags",
+    "keywords": ["flag", "Micronesia", "country", "nation"]
+},
+{
+    "emoji": "🇫🇴",
+    "name": "flag: Faroe Islands",
+    "category": "flags",
+    "keywords": ["flag", "Faroe Islands", "country", "territory"]
+},
+{
+    "emoji": "🇫🇷",
+    "name": "flag: France",
+    "category": "flags",
+    "keywords": ["flag", "France", "country", "nation"]
+},
+{
+    "emoji": "🇬🇦",
+    "name": "flag: Gabon",
+    "category": "flags",
+    "keywords": ["flag", "Gabon", "country", "nation"]
+},
+{
+    "emoji": "🇬🇧",
+    "name": "flag: United Kingdom",
+    "category": "flags",
+    "keywords": ["flag", "United Kingdom", "country", "nation"]
+},
+{
+    "emoji": "🇬🇩",
+    "name": "flag: Grenada",
+    "category": "flags",
+    "keywords": ["flag", "Grenada", "country", "nation"]
+},
+{
+    "emoji": "🇬🇪",
+    "name": "flag: Georgia",
+    "category": "flags",
+    "keywords": ["flag", "Georgia", "country", "nation"]
+},
+{
+    "emoji": "🇬🇫",
+    "name": "flag: French Guiana",
+    "category": "flags",
+    "keywords": ["flag", "French Guiana", "country", "territory"]
+},
+{
+    "emoji": "🇬🇬",
+    "name": "flag: Guernsey",
+    "category": "flags",
+    "keywords": ["flag", "Guernsey", "country", "territory"]
+},
+{
+    "emoji": "🇬🇭",
+    "name": "flag: Ghana",
+    "category": "flags",
+    "keywords": ["flag", "Ghana", "country", "nation"]
+},
+{
+    "emoji": "🇬🇮",
+    "name": "flag: Gibraltar",
+    "category": "flags",
+    "keywords": ["flag", "Gibraltar", "country", "territory"]
+},
+{
+    "emoji": "🇬🇱",
+    "name": "flag: Greenland",
+    "category": "flags",
+    "keywords": ["flag", "Greenland", "country", "territory"]
+},
+{
+    "emoji": "🇬🇲",
+    "name": "flag: Gambia",
+    "category": "flags",
+    "keywords": ["flag", "Gambia", "country", "nation"]
+},
+{
+    "emoji": "🇬🇳",
+    "name": "flag: Guinea",
+    "category": "flags",
+    "keywords": ["flag", "Guinea", "country", "nation"]
+},
+{
+    "emoji": "🇬🇵",
+    "name": "flag: Guadeloupe",
+    "category": "flags",
+    "keywords": ["flag", "Guadeloupe", "country", "territory"]
+},
+{
+    "emoji": "🇬🇶",
+    "name": "flag: Equatorial Guinea",
+    "category": "flags",
+    "keywords": ["flag", "Equatorial Guinea", "country", "nation"]
+},
+{
+    "emoji": "🇬🇷",
+    "name": "flag: Greece",
+    "category": "flags",
+    "keywords": ["flag", "Greece", "country", "nation"]
+},
+{
+    "emoji": "🇬🇸",
+    "name": "flag: South Georgia & South Sandwich Islands",
+    "category": "flags",
+    "keywords": ["flag", "South Georgia & South Sandwich Islands", "country", "territory"]
+},
+{
+    "emoji": "🇬🇹",
+    "name": "flag: Guatemala",
+    "category": "flags",
+    "keywords": ["flag", "Guatemala", "country", "nation"]
+},
+{
+    "emoji": "🇬🇺",
+    "name": "flag: Guam",
+    "category": "flags",
+    "keywords": ["flag", "Guam", "country", "territory"]
+},
+{
+    "emoji": "🇬🇼",
+    "name": "flag: Guinea-Bissau",
+    "category": "flags",
+    "keywords": ["flag", "Guinea-Bissau", "country", "nation"]
+},
+{
+    "emoji": "🇬🇾",
+    "name": "flag: Guyana",
+    "category": "flags",
+    "keywords": ["flag", "Guyana", "country", "nation"]
+},
+{
+    "emoji": "🇭🇰",
+    "name": "flag: Hong Kong SAR China",
+    "category": "flags",
+    "keywords": ["flag", "Hong Kong", "country", "territory"]
+},
+{
+    "emoji": "🇭🇲",
+    "name": "flag: Heard & McDonald Islands",
+    "category": "flags",
+    "keywords": ["flag", "Heard & McDonald Islands", "country", "territory"]
+},
+{
+    "emoji": "🇭🇳",
+    "name": "flag: Honduras",
+    "category": "flags",
+    "keywords": ["flag", "Honduras", "country", "nation"]
+},
+{
+    "emoji": "🇭🇷",
+    "name": "flag: Croatia",
+    "category": "flags",
+    "keywords": ["flag", "Croatia", "country", "nation"]
+},
+{
+    "emoji": "🇭🇹",
+    "name": "flag: Haiti",
+    "category": "flags",
+    "keywords": ["flag", "Haiti", "country", "nation"]
+},
+{
+    "emoji": "🇭🇺",
+    "name": "flag: Hungary",
+    "category": "flags",
+    "keywords": ["flag", "Hungary", "country", "nation"]
+},
+{
+    "emoji": "🇮🇨",
+    "name": "flag: Canary Islands",
+    "category": "flags",
+    "keywords": ["flag", "Canary Islands", "country", "territory"]
+},
+{
+    "emoji": "🇮🇩",
+    "name": "flag: Indonesia",
+    "category": "flags",
+    "keywords": ["flag", "Indonesia", "country", "nation"]
+},
+{
+    "emoji": "🇮🇪",
+    "name": "flag: Ireland",
+    "category": "flags",
+    "keywords": ["flag", "Ireland", "country", "nation"]
+},
+{
+    "emoji": "🇮🇱",
+    "name": "flag: Israel",
+    "category": "flags",
+    "keywords": ["flag", "Israel", "country", "nation"]
+},
+{
+    "emoji": "🇮🇲",
+    "name": "flag: Isle of Man",
+    "category": "flags",
+    "keywords": ["flag", "Isle of Man", "country", "territory"]
+},
+{
+    "emoji": "🇮🇳",
+    "name": "flag: India",
+    "category": "flags",
+    "keywords": ["flag", "India", "country", "nation"]
+},
+{
+    "emoji": "🇮🇴",
+    "name": "flag: British Indian Ocean Territory",
+    "category": "flags",
+    "keywords": ["flag", "British Indian Ocean Territory", "country", "territory"]
+},
+{
+    "emoji": "🇮🇶",
+    "name": "flag: Iraq",
+    "category": "flags",
+    "keywords": ["flag", "Iraq", "country", "nation"]
+},
+{
+    "emoji": "🇮🇷",
+    "name": "flag: Iran",
+    "category": "flags",
+    "keywords": ["flag", "Iran", "country", "nation"]
+},
+{
+    "emoji": "🇮🇸",
+    "name": "flag: Iceland",
+    "category": "flags",
+    "keywords": ["flag", "Iceland", "country", "nation"]
+},
+{
+    "emoji": "🇮🇹",
+    "name": "flag: Italy",
+    "category": "flags",
+    "keywords": ["flag", "Italy", "country", "nation"]
+},
+{
+    "emoji": "🇯🇪",
+    "name": "flag: Jersey",
+    "category": "flags",
+    "keywords": ["flag", "Jersey", "country", "territory"]
+},
+{
+    "emoji": "🇯🇲",
+    "name": "flag: Jamaica",
+    "category": "flags",
+    "keywords": ["flag", "Jamaica", "country", "nation"]
+},
+{
+    "emoji": "🇯🇴",
+    "name": "flag: Jordan",
+    "category": "flags",
+    "keywords": ["flag", "Jordan", "country", "nation"]
+},
+{
+    "emoji": "🇯🇵",
+    "name": "flag: Japan",
+    "category": "flags",
+    "keywords": ["flag", "Japan", "country", "nation"]
+},
+{
+    "emoji": "🇰🇪",
+    "name": "flag: Kenya",
+    "category": "flags",
+    "keywords": ["flag", "Kenya", "country", "nation"]
+},
+{
+    "emoji": "🇰🇬",
+    "name": "flag: Kyrgyzstan",
+    "category": "flags",
+    "keywords": ["flag", "Kyrgyzstan", "country", "nation"]
+},
+{
+    "emoji": "🇰🇭",
+    "name": "flag: Cambodia",
+    "category": "flags",
+    "keywords": ["flag", "Cambodia", "country", "nation"]
+},
+{
+    "emoji": "🇰🇮",
+    "name": "flag: Kiribati",
+    "category": "flags",
+    "keywords": ["flag", "Kiribati", "country", "nation"]
+},
+{
+    "emoji": "🇰🇲",
+    "name": "flag: Comoros",
+    "category": "flags",
+    "keywords": ["flag", "Comoros", "country", "nation"]
+},
+{
+    "emoji": "🇰🇳",
+    "name": "flag: St. Kitts & Nevis",
+    "category": "flags",
+    "keywords": ["flag", "St. Kitts & Nevis", "country", "nation"]
+},
+{
+    "emoji": "🇰🇵",
+    "name": "flag: North Korea",
+    "category": "flags",
+    "keywords": ["flag", "North Korea", "country", "nation"]
+},
+{
+    "emoji": "🇰🇷",
+    "name": "flag: South Korea",
+    "category": "flags",
+    "keywords": ["flag", "South Korea", "country", "nation"]
+},
+{
+    "emoji": "🇰🇼",
+    "name": "flag: Kuwait",
+    "category": "flags",
+    "keywords": ["flag", "Kuwait", "country", "nation"]
+},
+{
+    "emoji": "🇰🇾",
+    "name": "flag: Cayman Islands",
+    "category": "flags",
+    "keywords": ["flag", "Cayman Islands", "country", "territory"]
+},
+{
+    "emoji": "🇰🇿",
+    "name": "flag: Kazakhstan",
+    "category": "flags",
+    "keywords": ["flag", "Kazakhstan", "country", "nation"]
+},
+{
+    "emoji": "🇱🇦",
+    "name": "flag: Laos",
+    "category": "flags",
+    "keywords": ["flag", "Laos", "country", "nation"]
+},
+{
+    "emoji": "🇱🇧",
+    "name": "flag: Lebanon",
+    "category": "flags",
+    "keywords": ["flag", "Lebanon", "country", "nation"]
+},
+{
+    "emoji": "🇱🇨",
+    "name": "flag: St. Lucia",
+    "category": "flags",
+    "keywords": ["flag", "St. Lucia", "country", "nation"]
+},
+{
+    "emoji": "🇱🇮",
+    "name": "flag: Liechtenstein",
+    "category": "flags",
+    "keywords": ["flag", "Liechtenstein", "country", "nation"]
+},
+{
+    "emoji": "🇱🇰",
+    "name": "flag: Sri Lanka",
+    "category": "flags",
+    "keywords": ["flag", "Sri Lanka", "country", "nation"]
+},
+{
+    "emoji": "🇱🇷",
+    "name": "flag: Liberia",
+    "category": "flags",
+    "keywords": ["flag", "Liberia", "country", "nation"]
+},
+{
+    "emoji": "🇱🇸",
+    "name": "flag: Lesotho",
+    "category": "flags",
+    "keywords": ["flag", "Lesotho", "country", "nation"]
+},
+{
+    "emoji": "🇱🇹",
+    "name": "flag: Lithuania",
+    "category": "flags",
+    "keywords": ["flag", "Lithuania", "country", "nation"]
+},
+{
+    "emoji": "🇱🇺",
+    "name": "flag: Luxembourg",
+    "category": "flags",
+    "keywords": ["flag", "Luxembourg", "country", "nation"]
+},
+{
+    "emoji": "🇱🇻",
+    "name": "flag: Latvia",
+    "category": "flags",
+    "keywords": ["flag", "Latvia", "country", "nation"]
+},
+{
+    "emoji": "🇱🇾",
+    "name": "flag: Libya",
+    "category": "flags",
+    "keywords": ["flag", "Libya", "country", "nation"]
+},
+{
+    "emoji": "🇲🇦",
+    "name": "flag: Morocco",
+    "category": "flags",
+    "keywords": ["flag", "Morocco", "country", "nation"]
+},
+{
+    "emoji": "🇲🇨",
+    "name": "flag: Monaco",
+    "category": "flags",
+    "keywords": ["flag", "Monaco", "country", "nation"]
+},
+{
+    "emoji": "🇲🇩",
+    "name": "flag: Moldova",
+    "category": "flags",
+    "keywords": ["flag", "Moldova", "country", "nation"]
+},
+{
+    "emoji": "🇲🇪",
+    "name": "flag: Montenegro",
+    "category": "flags",
+    "keywords": ["flag", "Montenegro", "country", "nation"]
+},
+{
+    "emoji": "🇲🇫",
+    "name": "flag: St. Martin",
+    "category": "flags",
+    "keywords": ["flag", "St. Martin", "country", "territory"]
+},
+{
+    "emoji": "🇲🇬",
+    "name": "flag: Madagascar",
+    "category": "flags",
+    "keywords": ["flag", "Madagascar", "country", "nation"]
+},
+{
+    "emoji": "🇲🇭",
+    "name": "flag: Marshall Islands",
+    "category": "flags",
+    "keywords": ["flag", "Marshall Islands", "country", "nation"]
+},
+{
+    "emoji": "🇲🇰",
+    "name": "flag: North Macedonia",
+    "category": "flags",
+    "keywords": ["flag", "North Macedonia", "country", "nation"]
+}
+]
