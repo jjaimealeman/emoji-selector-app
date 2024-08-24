@@ -1,0 +1,530 @@
+[
+    {
+      "emoji": "⌚..⌛",
+      "name": "watch..hourglass done",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⏩..⏬",
+      "name": "fast-forward button..fast down button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⏰",
+      "name": "alarm clock",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⏳",
+      "name": "hourglass not done",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "◽..◾",
+      "name": "white medium-small square..black medium-small square",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "☔..☕",
+      "name": "umbrella with rain drops..hot beverage",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "♈..♓",
+      "name": "Aries..Pisces",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "♿",
+      "name": "wheelchair symbol",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⚓",
+      "name": "anchor",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⚡",
+      "name": "high voltage",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⚪..⚫",
+      "name": "white circle..black circle",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⚽..⚾",
+      "name": "soccer ball..baseball",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛄..⛅",
+      "name": "snowman without snow..sun behind cloud",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛎",
+      "name": "Ophiuchus",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛔",
+      "name": "no entry",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛪",
+      "name": "church",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛲..⛳",
+      "name": "fountain..flag in hole",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛵",
+      "name": "sailboat",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛺",
+      "name": "tent",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⛽",
+      "name": "fuel pump",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "✅",
+      "name": "check mark button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "✊..✋",
+      "name": "raised fist..raised hand",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "✨",
+      "name": "sparkles",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "❌",
+      "name": "cross mark",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "❎",
+      "name": "cross mark button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "❓..❕",
+      "name": "red question mark..white exclamation mark",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "❗",
+      "name": "red exclamation mark",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "➕..➗",
+      "name": "plus..divide",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "➰",
+      "name": "curly loop",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "➿",
+      "name": "double curly loop",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "⬛..⬜",
+      "name": "black large square..white large square",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⭐",
+      "name": "star",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "⭕",
+      "name": "hollow red circle",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🀄",
+      "name": "mahjong red dragon",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🃏",
+      "name": "joker",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🆎",
+      "name": "AB button (blood type)",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🆑..🆚",
+      "name": "CL button..VS button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🈁",
+      "name": "Japanese \"here\" button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🈚",
+      "name": "Japanese \"free of charge\" button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🈯",
+      "name": "Japanese \"reserved\" button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🈲..🈶",
+      "name": "Japanese \"prohibited\" button..Japanese \"not free of charge\" button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🈸..🈺",
+      "name": "Japanese \"application\" button..Japanese \"open for business\" button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🉐..🉑",
+      "name": "Japanese \"bargain\" button..Japanese \"acceptable\" button",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌀..🌌",
+      "name": "cyclone..milky way",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌍..🌎",
+      "name": "globe showing Europe-Africa..globe showing Americas",
+      "category": "E0.7",
+      "keywords": []
+    },
+    {
+      "emoji": "🌏",
+      "name": "globe showing Asia-Australia",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌐",
+      "name": "globe with meridians",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🌑",
+      "name": "new moon",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌒",
+      "name": "waxing crescent moon",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🌓..🌕",
+      "name": "first quarter moon..full moon",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌖..🌘",
+      "name": "waning gibbous moon..waning crescent moon",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🌙",
+      "name": "crescent moon",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌟..🌠",
+      "name": "glowing star..shooting star",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌭..🌯",
+      "name": "hot dog..burrito",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🌰..🌱",
+      "name": "chestnut..seedling",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌲..🌳",
+      "name": "evergreen tree..deciduous tree",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🌴..🌵",
+      "name": "palm tree..cactus",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🌷..🍊",
+      "name": "tulip..tangerine",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🍋",
+      "name": "lemon",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🍌..🍏",
+      "name": "banana..green apple",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🍐",
+      "name": "pear",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🍑..🍻",
+      "name": "peach..clinking beer mugs",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🍼",
+      "name": "baby bottle",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🍾..🍿",
+      "name": "bottle with popping cork..popcorn",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🎀..🎓",
+      "name": "ribbon..graduation cap",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🎠..🏄",
+      "name": "carousel horse..person surfing",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🏅",
+      "name": "sports medal",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🏆",
+      "name": "trophy",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🏇",
+      "name": "horse racing",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🏈",
+      "name": "american football",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🏉",
+      "name": "rugby football",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🏊",
+      "name": "person swimming",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🏏..🏓",
+      "name": "cricket game..ping pong",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🏠..🏣",
+      "name": "house..Japanese post office",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🏤",
+      "name": "post office",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🏥..🏰",
+      "name": "hospital..castle",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🏴",
+      "name": "black flag",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🏸..🐇",
+      "name": "badminton..rabbit",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🐈",
+      "name": "cat",
+      "category": "E0.7",
+      "keywords": []
+    },
+    {
+      "emoji": "🐉..🐋",
+      "name": "dragon..whale",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🐌..🐎",
+      "name": "snail..horse",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🐏..🐐",
+      "name": "ram..goat",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🐑..🐒",
+      "name": "ewe..monkey",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🐓",
+      "name": "rooster",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🐔",
+      "name": "chicken",
+      "category": "E0.6",
+      "keywords": []
+    },
+    {
+      "emoji": "🐕",
+      "name": "dog",
+      "category": "E0.7",
+      "keywords": []
+    },
+    {
+      "emoji": "🐖",
+      "name": "pig",
+      "category": "E1.0",
+      "keywords": []
+    },
+    {
+      "emoji": "🐗..🐩",
+      "name": "boar..poodle",
+      "category": "E0.6",
+      "keywords": []
+    }
+]
