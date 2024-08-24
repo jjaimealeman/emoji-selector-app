@@ -181,12 +181,6 @@
       "keywords": ["score", "perfect", "100"]
     },
     {
-      "emoji": "💯",
-      "name": "hundred points",
-      "category": "symbols",
-      "keywords": ["score", "perfect", "100"]
-    },
-    {
       "emoji": "😊",
       "name": "smiling face with smiling eyes",
       "category": "smileys",
@@ -263,6 +257,426 @@
       "name": "high voltage",
       "category": "nature",
       "keywords": ["thunder", "lightning", "fast"]
+    },
+    {
+      "emoji": "🌚",
+      "name": "new moon face",
+      "category": "smileys",
+      "keywords": ["moon", "face", "night"]
+    },
+    {
+      "emoji": "🌛",
+      "name": "first quarter moon face",
+      "category": "smileys",
+      "keywords": ["moon", "face", "quarter"]
+    },
+    {
+      "emoji": "🌜",
+      "name": "last quarter moon face",
+      "category": "smileys",
+      "keywords": ["moon", "face", "quarter"]
+    },
+    {
+      "emoji": "🌝",
+      "name": "full moon face",
+      "category": "smileys",
+      "keywords": ["moon", "face", "full"]
+    },
+    {
+      "emoji": "😁",
+      "name": "beaming face with smiling eyes",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "grin", "eyes"]
+    },
+    {
+      "emoji": "😃",
+      "name": "grinning face with big eyes",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "grin", "eyes"]
+    },
+    {
+      "emoji": "😄",
+      "name": "grinning face with smiling eyes",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "grin", "eyes"]
+    },
+    {
+      "emoji": "😅",
+      "name": "grinning face with sweat",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "grin", "sweat"]
+    },
+    {
+      "emoji": "😆",
+      "name": "grinning squinting face",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "grin", "squint"]
+    },
+    {
+      "emoji": "😇",
+      "name": "smiling face with halo",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "angel", "halo"]
+    },
+    {
+      "emoji": "😈",
+      "name": "smiling face with horns",
+      "category": "smileys",
+      "keywords": ["smile", "happy", "devil", "horns"]
+    },
+    {
+      "emoji": "😉",
+      "name": "winking face",
+      "category": "smileys",
+      "keywords": ["wink", "flirt", "joke"]
+    },
+    {
+      "emoji": "😋",
+      "name": "face savoring food",
+      "category": "smileys",
+      "keywords": ["food", "delicious", "yum"]
+    },
+    {
+      "emoji": "😌",
+      "name": "relieved face",
+      "category": "smileys",
+      "keywords": ["relief", "phew", "relax"]
+    },
+    {
+      "emoji": "😏",
+      "name": "smirking face",
+      "category": "smileys",
+      "keywords": ["smirk", "sly", "mischievous"]
+    },
+    {
+      "emoji": "😐",
+      "name": "neutral face",
+      "category": "smileys",
+      "keywords": ["neutral", "blank", "expressionless"]
+    },
+    {
+      "emoji": "😑",
+      "name": "expressionless face",
+      "category": "smileys",
+      "keywords": ["expressionless", "blank", "neutral"]
+    },
+    {
+      "emoji": "😒",
+      "name": "unamused face",
+      "category": "smileys",
+      "keywords": ["unamused", "bored", "unimpressed"]
+    },
+    {
+      "emoji": "😓",
+      "name": "downcast face with sweat",
+      "category": "smileys",
+      "keywords": ["sad", "sweat", "worried"]
+    },
+    {
+      "emoji": "😔",
+      "name": "pensive face",
+      "category": "smileys",
+      "keywords": ["pensive", "thoughtful", "worried"]
+    },
+    {
+      "emoji": "😕",
+      "name": "confused face",
+      "category": "smileys",
+      "keywords": ["confused", "puzzled", "unsure"]
+    },
+    {
+      "emoji": "😖",
+      "name": "confounded face",
+      "category": "smileys",
+      "keywords": ["confounded", "confused", "upset"]
+    },
+    {
+      "emoji": "😗",
+      "name": "kissing face",
+      "category": "smileys",
+      "keywords": ["kiss", "love", "smooch"]
+    },
+    {
+      "emoji": "😘",
+      "name": "face blowing a kiss",
+      "category": "smileys",
+      "keywords": ["kiss", "love", "blow"]
+    },
+    {
+      "emoji": "😙",
+      "name": "kissing face with smiling eyes",
+      "category": "smileys",
+      "keywords": ["kiss", "love", "eyes", "smooch"]
+    },
+    {
+      "emoji": "😚",
+      "name": "kissing face with closed eyes",
+      "category": "smileys",
+      "keywords": ["kiss", "love", "smooch", "closed eyes"]
+    },
+    {
+      "emoji": "😛",
+      "name": "face with tongue",
+      "category": "smileys",
+      "keywords": ["tongue", "playful", "silly"]
+    },
+    {
+      "emoji": "😜",
+      "name": "winking face with tongue",
+      "category": "smileys",
+      "keywords": ["wink", "tongue", "playful", "silly"]
+    },
+    {
+      "emoji": "😝",
+      "name": "squinting face with tongue",
+      "category": "smileys",
+      "keywords": ["tongue", "playful", "silly", "squint"]
+    },
+    {
+      "emoji": "😞",
+      "name": "disappointed face",
+      "category": "smileys",
+      "keywords": ["disappointed", "sad", "upset"]
+    },
+    {
+      "emoji": "😟",
+      "name": "worried face",
+      "category": "smileys",
+      "keywords": ["worried", "concerned", "anxious"]
+    },
+    {
+      "emoji": "😠",
+      "name": "angry face",
+      "category": "smileys",
+      "keywords": ["angry", "mad", "rage"]
+    },
+    {
+      "emoji": "😡",
+      "name": "pouting face",
+      "category": "smileys",
+      "keywords": ["pout", "angry", "mad", "rage"]
+    },
+    {
+      "emoji": "😢",
+      "name": "crying face",
+      "category": "smileys",
+      "keywords": ["cry", "sad", "tears", "upset"]
+    },
+    {
+      "emoji": "😣",
+      "name": "persevering face",
+      "category": "smileys",
+      "keywords": ["persevere", "struggle", "upset"]
+    },
+    {
+      "emoji": "😤",
+      "name": "face with steam from nose",
+      "category": "smileys",
+      "keywords": ["angry", "mad", "steam", "rage"]
+    },
+    {
+      "emoji": "😥",
+      "name": "sad but relieved face",
+      "category": "smileys",
+      "keywords": ["sad", "relieved", "phew", "sweat"]
+    },
+    {
+      "emoji": "😦",
+      "name": "frowning face with open mouth",
+      "category": "smileys",
+      "keywords": ["frown", "sad", "open mouth"]
+    },
+    {
+      "emoji": "😧",
+      "name": "anguished face",
+      "category": "smileys",
+      "keywords": ["anguished", "sad", "distressed"]
+    },
+    {
+      "emoji": "😨",
+      "name": "fearful face",
+      "category": "smileys",
+      "keywords": ["fear", "scared", "afraid"]
+    },
+    {
+      "emoji": "😩",
+      "name": "weary face",
+      "category": "smileys",
+      "keywords": ["weary", "tired", "exhausted"]
+    },
+    {
+      "emoji": "😪",
+      "name": "sleepy face",
+      "category": "smileys",
+      "keywords": ["sleepy", "tired", "zzz"]
+    },
+    {
+      "emoji": "😫",
+      "name": "tired face",
+      "category": "smileys",
+      "keywords": ["tired", "weary", "exhausted"]
+    },
+    {
+      "emoji": "😬",
+      "name": "grimacing face",
+      "category": "smileys",
+      "keywords": ["grimace", "cringe", "awkward"]
+    },
+    {
+      "emoji": "😭",
+      "name": "loudly crying face",
+      "category": "smileys",
+      "keywords": ["cry", "sad", "tears", "upset", "loud"]
+    },
+    {
+      "emoji": "😮",
+      "name": "face with open mouth",
+      "category": "smileys",
+      "keywords": ["open mouth", "surprise", "gasp"]
+    },
+    {
+      "emoji": "😯",
+      "name": "hushed face",
+      "category": "smileys",
+      "keywords": ["hushed", "quiet", "speechless"]
+    },
+    {
+      "emoji": "😰",
+      "name": "anxious face with sweat",
+      "category": "smileys",
+      "keywords": ["anxious", "worried", "sweat"]
+    },
+    {
+      "emoji": "😱",
+      "name": "face screaming in fear",
+      "category": "smileys",
+      "keywords": ["scream", "fear", "scared", "horror"]
+    },
+    {
+      "emoji": "😲",
+      "name": "astonished face",
+      "category": "smileys",
+      "keywords": ["astonished", "surprised", "gasp"]
+    },
+    {
+      "emoji": "😳",
+      "name": "flushed face",
+      "category": "smileys",
+      "keywords": ["flushed", "embarrassed", "shy"]
+    },
+    {
+      "emoji": "😴",
+      "name": "sleeping face",
+      "category": "smileys",
+      "keywords": ["sleep", "tired", "zzz"]
+    },
+    {
+      "emoji": "😵",
+      "name": "face with crossed-out eyes",
+      "category": "smileys",
+      "keywords": ["crossed out", "dizzy", "unconscious"]
+    },
+    {
+      "emoji": "😶",
+      "name": "face without mouth",
+      "category": "smileys",
+      "keywords": ["no mouth", "silent", "mute"]
+    },
+    {
+      "emoji": "😷",
+      "name": "face with medical mask",
+      "category": "smileys",
+      "keywords": ["mask", "sick", "ill", "medical"]
+    },
+    {
+      "emoji": "🙀",
+      "name": "weary cat",
+      "category": "smileys",
+      "keywords": ["cat", "weary", "tired", "exhausted"]
+    },
+    {
+      "emoji": "🙁",
+      "name": "slightly frowning face",
+      "category": "smileys",
+      "keywords": ["frown", "sad", "slightly"]
+    },
+    {
+      "emoji": "🙂",
+      "name": "slightly smiling face",
+      "category": "smileys",
+      "keywords": ["smile", "slightly", "happy"]
+    },
+    {
+      "emoji": "🙃",
+      "name": "upside-down face",
+      "category": "smileys",
+      "keywords": ["upside down", "silly", "goofy"]
+    },
+    {
+      "emoji": "🙄",
+      "name": "face with rolling eyes",
+      "category": "smileys",
+      "keywords": ["rolling eyes", "sarcastic", "annoyed"]
+    },
+    {
+      "emoji": "🤐",
+      "name": "zipper-mouth face",
+      "category": "smileys",
+      "keywords": ["zipper mouth", "silent", "quiet"]
+    },
+    {
+      "emoji": "🤑",
+      "name": "money-mouth face",
+      "category": "smileys",
+      "keywords": ["money mouth", "greedy", "rich"]
+    },
+    {
+      "emoji": "🤒",
+      "name": "face with thermometer",
+      "category": "smileys",
+      "keywords": ["thermometer", "sick", "ill", "fever"]
+    },
+    {
+      "emoji": "🤓",
+      "name": "nerd face",
+      "category": "smileys",
+      "keywords": ["nerd", "geek", "glasses"]
+    },
+    {
+      "emoji": "🤔",
+      "name": "thinking face",
+      "category": "smileys",
+      "keywords": ["thinking", "ponder", "wonder"]
+    },
+    {
+      "emoji": "🤕",
+      "name": "face with head-bandage",
+      "category": "smileys",
+      "keywords": ["head-bandage", "injured", "hurt"]
+    },
+    {
+      "emoji": "🤠",
+      "name": "cowboy hat face",
+      "category": "smileys",
+      "keywords": ["cowboy", "hat", "western"]
+    },
+    {
+      "emoji": "🤡",
+      "name": "clown face",
+      "category": "smileys",
+      "keywords": ["clown", "funny", "joke"]
+    },
+    {
+      "emoji": "🤢",
+      "name": "nauseated face",
+      "category": "smileys",
+      "keywords": ["nauseated", "sick", "vomit"]
+    },
+    {
+      "emoji": "🤣",
+      "name": "rolling on the floor laughing",
+      "category": "smileys",
+      "keywords": ["rolling", "laughing", "funny", "hilarious"]
     }
   ]
 }
