@@ -1,3 +1,4 @@
+# create_emoji_db.py
 import sqlite3
 import json
 
@@ -16,19 +17,27 @@ CREATE TABLE IF NOT EXISTS emojis (
 )
 ''')
 
+# Create indexes for faster searching
+cursor.execute('CREATE INDEX IF NOT EXISTS idx_name ON emojis(name)')
+cursor.execute('CREATE INDEX IF NOT EXISTS idx_category ON emojis(category)')
+cursor.execute('CREATE INDEX IF NOT EXISTS idx_keywords ON emojis(keywords)')
+
 # Load emoji data from JSON file
 with open('emoji_data.json', 'r', encoding='utf-8') as f:
     emoji_data = json.load(f)
 
-# Insert emoji data into the database
-for emoji in emoji_data['emojis']:
-    cursor.execute('''
-    INSERT INTO emojis (emoji, name, category, keywords)
-    VALUES (?, ?, ?, ?)
-    ''', (emoji['emoji'], emoji['name'], emoji['category'], ','.join(emoji['keywords'])))
+# Prepare data for batch insert
+emoji_list = [(emoji['emoji'], emoji['name'], emoji['category'], ','.join(emoji['keywords']))
+              for emoji in emoji_data['emojis']]
+
+# Batch insert emoji data into the database
+cursor.executemany('''
+INSERT INTO emojis (emoji, name, category, keywords)
+VALUES (?, ?, ?, ?)
+''', emoji_list)
 
 # Commit changes and close the connection
 conn.commit()
 conn.close()
 
-print("Emoji database created successfully!")
+print(f"Emoji database created successfully with {len(emoji_list)} emojis!")
